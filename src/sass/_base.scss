@@ -5,6 +5,8 @@
 
 body {
   font-family: 'Montserrat';
+  line-height: 1.14;
+  letter-spacing: 0.04em;
 }
 
 a {
@@ -25,11 +27,13 @@ p {
 
 /* Скидання базових властивостей у списків (ul або клас .list) */
 ul {
-  list-style: none;
   padding: 0;
   margin: 0;
 }
 
+.list {
+  list-style: none;
+}
 /* Властивості для коректного відображення зображень */
 img {
   display: block;
