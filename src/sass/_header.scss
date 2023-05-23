@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  .header__menu {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .header__menu {
+    display: flex;
+    gap: 30px;
+  }
+}
