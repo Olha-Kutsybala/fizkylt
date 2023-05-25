@@ -1,3 +1,38 @@
 .program {
-  background-color: burlywood;
+  background-color: rgb(89, 92, 110);
+  color: wheat;
+}
+.program-descr {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 32px;
+
+  &-bold {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: italic;
+  }
+}
+
+.program-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.program-item {
+  background-color: wheat;
+  color: darkcyan;
+  padding: 12px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.program-item-train-title {
+  margin: 8px 0 22px;
+  font-size: 16px;
+}
+.program-item-train-descr {
+  margin-top: 6px;
+  font-weight: normal;
+  font-size: 14px;
 }

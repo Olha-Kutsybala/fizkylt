@@ -1,3 +1,23 @@
 .inventory {
-  background-color: aquamarine;
+  text-align: center;
+}
+
+.inventory-descr {
+  margin-bottom: 16px;
+}
+
+.inventory-image {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+
+.inventory-item-title {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.inventory-item-descr {
+  font-size: 14px;
+  margin-bottom: 60px;
 }
