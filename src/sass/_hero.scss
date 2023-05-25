@@ -1,7 +1,8 @@
 .hero {
-  background-color: burlywood;
+  background-color: rgb(89, 92, 110);
   text-align: center;
   padding: 80px 18px 20px;
+  color: wheat;
 }
 
 .hero-title-upper {
@@ -11,6 +12,7 @@
   margin-bottom: 8px;
   line-height: 1.62;
   letter-spacing: 0.06em;
+  font-style: normal;
 }
 
 .hero-title {
@@ -18,6 +20,7 @@
   margin-bottom: 20px;
   line-height: 1.62;
   letter-spacing: 0.06em;
+  font-style: italic;
 }
 
 .hero-subtitle {
@@ -35,24 +38,9 @@
 }
 
 .hero-descr1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 26px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-
-.hero-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  cursor: pointer;
-  min-width: 236px;
-  color: #f3c653;
-  background-color: #0006;
-  border: 2px solid #a2b121;
-  border-radius: 25px;
-  font-family: inherit;
-  font-weight: 700;
-  padding: 16px 38px;
 }
