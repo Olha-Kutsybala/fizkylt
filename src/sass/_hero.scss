@@ -4,14 +4,15 @@
   padding: 80px 18px 20px;
   color: wheat;
   background-color: rgb(20, 20, 20);
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: 
+  // linear-gradient(
+  //     to right,
+  //     rgba(47, 48, 58, 0.4),
+  //     rgba(47, 48, 58, 0.4)
+  //   ),
     url(../images/IMG_2181.jpeg);
   background-repeat: no-repeat;
-  // background-position: 25% 25%;
+  background-position: 25% 25%;
   background-size: cover;
 }
 
