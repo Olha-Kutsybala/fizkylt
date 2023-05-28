@@ -1,0 +1,26 @@
+.go-top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  fill: #fff;
+  border: 10px solid rgb(54, 52, 52);
+  background-color: rgb(58, 54, 54);
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 500ms opacity, 500ms visibility;
+  z-index: 101;
+  display: flex;
+}
+.go-top:hover,
+.go-top:focus {
+  filter: brightness(1.5);
+  transition: all 200ms;
+}
+.go-top-show {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+  transition: 500ms opacity, 500ms visibility;
+}
