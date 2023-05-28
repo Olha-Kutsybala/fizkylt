@@ -36,6 +36,7 @@
   background-color: white;
   overflow-y: auto;
   border-radius: 25px;
+  z-index: 2;
 
   @media screen and (min-width: 1200px) {
     max-width: 528px;
@@ -52,10 +53,10 @@
   text-transform: uppercase;
 }
 
-.modal__text {
+.modal__text-data {
   margin-bottom: 14px;
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .button__close {
@@ -148,9 +149,9 @@
   color: grey;
 }
 
-.checkbox {
-  margin-bottom: 24px;
-}
+// .checkbox {
+//   margin-bottom: 24px;
+// }
 
 .checkbox__field {
   display: flex;
@@ -163,9 +164,9 @@
 
 .checkbox__label {
   position: relative;
-  // padding-left: 24px;
+  padding: 8px;
   font-size: 12px;
-  line-height: 1.17;
+  // line-height: 1.17;
 }
 
 // .checkbox__icon {
@@ -194,12 +195,13 @@
   padding: 10px 52px;
 }
 
-.modal__text_top {
+.modal__text_pay {
+  font-size: 12px;
   text-align: center;
   margin-top: 20px;
 }
 .modal__package_button {
   display: block;
-  margin: 40px auto 0;
+  margin: 40px auto 12px;
   padding: 30px;
 }
