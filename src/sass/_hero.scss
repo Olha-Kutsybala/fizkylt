@@ -1,6 +1,6 @@
 .hero {
   background-color: rgb(89, 92, 110);
-  text-align: center;
+  // text-align: center;
   padding: 80px 18px 20px;
   color: wheat;
   background-color: rgb(20, 20, 20);
@@ -16,13 +16,15 @@
 }
 
 .hero-title-upper {
+  font-family: 'Druk Cyr';
+  font-weight: bold;
+  font-style: italic;
   font-size: 32px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 8px;
   line-height: 1.62;
   letter-spacing: 0.06em;
-  font-style: normal;
 }
 
 .hero-title {
