@@ -9,7 +9,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/hero-image-small.jpg);
+    url(../images/hero-image-small_1.jpg);
   background-repeat: no-repeat;
   background-position: 25% 25%;
   background-size: cover;
@@ -25,6 +25,11 @@
   margin-bottom: 8px;
   line-height: 1.62;
   letter-spacing: 0.06em;
+  // -webkit-text-stroke: 2px orangered;
+  // text-shadow: 4px 4px 4px red, 4px 4px 4px red, 4px 4px 4px red,
+  //   4px 4px 4px red;
+  // text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
+  //   1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .hero-title {
