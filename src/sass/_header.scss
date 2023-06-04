@@ -1,3 +1,17 @@
+.header {
+  width: 100%;
+  z-index: 50;
+  border: rgba(0, 0, 0, 0);
+  position: absolute;
+}
+
+.header_container {
+  padding: 12px 24px;
+}
+
+.header__link {
+  color: wheat;
+}
 @media (max-width: 767px) {
   .header__menu {
     display: none;
