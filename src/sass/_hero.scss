@@ -16,16 +16,15 @@
 }
 
 .hero-title-upper {
-  font-family: 'Druk Cyr';
-  font-weight: bold;
-  font-style: italic;
+  font-family: 'Druk Cyr', sans-serif;
   font-size: 44px;
-  font-weight: 500;
+  font-style: italic;
+  font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 8px;
   line-height: 1.62;
   letter-spacing: 0.06em;
-  // -webkit-text-stroke: 2px orangered;
+  -webkit-text-stroke: 2px orangered;
   // text-shadow: 4px 4px 4px red, 4px 4px 4px red, 4px 4px 4px red,
   //   4px 4px 4px red;
   // text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000,
@@ -43,14 +42,11 @@
 .hero-subtitle {
   font-size: 32px;
   margin-bottom: 26px;
-  line-height: 1.14;
-  letter-spacing: 0.04em;
 }
 
 .hero-descr {
   font-size: 16px;
   margin-bottom: 26px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -58,6 +54,5 @@
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 26px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
 }
