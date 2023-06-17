@@ -29,6 +29,10 @@
 <path fill="none" stroke="#f87a11" style="stroke: var(--color1, #f87a11)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.56" d="M17.333 22.667l6.667-6.667-6.667-6.667"></path>
 <path fill="none" stroke="#f87a11" style="stroke: var(--color1, #f87a11)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.56" d="M8 22.667l6.667-6.667-6.667-6.667"></path>
 </symbol>
+<symbol id="icon-cd" viewBox="0 0 32 32">
+<path fill="#272727" style="fill: var(--color1, #272727)" d="M16 29.333c7.364 0 13.333-5.97 13.333-13.333s-5.97-13.333-13.333-13.333c-7.364 0-13.333 5.97-13.333 13.333s5.97 13.333 13.333 13.333z"></path>
+<path fill="#f87a11" style="fill: var(--color2, #f87a11)" d="M16 20c2.209 0 4-1.791 4-4s-1.791-4-4-4c-2.209 0-4 1.791-4 4s1.791 4 4 4z"></path>
+</symbol>
 <symbol id="icon-Vector" viewBox="0 0 42 32"><path fill="#fff" stroke="#fff" stroke-width=".64" d="m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z" style=""/></symbol>
 </defs>
 </svg>

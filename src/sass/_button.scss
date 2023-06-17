@@ -1,25 +1,25 @@
+// .button {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   text-align: center;
+//   cursor: pointer;
+//   min-width: 236px;
+//   color: wheat;
+//   background-color: rgba(35, 44, 54, 0.4);
+//   border: 2px solid #0006;
+//   border-radius: 25px;
+//   font-family: inherit;
+//   font-weight: 700;
+//   font-size: 18px;
+//   padding: 16px 38px;
+// }
+
 .button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  cursor: pointer;
-  min-width: 236px;
-  color: wheat;
-  background-color: rgba(35, 44, 54, 0.4);
-  border: 2px solid #0006;
-  border-radius: 25px;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 18px;
-  padding: 16px 38px;
-}
-
-.hero-button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 129px;
+  // width: 129px;
   padding: 16px 32px;
   font-weight: 800;
   font-size: 16px;
@@ -31,4 +31,11 @@
   box-shadow: 4px 4px 0px #000000;
   border-radius: 100px;
   cursor: pointer;
+}
+
+.descr-button {
+  background-color: transparent;
+  border: 3px solid #f87a11;
+  box-shadow: none;
+  padding: 20px 26px;
 }

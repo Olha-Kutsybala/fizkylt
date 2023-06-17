@@ -1,5 +1,6 @@
 .description {
   background-color: #eae5e5;
+  padding: 60px 20px;
 }
 
 .descr-features {
@@ -42,8 +43,8 @@
 }
 
 .join-list {
-  display: block;
   padding: 20px;
+  margin-bottom: 32px;
   background-color: #f87a11;
   box-shadow: 4px 4px 0px #000000;
   border-radius: 12px;
@@ -51,8 +52,9 @@
 
 .join-item {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 10px;
   font-family: 'Mont';
   font-weight: 700;
   font-size: 14px;
@@ -60,9 +62,14 @@
   color: #ffffff;
 }
 
-// .descr-item:last-child {
-//   margin-bottom: 30px;
-// }
+.join-icon {
+  min-width: 12px;
+  min-height: 12px;
+}
+
+.join-item:last-child {
+  margin-bottom: 0;
+}
 
 // .descr-text-1 {
 //   font-size: 14px;
