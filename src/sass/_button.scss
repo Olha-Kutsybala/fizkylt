@@ -14,3 +14,21 @@
   font-size: 18px;
   padding: 16px 38px;
 }
+
+.hero-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 129px;
+  padding: 16px 32px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #272727;
+  border: none;
+  background-color: #ff7400;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 100px;
+  cursor: pointer;
+}
