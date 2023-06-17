@@ -1,44 +1,65 @@
 .trainer {
-  background-color: bisque;
-}
-.trainer-subtitle {
-  font-size: 32px;
-  margin-bottom: 16px;
+  padding: 60px 20px;
 }
 
 .trainer-title {
-  font-size: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+  font-family: 'Druk Cyr';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  hanging-punctuation: first last;
+  text-transform: uppercase;
+  color: #272727;
 }
 
-.icon-inst {
-  margin-right: 8px;
+.trainer-subtitle {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #5a5a5a;
 }
-.inst-link {
+
+.trainer-foto {
+  margin-bottom: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.trainer-ed-title {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #000000;
+}
+
+.trainer-ed-item {
+  margin-bottom: 12px;
   display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-}
-
-.education-item {
-  font-size: 16px;
-  margin-bottom: 16px;
+  align-items: flex-start;
+  gap: 6px;
   font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #000000;
 }
 
-.education-subitem {
-  font-size: 12px;
-  margin-bottom: 8px;
-}
-.education-subitem:first-child {
-  margin-top: 12px;
-}
-.trainer-knowledge {
-  text-align: center;
-  font-size: 12px;
-  margin-bottom: 16px;
+.trainer-ed-item:last-child {
+  margin-top: 32px;
 }
 
-.trainer-knowledge-italic {
+.trainer-expirience {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #272727;
+}
+
+.trainer-quote {
   font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #000000;
 }
