@@ -1,45 +1,75 @@
 .description {
-  background-color: bisque;
-  // text-align: center;
-}
-
-.description-main-text {
-  font-size: 16px;
-  line-height: 1.42;
-  letter-spacing: 0.02em;
-  margin-bottom: 24px;
-}
-
-.description-program {
-  font-size: 16px;
-  margin-bottom: 24px;
+  background-color: #eae5e5;
 }
 
 .descr-features {
-  font-size: 32px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+  font-family: 'Druk Cyr';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #272727;
 }
 
 .descr-item {
-  font-weight: 500;
-  font-size: 15px;
-  text-align: start;
-  padding: 12px;
-  border-radius: 20px;
-  background-color: rgba(35, 44, 54, 0.4);
-  margin-bottom: 8px;
-}
-
-.descr-item:last-child {
-  margin-bottom: 30px;
-}
-
-.descr-text-1 {
-  font-size: 14px;
-  margin-bottom: 50px;
-}
-
-.descr-text-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 20px;
+  font-weight: 700;
   font-size: 16px;
-  margin-bottom: 12px;
+  line-height: 1.25;
+  color: #000000;
 }
+.descr-icon {
+  min-width: 24px;
+  min-height: 24px;
+}
+
+.join-title {
+  margin-bottom: 12px;
+  font-family: 'Druk Cyr';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  hanging-punctuation: first last;
+  text-transform: uppercase;
+  color: #272727;
+}
+
+.join-list {
+  display: block;
+  padding: 20px;
+  background-color: #f87a11;
+  box-shadow: 4px 4px 0px #000000;
+  border-radius: 12px;
+}
+
+.join-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'Mont';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+// .descr-item:last-child {
+//   margin-bottom: 30px;
+// }
+
+// .descr-text-1 {
+//   font-size: 14px;
+//   margin-bottom: 50px;
+// }
+
+// .descr-text-2 {
+//   font-size: 16px;
+//   margin-bottom: 12px;
+// }
