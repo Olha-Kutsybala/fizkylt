@@ -1,89 +1,24 @@
+//======================Roboto======================
 @font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat-v25-latin_cyrillic-regular.eot');
-  /* IE9 Compat Modes */
-  src: local(''),
-    url('../fonts/montserrat-v25-latin_cyrillic-regular.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2')
-      format('woff2'),
-    /* Super Modern Browsers */
-      url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'),
-    /* Modern Browsers */
-      url('../fonts/montserrat-v25-latin_cyrillic-regular.ttf')
-      format('truetype'),
-    /* Safari, Android, iOS */
-      url('../fonts/montserrat-v25-latin_cyrillic-regular.svg#Montserrat')
-      format('svg');
-  /* Legacy iOS */
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-latin-900italic.woff2') format('woff2');
 }
 
-/* montserrat-500 - latin_cyrillic */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  src: url('../fonts/montserrat-v25-latin_cyrillic-500.eot');
-  /* IE9 Compat Modes */
-  src: local(''),
-    url('../fonts/montserrat-v25-latin_cyrillic-500.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/montserrat-v25-latin_cyrillic-500.woff2')
-      format('woff2'),
-    /* Super Modern Browsers */
-      url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/montserrat-v25-latin_cyrillic-500.ttf')
-      format('truetype'),
-    /* Safari, Android, iOS */
-      url('../fonts/montserrat-v25-latin_cyrillic-500.svg#Montserrat')
-      format('svg');
-  /* Legacy iOS */
-}
+//======================Druk Cyr======================
 
-/* montserrat-600 - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Druk Cyr';
+  src: url('../fonts/DrukCyr-Bold.eot');
+  src: local('../fonts/Druk Cyr Bold'), local('../fonts/DrukCyr-Bold'),
+    url('../fonts/DrukCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DrukCyr-Bold.woff2') format('woff2'),
+    url('../fonts/DrukCyr-Bold.woff') format('woff'),
+    url('../fonts/DrukCyr-Bold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
-  font-weight: 600;
-  src: url('../fonts/montserrat-v25-latin_cyrillic-600.eot');
-  /* IE9 Compat Modes */
-  src: local(''),
-    url('../fonts/montserrat-v25-latin_cyrillic-600.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/montserrat-v25-latin_cyrillic-600.woff2')
-      format('woff2'),
-    /* Super Modern Browsers */
-      url('../fonts/montserrat-v25-latin_cyrillic-600.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/montserrat-v25-latin_cyrillic-600.ttf')
-      format('truetype'),
-    /* Safari, Android, iOS */
-      url('../fonts/montserrat-v25-latin_cyrillic-600.svg#Montserrat')
-      format('svg');
-  /* Legacy iOS */
-}
-
-/* montserrat-700 - latin_cyrillic */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: url('../fonts/montserrat-v25-latin_cyrillic-700.eot');
-  /* IE9 Compat Modes */
-  src: local(''),
-    url('../fonts/montserrat-v25-latin_cyrillic-700.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/montserrat-v25-latin_cyrillic-700.woff2')
-      format('woff2'),
-    /* Super Modern Browsers */
-      url('../fonts/montserrat-v25-latin_cyrillic-700.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/montserrat-v25-latin_cyrillic-700.ttf')
-      format('truetype'),
-    /* Safari, Android, iOS */
-      url('../fonts/montserrat-v25-latin_cyrillic-700.svg#Montserrat')
-      format('svg');
-  /* Legacy iOS */
 }
 
 @font-face {
@@ -100,20 +35,9 @@
 
 @font-face {
   font-family: 'Druk Cyr';
-  src: url('../fonts/DrukCyr-Heavy.eot');
-  src: local('Druk Cyr Heavy'), local('DrukCyr-Heavy'),
-    url('../fonts/DrukCyr-Heavy.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/DrukCyr-Heavy.woff2') format('woff2'),
-    url('../fonts/DrukCyr-Heavy.woff') format('woff'),
-    url('../fonts/DrukCyr-Heavy.ttf') format('truetype');
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Druk Cyr';
   src: url('../fonts/DrukCyr-HeavyItalic.eot');
-  src: local('../fonts/Druk Cyr Heavy Italic'), local('DrukCyr-HeavyItalic'),
+  src: local('../fonts/Druk Cyr Heavy Italic'),
+    local('../fonts/DrukCyr-HeavyItalic'),
     url('../fonts/DrukCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
     url('../fonts/DrukCyr-HeavyItalic.woff2') format('woff2'),
     url('../fonts/DrukCyr-HeavyItalic.woff') format('woff'),
@@ -124,60 +48,76 @@
 
 @font-face {
   font-family: 'Druk Cyr';
-  src: url('../fonts/DrukCyr-MediumItalic.eot');
-  src: local('../fonts/Druk Cyr Medium Italic'), local('DrukCyr-MediumItalic'),
-    url('../fonts/DrukCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/DrukCyr-MediumItalic.woff2') format('woff2'),
-    url('../fonts/DrukCyr-MediumItalic.woff') format('woff'),
-    url('../fonts/DrukCyr-MediumItalic.ttf') format('truetype');
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Druk Cyr';
-  src: url('../fonts/DrukCyr-SuperItalic.eot');
-  src: local('../fonts/Druk Cyr Super Italic'), local('DrukCyr-SuperItalic'),
-    url('../fonts/DrukCyr-SuperItalic.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/DrukCyr-SuperItalic.woff2') format('woff2'),
-    url('../fonts/DrukCyr-SuperItalic.woff') format('woff'),
-    url('../fonts/DrukCyr-SuperItalic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Druk Cyr';
-  src: url('../fonts/DrukCyr-Super.eot');
-  src: local('../fonts/Druk Cyr Super'), local('DrukCyr-Super'),
-    url('../fonts/DrukCyr-Super.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/DrukCyr-Super.woff2') format('woff2'),
-    url('../fonts/DrukCyr-Super.woff') format('woff'),
-    url('../fonts/DrukCyr-Super.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Druk Cyr';
-  src: url('../fonts/DrukCyr-Medium.eot');
-  src: local('../fonts/Druk Cyr Medium'), local('DrukCyr-Medium'),
-    url('../fonts/DrukCyr-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/DrukCyr-Medium.woff2') format('woff2'),
-    url('../fonts/DrukCyr-Medium.woff') format('woff'),
-    url('../fonts/DrukCyr-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Druk Cyr';
   src: url('../fonts/DrukCyr-BoldItalic.eot');
-  src: local('../fonts/Druk Cyr Bold Italic'), local('DrukCyr-BoldItalic'),
+  src: local('../fonts/Druk Cyr Bold Italic'),
+    local('../fonts/DrukCyr-BoldItalic'),
     url('../fonts/DrukCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
     url('../fonts/DrukCyr-BoldItalic.woff2') format('woff2'),
     url('../fonts/DrukCyr-BoldItalic.woff') format('woff'),
     url('../fonts/DrukCyr-BoldItalic.ttf') format('truetype');
   font-weight: bold;
+  font-style: italic;
+}
+
+//======================Mont======================
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Black.eot');
+  src: local('../fonts/Mont Black'), local('../fonts/Mont-Black'),
+    url('../fonts/Mont-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Black.woff2') format('woff2'),
+    url('../fonts/Mont-Black.woff') format('woff'),
+    url('../fonts/Mont-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Bold.eot');
+  src: local('../fonts/Mont Bold'), local('../fonts/Mont-Bold'),
+    url('../fonts/Mont-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Bold.woff2') format('woff2'),
+    url('../fonts/Mont-Bold.woff') format('woff'),
+    url('../fonts/Mont-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Heavy.eot');
+  src: local('../fonts/Mont Heavy'), local('../fonts/Mont-Heavy'),
+    url('../fonts/Mont-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Heavy.woff2') format('woff2'),
+    url('../fonts/Mont-Heavy.woff') format('woff'),
+    url('../fonts/Mont-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-Regular.eot');
+  src: local('../fonts/Mont Regular'), local('../fonts/Mont-Regular'),
+    url('../fonts/Mont-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-Regular.woff2') format('woff2'),
+    url('../fonts/Mont-Regular.woff') format('woff'),
+    url('../fonts/Mont-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont-RegularItalic.eot');
+  src: local('../fonts/Mont Regular Italic'),
+    local('../fonts/Mont-RegularItalic'),
+    url('../fonts/Mont-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mont-RegularItalic.woff2') format('woff2'),
+    url('../fonts/Mont-RegularItalic.woff') format('woff'),
+    url('../fonts/Mont-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
   font-style: italic;
 }
