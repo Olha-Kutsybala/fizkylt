@@ -1,8 +1,8 @@
 .accent-list {
   padding: 20px;
   margin-bottom: 32px;
-  background-color: #f87a11;
-  box-shadow: 4px 4px 0px #000000;
+  background-color: $accent-light-color;
+  box-shadow: 4px 4px 0px $black-color;
   border-radius: 12px;
 }
 
@@ -15,7 +15,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
-  color: #ffffff;
+  color: $white-color;
 }
 
 .accent-icon {

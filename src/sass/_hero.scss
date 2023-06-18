@@ -25,14 +25,14 @@
   font-style: italic;
   font-weight: 900;
   font-size: 52px;
-  color: #f87a11;
+  color: $accent-light-color;
   margin-bottom: 12px;
 }
 
 .hero-title-transparent {
   letter-spacing: 0.05em;
   color: transparent;
-  -webkit-text-stroke: 1px #272727;
+  -webkit-text-stroke: 1px $dark-bg-color;
   margin-bottom: 0;
 }
 
@@ -42,5 +42,5 @@
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.02em;
-  color: #000000;
+  color: $black-color;
 }

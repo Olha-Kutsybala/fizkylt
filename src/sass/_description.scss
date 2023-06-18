@@ -10,7 +10,7 @@
   line-height: 1;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #272727;
+  color: $dark-bg-color;
 }
 
 .descr-item {
@@ -21,8 +21,9 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  color: #000000;
+  color: $black-color;
 }
+
 .descr-icon {
   min-width: 24px;
   min-height: 24px;
@@ -38,5 +39,5 @@
   letter-spacing: 0.02em;
   hanging-punctuation: first last;
   text-transform: uppercase;
-  color: #272727;
+  color: $dark-bg-color;
 }

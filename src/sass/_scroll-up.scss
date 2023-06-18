@@ -3,9 +3,9 @@
   right: 10px;
   bottom: 10px;
   cursor: pointer;
-  fill: #fff;
-  border: 10px solid rgb(54, 52, 52);
-  background-color: rgb(58, 54, 54);
+  fill: $accent-bg-color;
+  border: 10px solid $dark-bg-color;
+  background-color: $dark-bg-color;
   border-radius: 50%;
   visibility: hidden;
   opacity: 0;

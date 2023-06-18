@@ -1,5 +1,5 @@
 .scroll-parent {
-  background-color: #272727;
+  background-color: $dark-bg-color;
   position: relative;
   width: 100vw;
   padding: 1rem 0;
@@ -51,5 +51,5 @@
   line-height: 1.2;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #f87a11;
+  color: $accent-light-color;
 }
