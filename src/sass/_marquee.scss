@@ -1,0 +1,55 @@
+.scroll-parent {
+  background-color: #272727;
+  position: relative;
+  width: 100vw;
+  padding: 1rem 0;
+  overflow-x: hidden;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.primary {
+  animation: primary 6s linear infinite;
+}
+
+.secondary {
+  animation: secondary 6s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+.scroll-element-text {
+  font-family: 'Druk Cyr';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #f87a11;
+}
