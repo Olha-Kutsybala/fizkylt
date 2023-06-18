@@ -28,7 +28,7 @@
   min-height: 24px;
 }
 
-.join-title {
+.descr-join-title {
   margin-bottom: 12px;
   font-family: 'Druk Cyr';
   font-weight: 700;
@@ -39,33 +39,4 @@
   hanging-punctuation: first last;
   text-transform: uppercase;
   color: #272727;
-}
-
-.join-list {
-  padding: 20px;
-  margin-bottom: 32px;
-  background-color: #f87a11;
-  box-shadow: 4px 4px 0px #000000;
-  border-radius: 12px;
-}
-
-.join-item {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-bottom: 10px;
-  font-family: 'Mont';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #ffffff;
-}
-
-.join-icon {
-  min-width: 12px;
-  min-height: 12px;
-}
-
-.join-item:last-child {
-  margin-bottom: 0;
 }

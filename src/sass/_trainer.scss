@@ -45,8 +45,8 @@
   color: #000000;
 }
 
-.trainer-ed-item:last-child {
-  margin-top: 32px;
+.trainer-expirience-list {
+  margin-bottom: 60px;
 }
 
 .trainer-expirience {
@@ -56,10 +56,22 @@
   color: #272727;
 }
 
+.trainer-quote-box {
+  position: relative;
+}
+.trainer-quote-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-40%);
+}
+
 .trainer-quote {
+  padding-left: 32px;
   font-style: italic;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
   color: #000000;
+  z-index: 100;
 }
