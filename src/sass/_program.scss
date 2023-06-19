@@ -39,7 +39,12 @@
   line-height: 20px;
   text-transform: uppercase;
   border: 1px solid #eeeeee80;
-  border-radius: 8px;
+  border-radius: 10px;
+
+  &:hover,
+  &:focus {
+    border: 2px solid $accent-light-color;
+  }
 }
 
 .program-item-train-title {
@@ -56,4 +61,5 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
+  color: #dadada;
 }
