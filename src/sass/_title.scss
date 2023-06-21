@@ -1,20 +1,10 @@
 .title {
-  font-size: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+  font-family: 'Druk Cyr';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  hanging-punctuation: first last;
   text-transform: uppercase;
-
-  &-2 {
-    font-size: 24px;
-    margin: 0;
-  }
-
-  &-3 {
-    font-size: 20px;
-    margin-bottom: 12px;
-  }
-}
-
-.description-title {
-  font-size: 20px;
-  margin-bottom: 16px;
 }
