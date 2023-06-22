@@ -15,3 +15,21 @@
   flex-direction: column;
   max-width: 158px;
 }
+
+.contraindication-foto {
+  margin-bottom: 12px;
+}
+
+.contraindication-subtitle {
+  margin-bottom: 6px;
+  color: $dark-bg-color;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contraindication-descr {
+  color: $black-color;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}

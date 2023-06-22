@@ -1,12 +1,22 @@
 .header {
-  width: 100%;
-  // z-index: 50;
-  background-color: $dark-bg-color;
-  border: none;
   // position: absolute;
+  // top: 16px;
+  // left: 50%;
+  // transform: translateX(-50%);
+  z-index: 100;
+  width: 100%;
+  // padding-left: $paddingPhone;
+  // padding-right: $paddingPhone;
+  margin: 0 auto;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // background-color: $dark-bg-color;
+  border: none;
 }
 
 .header_container {
+  background-color: $dark-bg-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
