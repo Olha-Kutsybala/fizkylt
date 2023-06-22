@@ -87,3 +87,20 @@
     font-size: 32px;
   }
 }
+
+.test {
+  padding: 40px 0;
+}
+
+.transf-y {
+  transform: translate(5px, 40px) rotate(-5deg);
+}
+
+.transf-x {
+  transform: translate(5px, 0px) rotate(5deg);
+  background-color: $accent-light-color;
+}
+
+.transf-x-element {
+  color: $white-color;
+}
