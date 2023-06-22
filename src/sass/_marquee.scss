@@ -89,15 +89,15 @@
 }
 
 .test {
-  padding: 40px 0;
+  padding: 24px 0;
 }
 
 .transf-y {
-  transform: translate(5px, 40px) rotate(-5deg);
+  transform: translate(0, 30px) rotate(-7deg);
 }
 
 .transf-x {
-  transform: translate(5px, 0px) rotate(5deg);
+  transform: translate(0, 0) rotate(7deg);
   background-color: $accent-light-color;
 }
 
