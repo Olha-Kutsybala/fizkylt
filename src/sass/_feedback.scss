@@ -1,0 +1,27 @@
+.feedback {
+  padding: 60px 20px;
+}
+
+.feedback-item {
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ff7400;
+}
+
+.feedback-container {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.feedback-title {
+  color: $dark-bg-color;
+  font-size: 14px;
+}
+
+.feedback-descr {
+  color: $black-color;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 500;
+}
