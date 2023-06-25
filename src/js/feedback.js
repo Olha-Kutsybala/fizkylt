@@ -12,7 +12,7 @@ const markup = feedback
       name,
       stars,
       description,
-    }) => `<li class="feedback-item swiper-slide" data-id=${id}><div class="feedback-container">
+    }) => `<div class="feedback-item swiper-slide" data-id=${id}><div class="feedback-container">
   <img src="${img}" alt="${name}" />
   <div>
     <h2 class="feedback-title">${name}</h2>
@@ -20,7 +20,7 @@ const markup = feedback
   </div>
 </div>
 <p class="feedback-descr">${description}</p>
-</li>`
+</div>`
   )
   .join('');
 
@@ -32,8 +32,8 @@ new Swiper('.feed-cont', {
     prevEl: '.swiper-button-prev',
   },
   // Default parameters
-  pagination: false,
-  slidesPerView: 1,
+  // pagination: false,
+  // slidesPerView: 1,
   spaceBetween: 10,
   // Responsive breakpoints
   breakpoints: {

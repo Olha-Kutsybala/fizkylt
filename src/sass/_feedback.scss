@@ -6,7 +6,6 @@
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #ff7400;
-  width: 100%;
 }
 
 .feedback-container {
@@ -25,4 +24,8 @@
   font-size: 12px;
   line-height: 150%;
   font-weight: 500;
+}
+
+.block_body {
+  min-width: 0;
 }
