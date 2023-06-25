@@ -6,3 +6,4 @@ import './js/loader';
 import './js/scroll-up';
 import './js/feedback-list';
 import './js/feedback';
+import './js/marquee';

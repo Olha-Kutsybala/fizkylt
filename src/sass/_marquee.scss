@@ -1,74 +1,11 @@
-.scroll-parent {
-  background-color: $dark-bg-color;
-  position: relative;
-  width: 100vw;
-  padding: 1rem 0;
-  overflow-x: hidden;
-
-  // @media screen and (min-width: 398px) and (max-width: 767px) {
-  //   padding: 1rem 0;
-  // }
-
-  @media screen and (min-width: 768px) {
-    padding: 1.5rem 0;
-  }
-
-  @media screen and (min-width: 1440px) {
-    max-width: 1440px;
-  }
-}
-
-.scroll-element {
-  width: inherit;
-  height: inherit;
-  position: absolute;
-  left: 0%;
-  top: 15%;
+.marquee {
+  overflow: hidden;
+  padding: 5px 0;
   display: flex;
-  align-items: baseline;
-  justify-content: space-around;
-
-  @media screen and (max-width: 767px) {
-    max-width: 767px;
-    width: 100%;
-  }
-
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    max-width: 1440px;
-  }
+  background-color: $dark-bg-color;
 }
 
-.primary {
-  animation: primary 6s linear infinite;
-}
-
-.secondary {
-  animation: secondary 6s linear infinite;
-}
-
-@keyframes primary {
-  from {
-    left: 0%;
-  }
-  to {
-    left: -100%;
-  }
-}
-
-@keyframes secondary {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0%;
-  }
-}
-
-.scroll-element-text {
+.marquee_text {
   font-family: 'Druk Cyr';
   font-style: italic;
   font-weight: 600;
@@ -77,30 +14,23 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: $accent-light-color;
-
-  @media screen and (min-width: 768px) {
-    font-weight: 700;
-    font-size: 24px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    font-size: 32px;
-  }
+  white-space: nowrap;
 }
 
-.test {
-  padding: 24px 0;
+.poster {
+  padding: 60px 0;
 }
 
-.transf-y {
-  transform: translate(0, 30px) rotate(-7deg);
+.marquee-poster-dark {
+  transform: translate(0, 35px) rotate(5deg);
+  // transform: translate(30px, 20px) rotate(5deg);
 }
 
-.transf-x {
-  transform: translate(0, 0) rotate(7deg);
+.marquee-poster-accent {
+  transform: translate(0, 5px) rotate(-5deg);
   background-color: $accent-light-color;
 }
 
-.transf-x-element {
+.marquee_text-light {
   color: $white-color;
 }

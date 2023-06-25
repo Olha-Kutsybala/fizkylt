@@ -1,23 +1,6 @@
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
 import { feedback } from './feedback-list';
-import Pagination from 'tui-pagination';
-import 'tui-pagination/dist/tui-pagination.css';
-import { options } from './pagination';
-
-const container_pagination = document.getElementById('pagination');
-
-const pagination = new Pagination(container_pagination, options);
-
-pagination.on('beforeMove', event => {
-  const currentPage = event.page;
-  console.log(currentPage);
-  //   const { hits, totalHits } = await imageApiService.fetchImages(currentPage);
-  //   renderGalleryMarkup(hits);
-
-  //   if (currentPage === 10) {
-  //     return false;
-  // return true;
-  //   }
-});
 
 const container_js = document.querySelector('.js-feedback');
 
@@ -29,7 +12,7 @@ const markup = feedback
       name,
       stars,
       description,
-    }) => `<li class="feedback-item" data-id=${id}><div class="feedback-container">
+    }) => `<li class="feedback-item swiper-slide" data-id=${id}><div class="feedback-container">
   <img src="${img}" alt="${name}" />
   <div>
     <h2 class="feedback-title">${name}</h2>
@@ -42,3 +25,32 @@ const markup = feedback
   .join('');
 
 container_js.insertAdjacentHTML('beforeend', markup);
+
+new Swiper('.feed-cont', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  // Default parameters
+  pagination: false,
+  slidesPerView: 1,
+  spaceBetween: 10,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+  },
+});
