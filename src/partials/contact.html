@@ -41,70 +41,58 @@
   </ul>
   <h3 class="form-title">Форма зворотнього звʼязку</h3>
   <form class="form form-contact" name="contact-form" autocomplete="on">
-    <label class="modal__label" for="name">Ім'я</label>
-    <div class="modal__field">
+    <label class="form-label" for="name">Ім'я</label>
+    <div class="form-field">
       <input
         type="text"
         id="name"
-        class="modal__input"
+        class="form-input"
         placeholder="Введіть своє імʼя"
         required
       />
     </div>
-    <label class="modal__label" for="phone">Телефон</label>
-    <div class="modal__field">
+    <label class="form-label" for="phone">Телефон</label>
+    <div class="form-field">
       <input
         required
         minlength="13"
         maxlength="13"
         type="tel"
         id="phone"
-        class="modal__input"
+        class="form-input"
         placeholder="Вкажіть свій номер телефону"
       />
     </div>
-    <label class="modal__label" for="mail">Пошта</label>
-    <div class="modal__field">
+    <label class="form-label" for="mail">Пошта</label>
+    <div class="form-field">
       <input
         type="email"
         id="mail"
-        class="modal__input"
+        class="form-input"
         placeholder="Введіть свою електронну пошту"
         required
       />
     </div>
-    <label class="modal__label" for="coment">Ваше повідомлення</label>
+    <label class="form-label" for="coment">Ваше повідомлення</label>
     <textarea
-      class="modal__coment"
+      name="message"
       id="coment"
       placeholder="Напишіть ваше повідомлення"
-    >
-    </textarea>
-    <div class="checkbox checkbox__field">
+      class="form-message"
+    ></textarea>
+    <div class="checkbox checkbox-field">
       <input
-        class="checkbox__input"
+        class="checkbox-input"
         type="checkbox"
         name="checkbox-consent"
         required
-        checked
       />
-      <!-- <input
-        id="checkbox-consent"
-        class="checkbox__input"
-        type="checkbox"
-        name="checkbox-consent"
-        required
-        checked
-      /> -->
-      <!-- <svg class="checkbox__icon" width="16" height="15">
-        <use href="./images/icons.svg#icon-Vector"></use>
-      </svg> -->
-      <label class="checkbox__label"
+      <label class="checkbox-label"
         >Я погоджуюся з умовами <b>Політики конфіденційності</b> та надаю згоду
         на обробку своїх персональних даних.</label
       >
     </div>
-    <button type="submit" class="button program-button__transp">
+    <button type="submit" class="button program-button__transp button_submit">
       Надіслати
     </button>
   </form>
