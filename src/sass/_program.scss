@@ -9,6 +9,7 @@
 
 .program-descr-title {
   margin-bottom: 12px;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
   color: #dadada;
@@ -42,6 +43,13 @@
   }
 }
 
+.program-item-title {
+  font-size: 24px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
 .program-item-train-title {
   margin-top: 24px;
   font-weight: 700;

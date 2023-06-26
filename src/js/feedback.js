@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+// import 'swiper/swiper-bundle.css';
 import { feedback } from './feedback-list';
 
 const container_js = document.querySelector('.js-feedback');

@@ -5,6 +5,7 @@
   width: 129px;
   padding: 20px 26px;
   font-size: 16px;
+  font-weight: 800;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -25,7 +26,8 @@
 
 .program-button {
   margin-bottom: 24px;
-  width: 292px;
+  width: auto;
+  max-width: 310px;
 }
 
 .program-button__transp {
