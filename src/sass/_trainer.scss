@@ -69,3 +69,28 @@
   color: $black-color;
   z-index: 100;
 }
+
+.foto-anna {
+  background-color: rgb(89, 92, 110);
+  background-image: url(../images/foto_anna_mobile.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  height: 357px;
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url(../images/foto_anna_mobile@2x.jpg);
+    }
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}

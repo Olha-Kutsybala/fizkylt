@@ -1,9 +1,12 @@
 .contact {
-  background-color: beige;
+  background-color: $dark-bg-color;
+  color: $white-color;
+  padding: 20px;
 }
 
-.form-contact {
-  max-width: 440px;
-  margin-right: auto;
-  margin-left: auto;
+.contact-info {
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 170%;
 }

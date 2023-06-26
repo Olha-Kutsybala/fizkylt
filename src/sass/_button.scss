@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 129px;
-  padding: 16px 32px;
+  padding: 20px 0;
   font-size: 16px;
   line-height: 1;
   text-align: center;
@@ -14,4 +14,25 @@
   box-shadow: 4px 4px 0px $black-color;
   border-radius: 100px;
   cursor: pointer;
+}
+
+.button-transparent-bg {
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid $accent-bg-color;
+  box-shadow: none;
+}
+
+.program-button {
+  margin-bottom: 24px;
+  width: 292px;
+}
+
+.program-button__transp {
+  background-color: transparent;
+  color: $white-color;
+  margin-bottom: 0;
+  border: 2px solid $accent-bg-color;
+  line-height: 1.5;
+  letter-spacing: 0.16px;
 }
