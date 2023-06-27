@@ -7,6 +7,7 @@ window.addEventListener('load', function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    // touchRatio: 1,
     pagination: {
       el: '.swiper-pagination',
     },

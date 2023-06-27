@@ -2,12 +2,15 @@
   padding: 60px 20px;
 }
 
+// .contraindication-box {
+//   margin-right: auto;
+//   margin-left: auto;
+// }
 .contraindication-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  margin-right: auto;
-  margin-left: auto;
+  gap: 12px;
+  justify-content: center;
 }
 
 .contraindication-item {

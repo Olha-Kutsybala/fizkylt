@@ -30,7 +30,9 @@
   line-height: 170%;
   font-weight: 500;
 }
-
+.block_body {
+  min-width: 0;
+}
 .swiper-container {
   overflow: hidden;
 }
@@ -55,8 +57,4 @@
 
 #swiper-button-prev::after {
   transform: translateX(1000%);
-}
-
-.block_body {
-  min-width: 0;
 }
