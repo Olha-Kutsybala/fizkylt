@@ -33,14 +33,14 @@
   font-weight: 900;
   font-size: 52px;
   color: $accent-light-color;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
+  line-height: 0.9;
 }
 
 .hero-title-transparent {
   letter-spacing: 0.05em;
   color: transparent;
   -webkit-text-stroke: 1px $dark-bg-color;
-  margin-bottom: 0;
 }
 
 .hero-descr {

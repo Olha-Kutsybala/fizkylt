@@ -1,4 +1,6 @@
 import Swiper from 'swiper';
+import 'swiper/swiper-bundle.min.css';
+
 import { feedback } from './feedback-list';
 
 window.addEventListener('load', function () {
@@ -7,6 +9,10 @@ window.addEventListener('load', function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    grabCursor: true,
+    loop: true,
+    speed: 700,
+    touchEventsTarget: 'wrapper',
     pagination: {
       el: '.swiper-pagination',
     },

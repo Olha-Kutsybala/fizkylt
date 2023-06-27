@@ -15,15 +15,25 @@
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
     <!-- <include src="./partials/scroll-up.html"></include> -->
+
     <include src="./partials/header.html"></include>
     <include src="./partials/mobile_menu.html"></include>
     <main>
       <div class="container try-free">
-        <h1 class="title">Пробне тренування</h1>
-        <p class="try-free-descr bottom-12">
-          Спробуй потренуватися зі мною і відчути своє тіло. Впевнена, що тобі
-          сподобаються ці відчуття і ти захочеш ще!
-        </p>
+        <h1 class="try-free-title">Дякую!</h1>
+        <div class="try-free-subtitle-box">
+          <svg width="32" height="32">
+            <use href="./images/icons.svg#icon-barbell"></use>
+          </svg>
+          <p class="try-free-descr bottom-12">
+            Спробуй потренуватися зі мною і відчути своє тіло. Впевнена, що тобі
+            сподобаються ці відчуття і ти захочеш ще!
+          </p>
+          <svg width="32" height="32">
+            <use href="./images/icons.svg#icon-barbell"></use>
+          </svg>
+        </div>
+
         <iframe
           width="560"
           height="315"
@@ -39,9 +49,8 @@
           покращиш поставу, станеш стрункішою та отримаєш заряд енергії без
           шкоди для здоровʼя.
         </p>
-        <a class="button button-transparent-bg" href="./index.html#package"
-          >купити курс</a
-        >
+        <a class="button button-transparent-bg" href="#package">купити курс</a>
+        <a class="button button-transparent-bg" href="#package">на головну</a>
       </div>
     </main>
   </body>

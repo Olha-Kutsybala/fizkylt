@@ -13,28 +13,15 @@
   padding: 14px 12px 13px 20px;
 }
 
+.header_container-white {
+  background-color: $white-color;
+}
 .header_logo_container {
   display: flex;
   gap: 5px;
   align-items: center;
   justify-content: space-between;
 }
-
-// .header-title {
-//   font-family: 'Roboto', sans-serif;
-//   font-style: italic;
-//   font-weight: 900;
-//   font-size: 28px;
-//   line-height: 1.18;
-//   letter-spacing: 0.04em;
-//   text-transform: uppercase;
-//   // border: 10px solid #ff7500;
-//   color: $dark-bg-color;
-//   // -webkit-text-stroke: 2px red;
-//   text-shadow: 0 0 10px #ff7500, 0 0 10px #ff7500, 0 0 10px #ff7500,
-//     0 0 10px #ff7500, 0 0 10px #ff7500, 0 0 10px #ff7500, 0 0 10px #ff7500,
-//     0 0 10px #ff7500;
-// }
 
 .header-title {
   font-family: 'Roboto', sans-serif;
