@@ -1,9 +1,8 @@
 import Swiper from 'swiper';
+import { feedback } from './feedback-list';
 
-// Очікуйте, поки сторінка повністю завантажиться
 window.addEventListener('load', function () {
-  // Ініціалізуйте Swiper
-  var swiper = new Swiper('.swiper-container', {
+  const swiper = new Swiper('.swiper-container', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -12,7 +11,6 @@ window.addEventListener('load', function () {
       el: '.swiper-pagination',
     },
     slidesPerView: 1,
-    // spaceBetween: 10,
     breakpoints: {
       //     // when window width is >= 320px
       320: {
@@ -45,8 +43,6 @@ window.addEventListener('load', function () {
       swiper.slidePrev(); // Перехід до попереднього слайда
     });
 });
-// import 'swiper/swiper-bundle.css';
-import { feedback } from './feedback-list';
 
 const container_js = document.querySelector('.js-feedback');
 
@@ -70,32 +66,3 @@ const markup = feedback
   .join('');
 
 container_js.insertAdjacentHTML('beforeend', markup);
-
-// new Swiper('.feed-cont', {
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   // Default parameters
-//   // pagination: false,
-//   // slidesPerView: 1,
-//   spaceBetween: 10,
-//   // Responsive breakpoints
-//   breakpoints: {
-//     // when window width is >= 320px
-//     320: {
-//       slidesPerView: 1,
-//       spaceBetween: 20,
-//     },
-//     // when window width is >= 480px
-//     480: {
-//       slidesPerView: 1,
-//       spaceBetween: 30,
-//     },
-//     // when window width is >= 640px
-//     640: {
-//       slidesPerView: 2,
-//       spaceBetween: 40,
-//     },
-//   },
-// });

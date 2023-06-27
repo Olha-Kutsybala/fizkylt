@@ -1,9 +1,4 @@
 .menu__button {
-  // position: absolute;
-  // top: 18px;
-  // right: 18px;
-  // min-height: 24px;
-  // min-width: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +9,6 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
-  // border-radius: 50%;
   outline: none;
 }
 
@@ -43,20 +37,17 @@
 }
 
 .menu-container .menu__button {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  color: $accent-bg-color;
+  display: flex;
+  // position: absolute;
+  // top: 10px;
+  // right: 5px;
+  // color: $accent-bg-color;
 }
 
 .header__menu_mobile {
   margin: 40px 0 60px;
   padding: 0 30px;
   border-left: 1px solid $accent-bg-color;
-  // display: flex;
-  // flex-direction: column;
-  // gap: 24px;
-  // margin-bottom: 38px;
 }
 
 .mobile-menu__link {

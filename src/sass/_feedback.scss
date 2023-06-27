@@ -4,8 +4,8 @@
 }
 
 .feedback-item {
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 270px;
+  max-height: 270px;
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #ff7400;
@@ -31,34 +31,14 @@
   font-weight: 500;
 }
 
-// .block_body {
-//   min-width: 0;
-// }
-
-/* Стилі Swiper-контейнера */
 .swiper-container {
-  // position: relative;
   overflow: hidden;
-  // width: 100%;
 }
 
-// #swiper-button {
-//   position: absolute;
-//   color: orange;
-//   transform: translateY(250%) translateX(-220%);
-//   width: 60px;
-//   height: 60px;
-//   // font-size: none;
-// }
-
-// .swiper-button-next:after {
-//   font-size: 2px;
-// }
-/* Стилі кнопок навігації */
 .swiper-button-next,
 .swiper-button-prev {
   position: absolute;
-  transform: translateY(420%);
+  transform: translateY(440%);
   z-index: 10;
   cursor: pointer;
 }
@@ -76,20 +56,7 @@
 #swiper-button-prev::after {
   transform: translateX(1000%);
 }
-/* Стилі кнопки "Вперед" */
-// .swiper-button-next {
-//   right: 10px;
-// }
 
-// /* Стилі кнопки "Назад" */
-// .swiper-button-prev {
-//   left: 60px;
-// }
-
-/* Стилі пагінації */
-// .swiper-pagination {
-//   position: absolute;
-//   bottom: 10px;
-//   left: 50%;
-//   transform: translateX(-50%);
-// }
+.block_body {
+  min-width: 0;
+}
