@@ -10,5 +10,10 @@
 }
 
 .try-video {
-  max-width: 400px;
+  display: block;
+  min-width: 360px;
+  max-width: 360px;
+  height: 315px;
+  margin-right: auto;
+  margin-left: auto;
 }
