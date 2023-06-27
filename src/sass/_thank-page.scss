@@ -1,9 +1,45 @@
-.try-free-title {
-  color: #ff7400;
+.thank-page {
+  padding: 108px 20px 155px;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+
+.thank-page-title {
+  margin-bottom: 40px;
+  color: $accent-bg-color;
   font-size: 52px;
   font-family: Druk Cyr;
   font-style: italic;
   font-weight: 900;
   line-height: 96%;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.thank-page-subtitle-box {
+  margin-bottom: 24px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.thank-page-subtitle {
+  display: block;
+  width: 202px;
+  color: $black-color;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+.thank-page-descr {
+  margin-bottom: 32px;
+  color: $black-color;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
 }
