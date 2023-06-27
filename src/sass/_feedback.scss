@@ -1,31 +1,95 @@
 .feedback {
-  padding: 60px 20px;
+  position: relative;
+  padding: 60px 20px 100px;
 }
 
 .feedback-item {
+  min-height: 250px;
+  max-height: 250px;
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #ff7400;
+  overflow-y: auto;
 }
 
 .feedback-container {
   display: flex;
-  gap: 12px;
+  gap: 29px;
   margin-bottom: 12px;
 }
 
 .feedback-title {
   color: $dark-bg-color;
   font-size: 14px;
+  font-weight: 800;
 }
 
 .feedback-descr {
   color: $black-color;
-  font-size: 12px;
-  line-height: 150%;
+  font-size: 14px;
+  line-height: 170%;
   font-weight: 500;
 }
 
-.block_body {
-  min-width: 0;
+// .block_body {
+//   min-width: 0;
+// }
+
+/* Стилі Swiper-контейнера */
+.swiper-container {
+  // position: relative;
+  overflow: hidden;
+  // width: 100%;
 }
+
+// #swiper-button {
+//   position: absolute;
+//   color: orange;
+//   transform: translateY(250%) translateX(-220%);
+//   width: 60px;
+//   height: 60px;
+//   // font-size: none;
+// }
+
+// .swiper-button-next:after {
+//   font-size: 2px;
+// }
+/* Стилі кнопок навігації */
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  transform: translateY(420%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+#swiper-button-next::after,
+#swiper-button-prev::after {
+  color: $accent-bg-color;
+  font-size: 20px;
+}
+
+#swiper-button-next::after {
+  transform: translateX(-1000%);
+}
+
+#swiper-button-prev::after {
+  transform: translateX(1000%);
+}
+/* Стилі кнопки "Вперед" */
+// .swiper-button-next {
+//   right: 10px;
+// }
+
+// /* Стилі кнопки "Назад" */
+// .swiper-button-prev {
+//   left: 60px;
+// }
+
+/* Стилі пагінації */
+// .swiper-pagination {
+//   position: absolute;
+//   bottom: 10px;
+//   left: 50%;
+//   transform: translateX(-50%);
+// }

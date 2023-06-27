@@ -1,15 +1,16 @@
+@import './fonts';
 @import './variables';
 
 @import './base';
-@import './fonts';
-@import './form';
-@import './scroll-up';
 @import './container';
+
+// @import './scroll-up';
 @import './common';
 @import './button';
-@import './modal';
+// @import './modal';
 @import './header';
 @import './mobile-menu';
+@import './scroll_up';
 @import './title';
 @import './hero';
 @import './marquee';
@@ -23,4 +24,5 @@
 @import './package';
 @import './feedback';
 @import './contact';
+@import './form';
 @import './footer';
