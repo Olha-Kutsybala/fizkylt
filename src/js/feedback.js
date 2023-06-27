@@ -7,11 +7,10 @@ window.addEventListener('load', function () {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    // touchRatio: 1,
     pagination: {
       el: '.swiper-pagination',
     },
-    slidesPerView: 1,
+    // slidesPerView: 1,
     breakpoints: {
       //     // when window width is >= 320px
       320: {
