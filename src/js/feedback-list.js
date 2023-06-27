@@ -1,7 +1,6 @@
 const feedback = [
   {
     id: 1,
-    img: new URL('../images/user_mobile_1.jpg', import.meta.url),
     name: 'Олена',
     stars: new URL('../images/Group_43.svg', import.meta.url),
     description:
@@ -9,7 +8,6 @@ const feedback = [
   },
   {
     id: 2,
-    img: new URL('../images/user_mobile_1.jpg', import.meta.url),
     name: 'Анастасія',
     stars: new URL('../images/Group_43.svg', import.meta.url),
     description:
@@ -17,7 +15,6 @@ const feedback = [
   },
   {
     id: 3,
-    img: new URL('../images/user_mobile_1.jpg', import.meta.url),
     name: 'Ірина',
     stars: new URL('../images/Group_43.svg', import.meta.url),
     description:
@@ -25,7 +22,6 @@ const feedback = [
   },
   {
     id: 4,
-    img: new URL('../images/user_mobile_1.jpg', import.meta.url),
     name: 'Ауріка',
     stars: new URL('../images/Group_43.svg', import.meta.url),
     description:
@@ -34,7 +30,6 @@ const feedback = [
 
   {
     id: 5,
-    img: new URL('../images/user_mobile_1.jpg', import.meta.url),
     name: 'Ольга',
     stars: new URL('../images/Group_43.svg', import.meta.url),
     description:
