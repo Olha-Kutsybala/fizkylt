@@ -79,10 +79,13 @@
 // }
 .wrapper .slick-dots li button:before {
   font-size: 20px;
-  // color: $accent-bg-color;
+  color: $accent-bg-color;
+  opacity: 1;
 }
 .wrapper .slick-slide {
   min-height: 300px;
+  min-width: 334px;
+  max-width: 334px;
 }
 // .wrapper .slick-prev,
 // .wrapper .slick-next {

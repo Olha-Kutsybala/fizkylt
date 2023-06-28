@@ -98,56 +98,56 @@ container_js.insertAdjacentHTML('beforeend', markup);
 //     },
 //   ],
 // });
-$('.carousel').slick({
-  dots: true,
-  slidesToShow: 1,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        // arrows: false,
-        // centerMode: true,
-        // centerPadding: '40px',
-        slidesToShow: 3,
-      },
-    },
-    // {
-    //   breakpoint: 480,
-    //   settings: {
-    //     // arrows: false,
-    //     // centerMode: true,
-    //     // centerPadding: '40px',
-    //     slidesToShow: 1,
-    //   },
-    // },
-  ],
-});
-
-// $(document).ready(function () {
-//   $('.carousel').slick({
-//     centerMode: true,
-//     // centerPadding: '450px', // defines other partial showing slides width
-//     slidesToShow: 1,
-//     dots: true,
-//     responsive: [
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '40px',
-//           slidesToShow: 3,
-//         },
+// $('.carousel').slick({
+//   dots: true,
+//   slidesToShow: 1,
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         // arrows: false,
+//         // centerMode: true,
+//         // centerPadding: '40px',
+//         slidesToShow: 3,
 //       },
-//       {
-//         breakpoint: 480,
-//         settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '40px',
-//           slidesToShow: 1,
-//         },
-//       },
-//     ],
-//   });
+//     },
+//     // {
+//     //   breakpoint: 480,
+//     //   settings: {
+//     //     // arrows: false,
+//     //     // centerMode: true,
+//     //     // centerPadding: '40px',
+//     //     slidesToShow: 1,
+//     //   },
+//     // },
+//   ],
 // });
+
+$(document).ready(function () {
+  $('.carousel').slick({
+    centerMode: true,
+    // centerPadding: '450px', // defines other partial showing slides width
+    slidesToShow: 1,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          // arrows: false,
+          centerMode: true,
+          centerPadding: '20px',
+          slidesToShow: 2,
+        },
+      },
+      // {
+      //   breakpoint: 480,
+      //   settings: {
+      //     // arrows: false,
+      //     centerMode: true,
+      //     centerPadding: '20px',
+      //     slidesToShow: 1,
+      //   },
+      // },
+    ],
+  });
+});
