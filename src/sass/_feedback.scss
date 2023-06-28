@@ -77,8 +77,9 @@
   margin: 0px auto;
 }
 .slick-slide {
-  margin: 10px;
+  margin: 12px;
 }
+
 // .slick-slide img {
 //   width: 100%;
 //   border: 2px solid #fff;
@@ -90,6 +91,7 @@
 }
 .wrapper .slick-slide {
   min-height: 300px;
+  width: 100%;
   // min-width: 334px;
   // max-width: 334px;
 }

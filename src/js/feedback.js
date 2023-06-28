@@ -136,7 +136,7 @@ $(document).ready(function () {
           // arrows: false,
           centerMode: true,
           centerPadding: '20px',
-          slidesToShow: 3,
+          slidesToShow: 1,
         },
       },
       {
@@ -145,7 +145,7 @@ $(document).ready(function () {
           // arrows: false,
           centerMode: true,
           centerPadding: '20px',
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
