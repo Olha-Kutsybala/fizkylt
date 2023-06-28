@@ -5,7 +5,7 @@
 
 .feedback-item {
   // min-height: 300px;
-  max-height: 360px;
+  max-height: 380px;
   // max-width: 300px;
   // min-width: 300px;
   padding: 20px;
@@ -70,12 +70,12 @@
 .wrapper {
   width: 100%;
 }
-.carousel {
-  // display: flex;
-  // flex-wrap: nowrap;
-  width: 90%;
-  margin: 0px auto;
-}
+// .carousel {
+//   // display: flex;
+//   // flex-wrap: nowrap;
+//   // width: 90%;
+//   // margin: 0px auto;
+// }
 .slick-slide {
   margin: 12px;
 }
@@ -90,8 +90,8 @@
   opacity: 1;
 }
 .wrapper .slick-slide {
-  min-height: 360px;
-  width: 100%;
+  min-height: 380px;
+  // width: 100%;
   // min-width: 334px;
   // max-width: 334px;
 }
