@@ -1,20 +1,52 @@
 <section id="trainer" class="trainer container">
-  <h2 class="title trainer-title">Ваш тренер Анна Горпинчук</h2>
-  <h3 class="trainer-subtitle">
-    Фітнес-тренер з дипломом, викладачка Національного Університету Фізичного
-    Виховання та Спорту України, мама 3 синів
-  </h3>
-  <img
-    srcset="./images/trainer-mobile.jpg 1x, ./images/trainer-mobile@2x.jpg 2x"
-    src="./images/trainer-mobile.jpg"
-    alt="Тренер"
-    width="334"
-    height="433"
-    class="trainer-foto"
-  />
+  <div class="trainer-desktop-box">
+    <div class="trainer-desktop-box1">
+      <h2 class="title trainer-title">Ваш тренер Анна Горпинчук</h2>
+      <h3 class="trainer-subtitle">
+        Фітнес-тренер з дипломом, викладачка Національного Університету
+        Фізичного Виховання та Спорту України, мама 3 синів
+      </h3>
+      <div class="trainer-quote-box trainer-quote-hidden">
+        <svg class="trainer-quote-icon" width="106" height="106">
+          <use href="./images/icons.svg#icon-untitled"></use>
+        </svg>
+        <p class="trainer-quote">
+          Я знаю як допомогти людині досягнути гарної фізичної форми. Знаю
+          проблеми та розчарування, через які ви проходите на цьому шляху. Мій
+          практичний досвід та знання дозволять зробити цей шлях максимально
+          ефективним та здобути тіло вашої мрії не на певний час, а на все
+          життя. <br />
+          <br />
+          Як мама трьох синів, з особистого досвіду знаю, як відновити жіноче
+          тіло після вагітності та пологів. І я з радістю поділюся цими знаннями
+          з вами!
+        </p>
+      </div>
+    </div>
+    <picture>
+      <source
+        srcset="./images/trainer-desctop.jpg 1x"
+        width="774"
+        height="607"
+        media="(min-width: 1200px)"
+      />
+
+      <img
+        srcset="
+          ./images/trainer-mobile.jpg    1x,
+          ./images/trainer-mobile@2x.jpg 2x
+        "
+        src="./images/trainer-mobile.jpg"
+        alt="Тренер"
+        class="trainer-foto"
+        width="334"
+        height="433"
+      />
+    </picture>
+  </div>
 
   <h3 class="trainer-ed-title">Освіта тренера</h3>
-  <ul class="list">
+  <ul class="list trainer-ed-list">
     <li class="trainer-ed-item">
       <svg class="arg-icon" width="20" height="20">
         <use href="./images/icons.svg#icon-check_orange"></use>
@@ -70,9 +102,12 @@
       Міжнародний сертифікат Level 1 по Animal Flow (2020)
     </li>
   </ul>
+  <h4 class="trainer-expirience trainer-quote-hidden">
+    7 років практичного досвіду
+  </h4>
   <div class="accent-list trainer-expirience-list">
     <h4 class="trainer-expirience">7 років практичного досвіду:</h4>
-    <ul class="list">
+    <ul class="list trainer-expirience-list-desc">
       <li class="accent-item">
         <svg class="accent-icon" width="12" height="12">
           <use href="./images/icons.svg#icon-cd"></use>
