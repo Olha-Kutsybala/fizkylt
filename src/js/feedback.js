@@ -63,7 +63,7 @@ const markup = feedback
     }) => `<div class="feedback-item" data-id=${id}><div class="">
   <div class="feedback-container">
     <h2 class="feedback-title">${name}</h2>
-    <img src="${stars}" alt="stars">
+    <img width=66px height=10 src="${stars}" alt="stars">
   </div>
 </div>
 <p class="feedback-descr">${description}</p>
