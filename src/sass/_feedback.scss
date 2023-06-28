@@ -77,7 +77,7 @@
 //   // margin: 0px auto;
 // }
 .slick-slide {
-  margin: 12px;
+  margin-right: 13px;
 }
 
 // .slick-slide img {
@@ -85,18 +85,14 @@
 //   border: 2px solid #fff;
 // }
 .wrapper .slick-dots li button:before {
+  margin-top: 24px;
   font-size: 20px;
   color: $accent-bg-color;
   opacity: 1;
 }
 .wrapper .slick-slide {
   min-height: 380px;
-  // width: 100%;
-  // min-width: 334px;
-  // max-width: 334px;
+  width: 100%;
+  // min-width: 290px;
+  // max-width: 300px;
 }
-// .wrapper .slick-prev,
-// .wrapper .slick-next {
-//   background: red;
-// font-size: 20px;
-// }

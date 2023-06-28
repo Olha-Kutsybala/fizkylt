@@ -125,7 +125,7 @@ container_js.insertAdjacentHTML('beforeend', markup);
 
 $(document).ready(function () {
   $('.carousel').slick({
-    centerMode: true,
+    // centerMode: true,
     // centerPadding: '450px', // defines other partial showing slides width
     slidesToShow: 2,
     dots: true,
@@ -134,7 +134,7 @@ $(document).ready(function () {
         breakpoint: 768,
         settings: {
           // arrows: false,
-          centerMode: true,
+          // centerMode: true,
           // centerPadding: '20px',
           slidesToShow: 1,
         },
@@ -143,7 +143,7 @@ $(document).ready(function () {
         breakpoint: 480,
         settings: {
           // arrows: false,
-          centerMode: true,
+          // centerMode: true,
           // centerPadding: '20px',
           slidesToShow: 1,
         },
