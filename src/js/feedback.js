@@ -127,7 +127,7 @@ $(document).ready(function () {
   $('.carousel').slick({
     centerMode: true,
     // centerPadding: '450px', // defines other partial showing slides width
-    slidesToShow: 1,
+    slidesToShow: 2,
     dots: true,
     responsive: [
       {
@@ -135,7 +135,7 @@ $(document).ready(function () {
         settings: {
           // arrows: false,
           centerMode: true,
-          centerPadding: '20px',
+          // centerPadding: '20px',
           slidesToShow: 1,
         },
       },
@@ -144,7 +144,7 @@ $(document).ready(function () {
         settings: {
           // arrows: false,
           centerMode: true,
-          centerPadding: '20px',
+          // centerPadding: '20px',
           slidesToShow: 1,
         },
       },
