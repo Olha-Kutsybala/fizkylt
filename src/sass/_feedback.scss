@@ -6,6 +6,8 @@
 .feedback-item {
   // min-height: 300px;
   max-height: 300px;
+  // max-width: 300px;
+  // min-width: 300px;
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #ff7400;
@@ -65,11 +67,15 @@
 // .center .slick-center h3 {
 //   transform: scale(1);
 // }
-
-// .carousel {
-//   width: 90%;
-//   margin: 0px auto;
-// }
+.wrapper {
+  width: 100%;
+}
+.carousel {
+  // display: flex;
+  // flex-wrap: nowrap;
+  width: 90%;
+  margin: 0px auto;
+}
 .slick-slide {
   margin: 10px;
 }
@@ -84,8 +90,8 @@
 }
 .wrapper .slick-slide {
   min-height: 300px;
-  min-width: 334px;
-  max-width: 334px;
+  // min-width: 334px;
+  // max-width: 334px;
 }
 // .wrapper .slick-prev,
 // .wrapper .slick-next {

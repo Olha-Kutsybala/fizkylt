@@ -60,7 +60,7 @@ const markup = feedback
       name,
       stars,
       description,
-    }) => `<div class="feedback-item swiper-slide" data-id=${id}><div class="">
+    }) => `<div class="feedback-item" data-id=${id}><div class="">
   <div class="feedback-container">
     <h2 class="feedback-title">${name}</h2>
     <img src="${stars}" alt="stars">
@@ -136,18 +136,18 @@ $(document).ready(function () {
           // arrows: false,
           centerMode: true,
           centerPadding: '20px',
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          // arrows: false,
+          centerMode: true,
+          centerPadding: '20px',
           slidesToShow: 2,
         },
       },
-      // {
-      //   breakpoint: 480,
-      //   settings: {
-      //     // arrows: false,
-      //     centerMode: true,
-      //     centerPadding: '20px',
-      //     slidesToShow: 1,
-      //   },
-      // },
     ],
   });
 });
