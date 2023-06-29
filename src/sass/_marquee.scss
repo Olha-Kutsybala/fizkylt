@@ -3,6 +3,10 @@
   padding: 5px 0;
   display: flex;
   background-color: $dark-bg-color;
+
+  @media screen and (min-width: 1200px) {
+    padding: 10px 0;
+  }
 }
 
 .marquee_text {
@@ -15,6 +19,11 @@
   text-transform: uppercase;
   color: $accent-light-color;
   white-space: nowrap;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+  }
 }
 
 .poster {
