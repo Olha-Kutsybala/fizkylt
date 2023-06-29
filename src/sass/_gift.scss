@@ -1,11 +1,19 @@
 .gift {
   padding: 33px 20px 60px;
   background-color: $dark-bg-color;
+
+  @media screen and (min-width: 1200px) {
+    padding: 65px 80px 65px 86px;
+  }
 }
 
 .gift_title {
   color: $accent-bg-color;
   margin-bottom: 0;
+
+  @media screen and (min-width: 1200px) {
+    color: $white-color;
+  }
 }
 
 .gift-subtitle {
@@ -16,6 +24,12 @@
   font-weight: 700;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 32px;
+    color: $accent-bg-color;
+    font-size: 48px;
+  }
 }
 
 .gift-image {
@@ -27,9 +41,34 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 170%;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
 
 .gift-image {
   margin-right: auto;
   margin-left: auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .gift-descr-hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gift-descr-hidden1 {
+    display: none;
+  }
+  .gift-desktop-box {
+    display: flex;
+    align-items: center;
+    gap: 129px;
+  }
+
+  .gift-title-box {
+    width: 510px;
+  }
 }

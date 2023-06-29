@@ -1,16 +1,38 @@
 <section class="gift container">
-  <h2 class="title gift_title">подарунок</h2>
-  <p class="gift-subtitle">за найкращий результат</p>
-  <img
-    srcset="./images/watch_mobile.jpg 1x, ./images/watch_mobile@2x.jpg 2x"
-    src="./images/watch_mobile.jpg"
-    alt="Килимок для спорту"
-    width="335"
-    height="272"
-    class="gift-image"
-  />
-  <p class="gift-descr">
+  <div class="gift-desktop-box">
+    <div class="gift-title-box">
+      <h2 class="title gift_title">подарунок</h2>
+      <p class="gift-subtitle">за найкращий результат</p>
+      <p class="gift-descr gift-descr-hidden">
+        Придбай будь-який пакет курсу та покажи найкращий результат “ДО” і
+        “ПІСЛЯ” серед усіх учасників курсу – і ти отримаєш годинник
+        <b>Apple Watch</b>
+        у подарунок.
+      </p>
+    </div>
+
+    <picture>
+      <source
+        srcset="./images/gift-desktop.jpg 1x"
+        width="625"
+        height="504"
+        media="(min-width: 1200px)"
+      />
+
+      <img
+        srcset="./images/watch_mobile.jpg 1x, ./images/watch_mobile@2x.jpg 2x"
+        src="./images/watch_mobile.jpg"
+        alt="Годинник"
+        class="gift-image"
+        width="335"
+        height="272"
+      />
+    </picture>
+  </div>
+
+  <p class="gift-descr gift-descr-hidden1">
     Придбай будь-який пакет курсу та покажи найкращий результат “ДО” і “ПІСЛЯ”
-    серед усіх учасників курсу – і ти отримаєш годинник Apple Watch у подарунок.
+    серед усіх учасників курсу – і ти отримаєш годинник <b>Apple Watch</b> у
+    подарунок.
   </p>
 </section>

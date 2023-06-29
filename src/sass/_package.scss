@@ -1,13 +1,38 @@
+.package {
+  padding: 60px 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .package {
+    padding: 120px 80px;
+  }
+  .package-title-descr {
+    display: none;
+  }
+}
+
 .package-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    flex-direction: row;
+  }
 }
 
 .package-item {
   padding: 12px 12px 32px 12px;
   border-radius: 12px;
   border: 1px solid #6fc7b8;
+  max-width: 480px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media screen and (min-width: 768px) {
+    width: 407px;
+  }
 }
 
 .package-item-base {
@@ -44,6 +69,9 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+  @media screen and (min-width: 768px) {
+    gap: 9px;
+  }
 }
 
 .package-item-descr {
@@ -54,14 +82,22 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 170%;
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 .package-test-button {
   background-color: #6fc7b8;
+  width: 129px;
+  font-size: 16px;
 }
 
 .package-base-button {
   background-color: #f18ea3;
+  width: 129px;
+  font-size: 16px;
 }
 
 .package-item-premium {
@@ -74,6 +110,10 @@
 
 .package-title-premium {
   margin-bottom: 6px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 24px;
+  }
 }
 
 .package-title-descr {
@@ -91,6 +131,8 @@
 
 .package-premium-button {
   background-color: $accent-bg-color;
+  width: 129px;
+  font-size: 16px;
 }
 
 .package-price {
