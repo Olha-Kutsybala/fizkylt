@@ -11,6 +11,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 14px 12px 13px 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 1px 80px 2px 80px;
+  }
 }
 
 .header_container-white {
@@ -30,11 +34,23 @@
   font-size: 12px;
   color: $accent-bg-color;
   text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    max-width: 290px;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 900;
+  }
 }
 
 .header__link {
-  color: wheat;
+  color: $white-color;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
 }
+
 @media (max-width: 767px) {
   .header__menu {
     display: none;
