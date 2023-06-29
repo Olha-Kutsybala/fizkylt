@@ -32,11 +32,29 @@
 
 .marquee-poster-dark {
   transform: translate(0, 35px) rotate(6deg);
+
+  @media screen and (min-width: 768px) {
+    transform: translate(0, 40px) rotate(4deg);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 6px 0;
+    transform: translate(0, 50px) rotate(4deg);
+  }
 }
 
 .marquee-poster-accent {
   transform: translate(0, 5px) rotate(-6deg);
   background-color: $accent-light-color;
+
+  @media screen and (min-width: 768px) {
+    transform: translate(0, 0) rotate(-4deg);
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 6px 0;
+    transform: translate(0, 0) rotate(-4deg);
+  }
 }
 
 .marquee_text-light {

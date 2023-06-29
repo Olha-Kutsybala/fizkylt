@@ -1,5 +1,8 @@
 .contraindication {
   padding: 60px 20px;
+  @media screen and (min-width: 1200px) {
+    padding: 120px 80px 60px;
+  }
 }
 
 .contraindication-list {
@@ -7,16 +10,29 @@
   flex-wrap: wrap;
   gap: 12px;
   justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    gap: 30px;
+  }
 }
 
 .contraindication-item {
   display: flex;
   flex-direction: column;
   max-width: 158px;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 320px;
+    min-width: 320px;
+  }
 }
 
 .contraindication-foto {
   margin-bottom: 12px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 24px;
+  }
 }
 
 .contraindication-subtitle {
@@ -25,6 +41,12 @@
   font-size: 14px;
   font-weight: 800;
   line-height: 1.5;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 10px;
+    font-size: 26px;
+    text-align: center;
+  }
 }
 
 .contraindication-descr {
@@ -32,4 +54,9 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.5;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    text-align: center;
+  }
 }

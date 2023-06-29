@@ -1,75 +1,76 @@
 <section id="inventory" class="container inventory">
-  <h2 class="title">Інвентар для тренувань</h2>
-  <p class="inventory-descr">
-    Рекомендуємо придбати всього 3 гаджети. <br />
-    <br />
+  <div class="inventory-box">
+    <h2 class="title">Інвентар для тренувань</h2>
+  <div class="inventory-box1">
+    <p class="inventory-descr bottom-12">
+    <b>Рекомендуємо придбати всього 3 гаджети. </b>
+   <p class="inventory-descr">
     Вони задіють додаткові групи м’язів, розвинуть баланс, концентрацію і
     гнучкість вашого тіла. <br />
-    <br />
     Мають низьку ціну, не займають місце вдома, можна взяти з собою в подорож.
+   </p>
   </p>
-  <ul class="list">
+  </div>
+  </div>
+  <ul class="list inventory-list">
     <li>
       <h3 class="inventory-item-title">Килимок або зручне покриття</h3>
-      <img
-        srcset="./images/gym_mobile.jpg 1x"
-        src="./images/gym_mobile.jpg"
-        alt="Килимок для спорту"
-        width="335"
-        height="272"
-        class="inventory-image"
-      />
-      <!-- <img
-        srcset="./images/gym_mobile.jpg 1x, ./images/gym_mobile@2x.jpg 2x"
-        src="./images/gym_mobile.jpg"
-        alt="Килимок для спорту"
-        width="335"
-        height="272"
-        class="inventory-image"
-      /> -->
+      <picture>
+        <source
+          srcset="./images/gym-desktop.jpg 1x"
+          width="342"
+          height="278"
+          media="(min-width: 1200px)"
+        />
+        <img
+          srcset="./images/gym_mobile.jpg 1x, ./images/gym_mobile@2x.jpg 2x"
+          src="./images/gym_mobile.jpg"
+          alt="Килимок для спорту"
+          class="inventory-image"
+          width="335"
+          height="272"
+        />
+      </picture>
     </li>
-    <li>
-      <h3 class="inventory-item-title">М’яч для пілатесу діаметром 25-27 см</h3>
-      <img
-        srcset="./images/ball_mobile.jpg 1x"
-        src="./images/gym_mobile.jpg"
-        alt="Килимок для спорту"
-        width="355"
-        height="258"
-        class="inventory-image"
-      />
-      <!-- <img
-        srcset="./images/ball_mobile.jpg 1x, ./images/ball_mobile@2x.jpg 2x"
-        src="./images/gym_mobile.jpg"
-        alt="Килимок для спорту"
-        width="355"
-        height="258"
-        class="inventory-image"
-      /> -->
-    </li>
-    <li>
+     <li>
       <h3 class="inventory-item-title">
         Стрічка для пілатесу середньої пружності
       </h3>
-      <img
-        srcset="./images/strichka_mobile.jpg 1x"
-        src="./images/strichka_mobile.jpg"
-        alt="Килимок для спорту"
-        width="335"
+      <picture>
+        <source
+          srcset="./images/strichka-desktop.jpg 1x"
+          width="313"
+          height="350"
+          media="(min-width: 1200px)"
+        />
+        <img
+          srcset="./images/strichka_mobile.jpg 1x, ./images/strichka_mobile@2x.jpg 2x"
+          src="./images/strichka_mobile.jpg"
+          alt="Стрічка для спорту"
+          class="inventory-image bottom-0"
+          width="335"
         height="356"
-        class="inventory-image bottom-0"
-      />
-      <!-- <img
-        srcset="
-          ./images/strichka_mobile.jpg    1x,
-          ./images/strichka_mobile@2x.jpg 2x
-        "
-        src="./images/strichka_mobile.jpg"
-        alt="Килимок для спорту"
-        width="335"
-        height="356"
-        class="inventory-image bottom-0"
-      /> -->
+        />
+      </picture>
+    </li>
+    <li>
+      <h3 class="inventory-item-title">М’яч для пілатесу діаметром 25-27 см</h3>
+      <picture>
+        <source
+          srcset="./images/ball-desktop.jpg 1x"
+          width="354"
+          height="257"
+          media="(min-width: 1200px)"
+        />
+        <img
+          srcset="./images/ball_mobile.jpg 1x, ./images/ball_mobile@2x.jpg 2x"
+          src="./images/ball_mobile.jpg"
+          alt="М’яч для спорту"
+          class="inventory-image"
+          width="354"
+          height="257"
+        />
+      </picture>
     </li>
   </ul>
 </section>

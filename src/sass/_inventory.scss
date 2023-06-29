@@ -1,14 +1,41 @@
 .inventory {
   padding: 60px 20px 102px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 100px 80px 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inventory-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inventory-list {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .inventory-descr {
-  margin-bottom: 54px;
   color: $black-color;
   font-size: 14px;
   font-family: Mont;
   font-weight: 500;
   line-height: 170%;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 20px;
+  }
+}
+
+.inventory-box1 {
+  margin-bottom: 54px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 68px;
+    width: 440px;
+  }
 }
 
 .inventory-image {
@@ -25,6 +52,13 @@
   font-weight: 700;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 225px;
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
 }
 
 .bottom-0 {
