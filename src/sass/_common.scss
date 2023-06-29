@@ -5,6 +5,12 @@
   box-shadow: 4px 4px 0px $black-color;
   border-radius: 12px;
   max-width: 625px;
+
+  @media screen and (min-width: 768px) {
+    padding: 30px;
+    margin-bottom: 26px;
+    gap: 16px;
+  }
 }
 
 .accent-item {
@@ -12,16 +18,25 @@
   align-items: first baseline;
   gap: 8px;
   margin-bottom: 12px;
-  font-family: 'Mont';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
   color: $white-color;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 26px;
+    gap: 16px;
+    font-size: 18px;
+  }
 }
 
 .accent-icon {
   min-width: 12px;
   min-height: 12px;
+  @media screen and (min-width: 768px) {
+    min-width: 16px;
+    min-height: 16px;
+  }
 }
 
 .accent-item:last-child {
