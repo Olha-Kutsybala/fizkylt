@@ -2,9 +2,21 @@
   padding: 33px 20px 60px;
   background-color: $dark-bg-color;
   color: $white-color;
+
+  @media screen and (min-width: 1200px) {
+    padding: 72px 80px 60px;
+  }
 }
+
 .program-title {
   margin-bottom: 14px;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    max-width: 365px;
+    min-width: 365px;
+    margin-bottom: 0;
+  }
 }
 
 .program-descr-title {
@@ -13,6 +25,12 @@
   font-size: 18px;
   line-height: 1.2;
   color: #dadada;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 18px;
+    font-size: 28px;
+    line-height: 140%;
+  }
 }
 
 .program-descr {
@@ -20,6 +38,11 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+    font-size: 18px;
+  }
 }
 
 .program-box {
@@ -41,6 +64,10 @@
   &:focus {
     border: 2px solid $accent-light-color;
   }
+
+  @media screen and (min-width: 1200px) {
+    padding: 25px 40px;
+  }
 }
 
 .program-item-title {
@@ -49,7 +76,12 @@
   font-weight: 700;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+  }
 }
+
 .program-item-train-title {
   margin-top: 24px;
   font-weight: 700;
@@ -57,6 +89,11 @@
   line-height: 1.3;
   letter-spacing: -0.02em;
   text-transform: none;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    height: 130px;
+  }
 }
 
 .program-item-train-descr {
@@ -65,4 +102,57 @@
   font-size: 14px;
   line-height: 1.7;
   color: #dadada;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    // margin-right: auto;
+    width: 420px;
+    transform: translateY(-45px);
+  }
+}
+
+.program-number {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .program-box2 {
+    display: flex;
+    justify-content: start;
+    gap: 145px;
+  }
+
+  .program-number {
+    display: block;
+    color: rgba(255, 116, 0, 0.2);
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 100%;
+  }
+
+  .program-number-mobile {
+    display: none;
+  }
+
+  .program-box-item-desktop {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+  }
+
+  .program-details-list {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 650px;
+  }
+}
+
+.program-box-item-mobile {
+  display: flex;
+  gap: 4px;
+}
+
+.program-box1 {
+  display: flex;
 }

@@ -1,3 +1,27 @@
+.accent-title {
+  margin-bottom: 12px;
+  font-family: 'Druk Cyr';
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: $dark-bg-color;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 18px;
+    font-size: 32px;
+  }
+}
+
+.trainer-expirience {
+  @media screen and (min-width: 768px) {
+    display: none;
+    margin-bottom: 18px;
+    font-size: 32px;
+  }
+}
+
 .accent-list {
   padding: 20px;
   margin-bottom: 32px;

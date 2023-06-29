@@ -70,25 +70,15 @@
   margin-bottom: 60px;
 
   @media screen and (min-width: 768px) {
+    margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
   }
 }
 
 .trainer-expirience {
-  margin-bottom: 12px;
-  font-family: Druk Cyr;
-  font-size: 24px;
-  font-weight: 800;
-  text-align: center;
-  color: $dark-bg-color;
-  letter-spacing: 0.48px;
-  text-transform: uppercase;
-
   @media screen and (min-width: 768px) {
     display: none;
-    margin-bottom: 24px;
-    font-size: 32px;
   }
 }
 
@@ -98,6 +88,10 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+}
+
+.trainer-quote-hidden {
+  display: none;
 }
 
 .trainer-quote-icon {
@@ -145,13 +139,9 @@
     max-width: 768px;
   }
 
-  @media screen and (min-width: 1440px) {
-    max-width: 1440px;
+  @media screen and (min-width: 1200px) {
+    display: none;
   }
-}
-
-.trainer-quote-hidden {
-  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -181,14 +171,9 @@
   }
 
   .trainer-expirience-list-desc {
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 32px;
     column-count: 2;
   }
-}
 
-@media screen and (min-width: 768px) {
   .trainer-desktop-box1 {
     max-width: 420px;
   }
@@ -197,3 +182,13 @@
     gap: 75px;
   }
 }
+
+// @media screen and (min-width: 768px) {
+//   .trainer-desktop-box1 {
+//     max-width: 420px;
+//   }
+
+//   .trainer-desktop-box {
+//     gap: 75px;
+//   }
+// }
