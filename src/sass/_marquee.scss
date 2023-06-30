@@ -1,6 +1,6 @@
 .marquee {
   overflow: hidden;
-  padding: 5px 0;
+  padding: 5px 0px;
   display: flex;
   background-color: $dark-bg-color;
 
@@ -19,7 +19,6 @@
   text-transform: uppercase;
   color: $accent-light-color;
   white-space: nowrap;
-  overflow: hidden;
 
   @media screen and (min-width: 1200px) {
     font-size: 32px;
