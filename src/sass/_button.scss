@@ -43,8 +43,9 @@
   }
 }
 
-.program-button-line-height {
-  line-height: 2;
+.program-button-border {
+  border: 2px solid $accent-bg-color;
+  line-height: 1.5;
 }
 
 .program-button__transp {
