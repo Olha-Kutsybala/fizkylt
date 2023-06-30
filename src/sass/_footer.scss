@@ -3,28 +3,31 @@
   background-color: $dark-bg-color;
   color: $white-color;
 
-  &-list {
-    margin-bottom: 33px;
-    padding-top: 25px;
-    border-top: 1px solid $white-color;
-    // list-style-position: inside;
-    -moz-column-count: 2; /* Firefox */
-    -webkit-column-count: 2; /* Safari and Chrome */
-    column-count: 2;
-    // height: 140px;
-
-    @media screen and (min-width: 1200px) {
-      -moz-column-count: 4; /* Firefox */
-      -webkit-column-count: 4; /* Safari and Chrome */
-      column-count: 4;
-    }
+  @media screen and (min-width: 1200px) {
+    padding: 52px 20px 33px;
   }
+}
+.footer-list {
+  margin-bottom: 33px;
 
-  &-list-item {
-    margin-bottom: 12px;
-    font-size: 14px;
-    font-weight: 500;
+  padding-top: 25px;
+  -moz-column-count: 2; /* Firefox */
+  -webkit-column-count: 2; /* Safari and Chrome */
+  column-count: 2;
+
+  @media screen and (min-width: 1200px) {
+    -moz-column-count: 4; /* Firefox */
+    -webkit-column-count: 4; /* Safari and Chrome */
+    column-count: 4;
+    padding-left: 100px;
+    padding-right: 100px;
   }
+}
+
+.footer-list-item {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .footer-create-link {
