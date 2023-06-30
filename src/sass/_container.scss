@@ -5,21 +5,12 @@
   padding-right: 15px;
   max-width: 480px;
   width: 100%;
-  // min-width: 440px;
-
-  // max-width: 440px;
-
-  // @media screen and (max-width: 767px) {
-  //   max-width: 767px;
-  //   width: 100%;
-  // }
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
+    max-width: 1399px;
   }
 
-  @media screen and (min-width: 1200px) {
-    // min-width: 1200px;
+  @media screen and (min-width: 1440px) {
     max-width: 1440px;
   }
 }

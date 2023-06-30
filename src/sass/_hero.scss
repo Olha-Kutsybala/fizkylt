@@ -20,7 +20,6 @@
   @media screen and (min-width: 768px) {
     max-width: 1440px;
     background-image: url(../images/hero-desktop.jpg);
-    // background-position: bottom -40px right 0px;
 
     @media (min-device-pixel-ratio: 2),
       (-webkit-min-device-pixel-ratio: 2),
@@ -75,14 +74,13 @@
   }
 
   .hero {
-    padding: 97px 70px 52px;
+    padding: 126px 70px 52px;
   }
 
   .hero-descr {
     text-align: start;
     font-size: 24px;
     font-family: Roboto;
-    font-style: normal;
     font-weight: 300;
     line-height: 140%;
     margin-left: 40px;

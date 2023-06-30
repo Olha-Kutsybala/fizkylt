@@ -11,12 +11,6 @@
   }
 }
 
-// @media screen and (max-width: 1199px) {
-//   .package-premium-icon {
-//     display: none;
-//   }
-// }
-
 .package-premium-icon {
   position: absolute;
   border-radius: 100px;
@@ -41,7 +35,12 @@
   letter-spacing: 0.64px;
   text-transform: uppercase;
   top: -6%;
-  right: -15%;
+  right: -5%;
+
+  @media screen and (min-width: 1200px) {
+    top: -6%;
+    right: -15%;
+  }
 }
 
 .package-list {

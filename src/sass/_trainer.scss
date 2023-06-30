@@ -135,11 +135,8 @@
       background-image: url(../images/foto_anna_mobile@2x.jpg);
     }
   }
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
@@ -183,13 +180,3 @@
     gap: 75px;
   }
 }
-
-// @media screen and (min-width: 768px) {
-//   .trainer-desktop-box1 {
-//     max-width: 420px;
-//   }
-
-//   .trainer-desktop-box {
-//     gap: 75px;
-//   }
-// }
