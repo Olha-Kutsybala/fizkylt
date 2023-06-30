@@ -16,10 +16,10 @@
   border-radius: 100px;
   background: linear-gradient(184deg, #6fc7b8 0%, #fff 100%);
   display: flex;
-  width: 136.437px;
-  height: 135.987px;
+  width: 90px;
+  height: 90px;
   transform: rotate(19.378deg);
-  padding: 16px 24px;
+  padding: 8px 16px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -27,17 +27,21 @@
   color: #272727;
   text-align: center;
   text-shadow: 0px 4px 4px 0px rgba(39, 39, 39, 0.1);
-  font-size: 32px;
+  font-size: 16px;
   font-family: Druk Cyr;
   font-style: normal;
   font-weight: 900;
   line-height: 105%;
   letter-spacing: 0.64px;
   text-transform: uppercase;
-  top: -6%;
-  right: -5%;
+  top: -3%;
+  right: 0;
 
   @media screen and (min-width: 1200px) {
+    font-size: 32px;
+    width: 136px;
+    height: 136px;
+    padding: 16px 24px;
     top: -6%;
     right: -15%;
   }
