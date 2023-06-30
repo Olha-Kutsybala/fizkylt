@@ -2,6 +2,18 @@
   background-color: $dark-bg-color;
   color: $white-color;
   padding: 20px 20px 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 40px 80px 80px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-box {
+    display: flex;
+    gap: 90px;
+    align-items: start;
+  }
 }
 
 .contact-info {
@@ -9,6 +21,10 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 170%;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .contact-link {
@@ -19,6 +35,10 @@
   font-weight: 800;
   line-height: 150%;
   text-decoration-line: underline;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 22px;
+  }
 }
 
 .contact-item {

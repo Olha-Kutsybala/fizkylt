@@ -1,5 +1,33 @@
 .try-free {
   padding: 32px 20px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 120px 80px 45px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .try-free-title {
+    margin-bottom: 48px;
+  }
+
+  .try-free-box {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+    margin-bottom: 50px;
+  }
+
+  .try-free-descr-desktop-box {
+    width: 460px;
+  }
+
+  .try-free-descr-desktop {
+    color: $black-color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 170%;
+  }
 }
 
 .try-free-descr {
@@ -7,6 +35,16 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 150%;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .try-free-descr-desktop {
+    display: none;
+  }
 }
 
 .try-video {
@@ -16,4 +54,10 @@
   height: 315px;
   margin-right: auto;
   margin-left: auto;
+
+  @media screen and (min-width: 1200px) {
+    min-width: 620px;
+    max-width: 620px;
+    height: 350px;
+  }
 }
