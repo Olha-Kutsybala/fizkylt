@@ -19,6 +19,7 @@
   text-transform: uppercase;
   color: $accent-light-color;
   white-space: nowrap;
+  overflow: hidden;
 
   @media screen and (min-width: 1200px) {
     font-size: 32px;
