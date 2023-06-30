@@ -82,6 +82,29 @@
   }
 }
 
+.program-descr-time {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 22px;
+    margin-bottom: 24px;
+  }
+}
+
+.program-descr-telegram {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: #dadada;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+}
+
 .program-item-train-title {
   margin-top: 24px;
   font-weight: 700;
@@ -164,7 +187,3 @@
 .program-box1 {
   display: flex;
 }
-
-// .test {
-//   line-height: 2;
-// }

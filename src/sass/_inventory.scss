@@ -1,11 +1,17 @@
 .inventory {
   padding: 60px 20px 102px;
 
+  @media screen and (min-width: 768px) {
+    padding: 60px 40px 60px;
+  }
+
   @media screen and (min-width: 1200px) {
     padding: 100px 80px 120px;
   }
 }
-
+.inventory-item {
+  text-align: center;
+}
 @media screen and (min-width: 1200px) {
   .inventory-box {
     display: flex;
@@ -56,7 +62,7 @@
 
   @media screen and (min-width: 1200px) {
     display: block;
-    width: 225px;
+    width: 355px;
     font-size: 32px;
     margin-bottom: 24px;
   }
