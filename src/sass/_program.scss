@@ -3,6 +3,10 @@
   background-color: $dark-bg-color;
   color: $white-color;
 
+  @media screen and (min-width: 768px) {
+    padding: 60px 40px;
+  }
+
   @media screen and (min-width: 1200px) {
     padding: 80px;
   }
