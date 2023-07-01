@@ -18,12 +18,13 @@
   .try-free-box {
     display: flex;
     align-items: center;
-    gap: 65px;
+    justify-content: space-between;
+    // gap: 20px;
     margin-bottom: 50px;
   }
 
   .try-free-descr-desktop-box {
-    width: 460px;
+    max-width: 460px;
   }
 
   .try-free-descr-desktop {
