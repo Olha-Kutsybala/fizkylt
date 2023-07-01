@@ -1,10 +1,10 @@
 .contact {
   background-color: $dark-bg-color;
   color: $white-color;
-  padding: 20px 20px 60px;
+  padding: 20px 20px 0;
 
   @media screen and (min-width: 768px) {
-    padding: 60px 40px 60px;
+    padding: 60px 40px 0;
   }
 
   @media screen and (min-width: 1200px) {
@@ -12,13 +12,17 @@
   }
 }
 
+.contact-box {
+  padding-bottom: 60px;
+  border-bottom: 1px solid $white-color;
+}
 @media screen and (min-width: 1200px) {
   .contact-box {
     display: flex;
     gap: 113px;
     align-items: start;
     padding-bottom: 80px;
-    border-bottom: 1px solid $white-color;
+    // border-bottom: 1px solid $white-color;
   }
 }
 
