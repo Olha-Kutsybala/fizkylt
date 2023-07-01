@@ -6,6 +6,10 @@
   @media screen and (min-width: 768px) {
     padding: 52px 80px 33px;
   }
+
+  @media screen and (min-width: 1200px) {
+    padding: 60px 80px 32px;
+  }
 }
 .footer-list {
   margin-bottom: 33px;
@@ -17,11 +21,12 @@
   column-count: 2;
 
   @media screen and (min-width: 1200px) {
-    -moz-column-count: 4; /* Firefox */
-    -webkit-column-count: 4; /* Safari and Chrome */
-    column-count: 4;
-    padding-left: 100px;
-    padding-right: 100px;
+    display: none;
+    // -moz-column-count: 4; /* Firefox */
+    // -webkit-column-count: 4; /* Safari and Chrome */
+    // column-count: 4;
+    // padding-left: 100px;
+    // padding-right: 100px;
   }
 }
 

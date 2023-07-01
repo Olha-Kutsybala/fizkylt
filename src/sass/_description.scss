@@ -2,7 +2,7 @@
   padding: 60px 20px;
 
   @media screen and (min-width: 768px) {
-    padding: 60px 40px 60px;
+    padding: 60px 40px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -45,13 +45,14 @@
 @media screen and (min-width: 1200px) {
   .description-box {
     display: flex;
-    gap: 70px;
+    justify-content: space-between;
     margin-bottom: 60px;
   }
 
   .description-box1 {
     display: flex;
     justify-content: space-between;
+    transform: translateX(-50px);
   }
 
   .hidden-button {

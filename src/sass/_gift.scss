@@ -3,11 +3,11 @@
   background-color: $dark-bg-color;
 
   @media screen and (min-width: 768px) {
-    padding: 60px 40px 60px;
+    padding: 60px 40px;
   }
 
   @media screen and (min-width: 1200px) {
-    padding: 65px 80px 65px 86px;
+    padding: 65px 80px;
   }
 }
 
@@ -38,6 +38,9 @@
 
 .gift-image {
   margin-bottom: 24px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 
 .gift-descr {

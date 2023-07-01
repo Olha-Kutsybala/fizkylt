@@ -8,15 +8,20 @@
   }
 
   @media screen and (min-width: 1200px) {
-    padding: 40px 80px 80px;
+    padding: 40px 80px 0;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .contact-box {
     display: flex;
-    gap: 90px;
+    gap: 113px;
     align-items: start;
+  }
+
+  .contact-list {
+    padding-bottom: 80px;
+    border-bottom: 1px solid $white-color;
   }
 }
 
@@ -27,6 +32,9 @@
   line-height: 170%;
 
   @media screen and (min-width: 1200px) {
+    display: block;
+    min-width: 343px;
+    max-width: 343px;
     font-size: 16px;
   }
 }
