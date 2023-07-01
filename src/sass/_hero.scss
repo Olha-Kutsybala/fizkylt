@@ -55,6 +55,10 @@
   color: $accent-light-color;
   margin-bottom: 20px;
   line-height: 0.9;
+
+  @media screen and (min-width: 1200px) {
+    line-height: 1.1;
+  }
 }
 
 .hero-title-transparent {
@@ -95,7 +99,7 @@
   .hero-descr {
     text-align: start;
     font-size: 24px;
-    font-weight: 200;
+    font-weight: 100;
     line-height: 140%;
     margin-left: 40px;
     text-transform: none;
