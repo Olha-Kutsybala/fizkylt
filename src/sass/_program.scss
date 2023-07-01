@@ -1,5 +1,5 @@
 .program {
-  padding: 33px 20px 60px;
+  padding: 20px 20px 36px;
   background-color: $dark-bg-color;
   color: $white-color;
 
@@ -9,38 +9,40 @@
 }
 
 .program-title {
-  margin-bottom: 14px;
+  margin-bottom: 4px;
 
   @media screen and (min-width: 1200px) {
     display: block;
     max-width: 365px;
     min-width: 365px;
-    margin-bottom: 0;
+    margin-bottom: 12px;
   }
 }
 
-.program-descr-title {
-  margin-bottom: 12px;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.2;
-  color: #dadada;
+.program-descr-time {
+  margin-bottom: 13px;
+  color: #c2c2c2;
+  font-size: 22px;
+  font-family: Druk Cyr;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.88px;
+  text-transform: uppercase;
 
   @media screen and (min-width: 1200px) {
-    margin-bottom: 18px;
-    font-size: 28px;
-    line-height: 140%;
+    font-size: 38px;
+    margin-bottom: 24px;
   }
 }
 
 .program-descr {
-  margin-bottom: 39px;
-  font-weight: 500;
+  margin-bottom: 26px;
   font-size: 14px;
-  line-height: 1.7;
+  font-weight: 500;
+  line-height: 170%;
 
   @media screen and (min-width: 1200px) {
-    margin-bottom: 48px;
+    margin-bottom: 60px;
     font-size: 18px;
   }
 }
@@ -50,6 +52,10 @@
   flex-direction: column;
   gap: 12px;
   margin-bottom: 32px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 80px;
+  }
 }
 
 .program-item {
@@ -79,29 +85,6 @@
 
   @media screen and (min-width: 1200px) {
     font-size: 32px;
-  }
-}
-
-.program-descr-time {
-  font-size: 16px;
-  font-weight: 700;
-  margin-bottom: 12px;
-
-  @media screen and (min-width: 1200px) {
-    font-size: 22px;
-    margin-bottom: 24px;
-  }
-}
-
-.program-descr-telegram {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 12px;
-  color: #dadada;
-
-  @media screen and (min-width: 1200px) {
-    font-size: 18px;
-    margin-bottom: 24px;
   }
 }
 
@@ -143,8 +126,18 @@
 @media screen and (min-width: 1200px) {
   .program-box2 {
     display: flex;
-    justify-content: start;
-    gap: 145px;
+    gap: 188px;
+  }
+
+  .program-box1 {
+    padding-top: 12px;
+    max-width: 674px;
+  }
+
+  .program-descr-bold {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 140%;
   }
 
   .program-number {
@@ -174,7 +167,7 @@
 
   .program-button-box {
     display: flex;
-    gap: 24px;
+    gap: 80px;
     justify-content: center;
   }
 }
@@ -182,8 +175,4 @@
 .program-box-item-mobile {
   display: flex;
   gap: 4px;
-}
-
-.program-box1 {
-  display: flex;
 }
