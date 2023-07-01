@@ -1,5 +1,10 @@
 .thank-page {
+  text-align: center;
   padding: 108px 20px 155px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 160px 80px 166px;
+  }
 }
 
 .thank-page-title {
@@ -11,7 +16,11 @@
   font-weight: 900;
   line-height: 96%;
   text-transform: uppercase;
-  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 72px;
+    line-height: normal;
+  }
 }
 
 .thank-page-subtitle-box {
@@ -20,24 +29,37 @@
   gap: 14px;
   align-items: center;
   justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+    gap: 32px;
+  }
 }
 
 .thank-page-subtitle {
   display: block;
   width: 202px;
   color: $black-color;
-  text-align: center;
   font-size: 14px;
   font-weight: 700;
   line-height: 130%;
   letter-spacing: -0.28px;
   text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    width: 342px;
+    font-size: 24px;
+    letter-spacing: -0.48px;
+  }
 }
 
 .thank-page-descr {
   margin-bottom: 32px;
   color: $black-color;
-  text-align: center;
   font-size: 14px;
   font-weight: 500;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+    font-size: 18px;
+  }
 }
