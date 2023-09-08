@@ -6,7 +6,6 @@ const markup = feedback
   .map(
     ({
       id,
-      img,
       name,
       stars,
       description,
@@ -27,16 +26,19 @@ $(document).ready(function () {
   $('.carousel').slick({
     slidesToShow: 3,
     dots: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1199,
         settings: {
+          arrows: false,
           slidesToShow: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
+          arrows: false,
           slidesToShow: 1,
         },
       },
