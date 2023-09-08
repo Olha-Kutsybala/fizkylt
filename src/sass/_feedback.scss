@@ -12,14 +12,6 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .feedback-title {
-    display: block;
-    min-width: 503px;
-    max-width: 503px;
-  }
-}
-
 .feedback-item {
   max-height: 340px;
   padding: 20px;
@@ -31,7 +23,8 @@
 
 .feedback-container {
   display: flex;
-  gap: 29px;
+  align-items: center;
+  justify-content: space-between;
   margin-bottom: 12px;
 }
 
@@ -40,6 +33,11 @@
   font-size: 14px;
   line-height: 170%;
   font-weight: 500;
+}
+
+.feedback-image {
+  width: 86px;
+  height: 24px;
 }
 
 .slick-slide {

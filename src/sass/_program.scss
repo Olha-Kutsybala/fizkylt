@@ -72,7 +72,7 @@
 
   &:hover,
   &:focus {
-    border: 2px solid $accent-light-color;
+    outline: 2px solid $accent-light-color;
   }
 
   @media screen and (min-width: 1200px) {
