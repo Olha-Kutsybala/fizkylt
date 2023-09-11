@@ -21,6 +21,20 @@
   overflow-x: hidden;
 }
 
+.feedback-item::-webkit-scrollbar {
+  width: 10px;
+}
+
+.feedback-item::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.feedback-item::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-color: #ff7400;
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
 .feedback-container {
   display: flex;
   align-items: center;
