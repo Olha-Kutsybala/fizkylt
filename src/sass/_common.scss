@@ -79,6 +79,49 @@
   margin-bottom: 24px;
 }
 
+.bottom-20 {
+  margin-bottom: 20px;
+}
+
+.bottom-272 {
+  margin-bottom: 272px;
+}
+.bottom-60 {
+  margin-bottom: 60px;
+}
+.bottom-156 {
+  margin-bottom: 156px;
+}
+.bottom-76 {
+  margin-bottom: 76px;
+}
+.bottom-117 {
+  margin-bottom: 117px;
+}
+
 #try-main-bg {
   background-color: #fff;
+}
+
+.quote {
+  position: relative;
+  padding: 60px 20px 60px;
+  background-color: $white-color;
+
+  @media screen and (min-width: 768px) {
+    padding: 60x 40px 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 100px 80px 120px;
+  }
+}
+
+.quote-icon {
+  position: absolute;
+  top: 0;
+  // left: 0;
+}
+.accent-bg {
+  background-color: $accent-bg-color;
 }

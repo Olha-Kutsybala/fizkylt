@@ -1,5 +1,5 @@
 .description {
-  padding: 60px 20px;
+  padding: 40px 20px;
   background-color: $white-color;
 
   @media screen and (min-width: 768px) {
@@ -38,6 +38,10 @@
   }
 }
 
+.descr-item--baseline {
+  align-items: baseline;
+}
+
 .descr-icon {
   min-width: 24px;
   min-height: 24px;
@@ -66,4 +70,39 @@
     margin-right: auto;
     margin-left: auto;
   }
+}
+
+.descr-subtitle {
+  color: #000;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  margin-left: 22px;
+  margin-bottom: 13px;
+  display: block;
+}
+.result {
+  display: grid;
+  gap: 24px;
+}
+.result-descr {
+  padding: 18px 24px;
+  border-radius: 12px;
+  border: 1px solid #ff7400;
+}
+
+.result-text {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%; /* 21px */
+}
+
+.result-descr-title {
+  font-family: Druk Cyr;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
 }
