@@ -267,7 +267,12 @@
   -webkit-text-stroke: 2px $dark-bg-color;
 }
 .hero-title-container {
+  display: block;
   text-align: left;
+}
+.hero-title-container--center {
+  display: block;
+  text-align: center;
 }
 .hero-descr {
   margin-bottom: 214px;
