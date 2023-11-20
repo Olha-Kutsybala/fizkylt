@@ -52,7 +52,7 @@
 }
 
 .hero-bg-body {
-  background-image: url(../images/hero-mobile-1.jpg);
+  background-image: url(../images/hero-mobile-body.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     & {
-      background-image: url(../images/hero-mobile-1@2x.jpg);
+      background-image: url(../images/hero-mobile-body@2x.jpg);
     }
   }
 
@@ -96,21 +96,21 @@
 }
 
 .hero-bg-2 {
-  background-image: url(../images/hero-mobile-2.jpg);
+  background-image: url(../images/hero-stomache-mobile.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
   padding-top: 63px;
 
-  // @media (min-device-pixel-ratio: 2),
-  //   (-webkit-min-device-pixel-ratio: 2),
-  //   (min-resolution: 192dpi),
-  //   (min-resolution: 2dppx) {
-  //   & {
-  //     background-image: url(../images/hero-mobile-1@2x.jpg);
-  //   }
-  // }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url(../images/hero-stomache-mobile@2x.jpg);
+    }
+  }
 
   // @media screen and (min-width: 768px) {
   //   max-width: 1439px;
@@ -141,19 +141,63 @@
 }
 
 .hero-bg-3 {
-  background-image: url(../images/hero-mobile-3.jpg);
+  background-image: url(../images/hero-mobile-buttocks.jpg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  padding-top: 63px;
+  padding-top: 60px;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     & {
-      background-image: url(../images/hero-mobile-3@2x.jpg);
+      background-image: url(../images/hero-mobile-buttocks@2x.jpg);
+    }
+  }
+
+  // @media screen and (min-width: 768px) {
+  //   max-width: 1439px;
+  //   background-image: url(../images/hero-desktop.jpg);
+
+  //   @media (min-device-pixel-ratio: 2),
+  //     (-webkit-min-device-pixel-ratio: 2),
+  //     (min-resolution: 192dpi),
+  //     (min-resolution: 2dppx) {
+  //     & {
+  //       background-image: url(../images/hero-desktop@2x.jpg);
+  //     }
+  //   }
+  // }
+  // @media screen and (min-width: 1440px) {
+  //   max-width: 1440px;
+  //   background-image: url(../images/hero-desktop.jpg);
+
+  //   @media (min-device-pixel-ratio: 2),
+  //     (-webkit-min-device-pixel-ratio: 2),
+  //     (min-resolution: 192dpi),
+  //     (min-resolution: 2dppx) {
+  //     & {
+  //       background-image: url(../images/hero-desktop@2x.jpg);
+  //     }
+  //   }
+  // }
+}
+.hero-bg-4 {
+  background-image: url(../images/hero-fitness-mobile.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 39px;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    & {
+      background-image: url(../images/hero-fitness-mobile@2x.jpg);
     }
   }
 
@@ -224,7 +268,6 @@
 }
 .hero-title-container {
   text-align: left;
-  padding-left: 16px;
 }
 .hero-descr {
   margin-bottom: 214px;
@@ -304,4 +347,10 @@
 
 .accent-bg {
   background-color: $accent-bg-color;
+}
+
+.fitness-title-width {
+  display: block;
+  width: 156px;
+  margin-bottom: 83px;
 }

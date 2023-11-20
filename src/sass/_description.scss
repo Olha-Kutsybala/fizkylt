@@ -21,7 +21,12 @@
     margin-top: -30px;
   }
 }
-
+.descr-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
 .descr-item {
   display: flex;
   align-items: flex-start;
@@ -37,9 +42,23 @@
     line-height: normal;
   }
 }
+.descr-item--white {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 10px;
 
+  @media screen and (min-width: 375px) {
+    flex-direction: column;
+    max-width: 158px;
+  }
+}
 .descr-item--baseline {
   align-items: baseline;
+}
+
+.descr-title--white {
+  color: white;
 }
 
 .descr-icon {
@@ -81,6 +100,11 @@
   margin-left: 22px;
   margin-bottom: 13px;
   display: block;
+}
+
+.description-box--black {
+  background-color: $dark-bg-color;
+  padding: 20px;
 }
 .result {
   display: grid;
@@ -125,4 +149,10 @@
   display: flex;
   gap: 6px;
   align-items: center;
+}
+
+.fitness-try-video {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }

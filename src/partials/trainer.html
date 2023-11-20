@@ -25,17 +25,35 @@
     </div>
     <picture>
       <source
-        srcset="./images/trainer-desctop.jpg 1x"
+        srcset="./images/trainer-desktop.webp 1x"
+        media="(min-width: 1200px)"
+        type="image/webp"
+        width="774"
+        height="607"
+      />
+      <source
+        srcset="./images/trainer-desktop.jpg 1x"
         width="774"
         height="607"
         media="(min-width: 1200px)"
       />
-
-      <img
+      <source
+        srcset="
+          ./images/trainer-mobile.webp    1x,
+          ./images/trainer-mobile@2x.webp 2x
+        "
+        media="(max-width: 767px)"
+        type="image/webp"
+      />
+      <source
         srcset="
           ./images/trainer-mobile.jpg    1x,
           ./images/trainer-mobile@2x.jpg 2x
         "
+        media="(max-width: 1199px)"
+        type="image/jpg"
+      />
+      <img
         src="./images/trainer-mobile.jpg"
         alt="Тренер"
         class="trainer-foto"
