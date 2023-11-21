@@ -1,10 +1,10 @@
 .hero {
   position: relative;
   background-color: rgb(89, 92, 110);
-  padding: 80px 15px 33px;
+  padding: 80px 15px 24px;
   text-align: center;
   text-transform: uppercase;
-  min-height: 100vh;
+  // min-height: 100vh;
 }
 
 .hero-bg-main {
@@ -101,7 +101,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  padding-top: 63px;
+  padding-top: 49px;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -146,7 +146,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 50px;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -186,7 +186,7 @@
 }
 .hero-bg-4 {
   background-image: url(../images/hero-fitness-mobile.jpg);
-  background-position: 50%;
+  // background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -270,10 +270,10 @@
   display: block;
   text-align: left;
 }
-.hero-title-container--center {
-  display: block;
-  text-align: center;
-}
+// .hero-title-container--center {
+//   display: block;
+//   text-align: center;
+// }
 .hero-descr {
   margin-bottom: 214px;
   font-weight: 700;
@@ -299,11 +299,17 @@
   margin-right: auto;
   margin-left: auto;
 }
+
 .hero-fitness-descr {
   margin-right: 0;
-  width: 317px;
+
   padding: 12px 21px;
   text-align: end;
+
+  width: 280px;
+  @media screen and (min-width: 375px) {
+    width: 317px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -357,5 +363,5 @@
 .fitness-title-width {
   display: block;
   width: 156px;
-  margin-bottom: 83px;
+  margin-bottom: 71px;
 }

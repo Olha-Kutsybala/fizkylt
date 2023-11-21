@@ -25,7 +25,10 @@
 .contraindication-item {
   display: flex;
   flex-direction: column;
-  max-width: 158px;
+  width: 130px;
+  @media screen and (min-width: 375px) {
+    width: 158px;
+  }
 
   @media screen and (min-width: 1200px) {
     max-width: 370px;

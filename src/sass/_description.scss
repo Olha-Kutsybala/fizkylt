@@ -44,13 +44,16 @@
 }
 .descr-item--white {
   color: white;
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 12px;
   gap: 10px;
+  flex-direction: column;
+  width: 130px;
 
   @media screen and (min-width: 375px) {
-    flex-direction: column;
-    max-width: 158px;
+    width: 158px;
+    font-weight: 500;
+    font-size: 14px;
   }
 }
 .descr-item--baseline {
