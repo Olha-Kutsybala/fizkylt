@@ -87,6 +87,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: #272727;
+  height: 100%;
   overflow-x: hidden;
   overscroll-behavior-y: none;
 }
@@ -775,7 +776,7 @@ address {
   padding: 80px 15px 24px;
   text-align: center;
   text-transform: uppercase;
-  min-height: 495px;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
