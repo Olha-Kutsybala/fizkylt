@@ -4,7 +4,7 @@
   padding: 80px 15px 24px;
   text-align: center;
   text-transform: uppercase;
-  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -189,7 +189,7 @@
 }
 .hero-bg-4 {
   background-image: url(../images/hero-fitness-mobile.jpg);
-  // background-position: 50%;
+  background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -271,6 +271,11 @@
 }
 .hero-title-container {
   display: block;
+  text-align: left;
+}
+.hero-title-flex {
+  display: flex;
+  flex-direction: column;
   text-align: left;
 }
 
