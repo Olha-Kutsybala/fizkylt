@@ -23,6 +23,7 @@
 
 .feedback-item::-webkit-scrollbar {
   width: 10px;
+  -webkit-appearance: none;
 }
 
 .feedback-item::-webkit-scrollbar-track {

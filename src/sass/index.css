@@ -2248,6 +2248,7 @@ address {
 
 .feedback-item::-webkit-scrollbar {
   width: 10px;
+  -webkit-appearance: none;
 }
 
 .feedback-item::-webkit-scrollbar-track {
@@ -2378,6 +2379,7 @@ address {
   font-size: 12px;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
