@@ -4,7 +4,10 @@
   padding: 80px 15px 24px;
   text-align: center;
   text-transform: uppercase;
-  // min-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-bg-main {
@@ -190,7 +193,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  padding-top: 39px;
+  padding-top: 25px;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -270,10 +273,7 @@
   display: block;
   text-align: left;
 }
-// .hero-title-container--center {
-//   display: block;
-//   text-align: center;
-// }
+
 .hero-descr {
   margin-bottom: 214px;
   font-weight: 700;
@@ -358,10 +358,4 @@
 
 .accent-bg {
   background-color: $accent-bg-color;
-}
-
-.fitness-title-width {
-  display: block;
-  width: 156px;
-  margin-bottom: 71px;
 }

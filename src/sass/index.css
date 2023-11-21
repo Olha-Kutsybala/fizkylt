@@ -774,6 +774,10 @@ address {
   padding: 80px 15px 24px;
   text-align: center;
   text-transform: uppercase;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-bg-main {
@@ -857,7 +861,7 @@ address {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
-  padding-top: 39px;
+  padding-top: 25px;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-bg-4 {
@@ -990,12 +994,6 @@ address {
 
 .accent-bg {
   background-color: #ff7400;
-}
-
-.fitness-title-width {
-  display: block;
-  width: 156px;
-  margin-bottom: 71px;
 }
 
 .marquee {
