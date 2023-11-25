@@ -16,13 +16,18 @@
   padding-bottom: 60px;
   border-bottom: 1px solid $white-color;
 }
-@media screen and (min-width: 1200px) {
-  .contact-box {
+
+.contact-box {
+  @media screen and (min-width: 768px) {
     display: flex;
-    gap: 113px;
+    gap: 30px;
     align-items: start;
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    gap: 113px;
+
     padding-bottom: 80px;
-    // border-bottom: 1px solid $white-color;
   }
 }
 

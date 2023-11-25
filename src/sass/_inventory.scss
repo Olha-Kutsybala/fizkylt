@@ -3,7 +3,7 @@
   background-color: $white-color;
 
   @media screen and (min-width: 768px) {
-    padding: 60px 40px 60px;
+    padding: 80px 40px 60px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -11,16 +11,23 @@
   }
 }
 
-.inventory-item {
-  text-align: center;
-}
-@media screen and (min-width: 1200px) {
-  .inventory-box {
+// .inventory-item {
+//   margin-right: auto;
+//   margin-left: auto;
+// }
+
+.inventory-box {
+  @media screen and (min-width: 768px) {
     display: flex;
+    gap: 60px;
+  }
+  @media screen and (min-width: 1200px) {
     gap: 113px;
   }
+}
 
-  .inventory-list {
+.inventory-list {
+  @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-between;
   }
@@ -62,8 +69,14 @@
   text-transform: uppercase;
   text-align: center;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 240px;
+  }
+
+  @media screen and (min-width: 1200px) {
     width: 280px;
     font-size: 32px;
     margin-bottom: 24px;
