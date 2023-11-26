@@ -7,7 +7,7 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     margin-bottom: 38px;
     font-size: 72px;
     line-height: 120%;
@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .underline-title {
     text-decoration: underline #f87a10 4px;
     text-underline-offset: 8px;

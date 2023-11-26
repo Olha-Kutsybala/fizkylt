@@ -7,15 +7,18 @@
     padding: 60px 40px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     padding: 80px;
   }
 }
 
 .program-title {
   margin-bottom: 4px;
+  @media screen and (min-width: 600px) {
+    margin-bottom: 12px;
+  }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     display: block;
     max-width: 365px;
     min-width: 365px;
@@ -33,7 +36,7 @@
   letter-spacing: 0.88px;
   text-transform: uppercase;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     font-size: 38px;
     margin-bottom: 24px;
   }
@@ -45,7 +48,7 @@
   font-weight: 500;
   line-height: 170%;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 60px;
     font-size: 18px;
   }
@@ -57,7 +60,7 @@
   gap: 12px;
   margin-bottom: 32px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     margin-bottom: 80px;
   }
 }
@@ -75,7 +78,7 @@
     outline: 2px solid $accent-light-color;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     padding: 25px 40px;
   }
 }
@@ -87,7 +90,7 @@
   letter-spacing: 0.48px;
   text-transform: uppercase;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     font-size: 32px;
   }
 }
@@ -100,7 +103,10 @@
   letter-spacing: -0.02em;
   text-transform: none;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1000px) {
     margin-top: 32px;
     height: 130px;
     font-size: 24px;
@@ -115,11 +121,14 @@
   line-height: 1.7;
   color: #dadada;
 
-  @media screen and (min-width: 1200px) {
-    margin-left: auto;
+  @media screen and (min-width: 768px) {
     width: 520px;
-    transform: translateY(-40px);
     font-size: 18px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    margin-left: auto;
+    transform: translateY(-40px);
   }
 }
 
@@ -127,10 +136,10 @@
   display: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .program-box2 {
     display: flex;
-    gap: 188px;
+    gap: 100px;
   }
 
   .program-box1 {

@@ -14,7 +14,7 @@
 .descr-title {
   color: $dark-bg-color;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     display: block;
     max-width: 408px;
     min-width: 408px;
@@ -37,7 +37,7 @@
   line-height: 1.25;
   color: $black-color;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     font-size: 18px;
     line-height: normal;
   }
