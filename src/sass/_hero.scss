@@ -70,32 +70,20 @@
     }
   }
 
-  // @media screen and (min-width: 768px) {
-  //   max-width: 1439px;
-  //   background-image: url(../images/hero-desktop.jpg);
+  @media screen and (min-width: 768px) {
+    max-width: 1440px;
+    background-position: left;
+    background-image: url(../images/hero-body-desktop.jpg);
 
-  //   @media (min-device-pixel-ratio: 2),
-  //     (-webkit-min-device-pixel-ratio: 2),
-  //     (min-resolution: 192dpi),
-  //     (min-resolution: 2dppx) {
-  //     & {
-  //       background-image: url(../images/hero-desktop@2x.jpg);
-  //     }
-  //   }
-  // }
-  // @media screen and (min-width: 1440px) {
-  //   max-width: 1440px;
-  //   background-image: url(../images/hero-desktop.jpg);
-
-  //   @media (min-device-pixel-ratio: 2),
-  //     (-webkit-min-device-pixel-ratio: 2),
-  //     (min-resolution: 192dpi),
-  //     (min-resolution: 2dppx) {
-  //     & {
-  //       background-image: url(../images/hero-desktop@2x.jpg);
-  //     }
-  //   }
-  // }
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url(../images/hero-body-desktop@2x.jpg);
+      }
+    }
+  }
 }
 
 .hero-bg-2 {
@@ -117,19 +105,6 @@
 
   // @media screen and (min-width: 768px) {
   //   max-width: 1439px;
-  //   background-image: url(../images/hero-desktop.jpg);
-
-  //   @media (min-device-pixel-ratio: 2),
-  //     (-webkit-min-device-pixel-ratio: 2),
-  //     (min-resolution: 192dpi),
-  //     (min-resolution: 2dppx) {
-  //     & {
-  //       background-image: url(../images/hero-desktop@2x.jpg);
-  //     }
-  //   }
-  // }
-  // @media screen and (min-width: 1440px) {
-  //   max-width: 1440px;
   //   background-image: url(../images/hero-desktop.jpg);
 
   //   @media (min-device-pixel-ratio: 2),
@@ -204,32 +179,23 @@
     }
   }
 
-  // @media screen and (min-width: 768px) {
-  //   max-width: 1439px;
-  //   background-image: url(../images/hero-desktop.jpg);
+  @media screen and (min-width: 500px) {
+    background-position: 50% 30%;
+  }
 
-  //   @media (min-device-pixel-ratio: 2),
-  //     (-webkit-min-device-pixel-ratio: 2),
-  //     (min-resolution: 192dpi),
-  //     (min-resolution: 2dppx) {
-  //     & {
-  //       background-image: url(../images/hero-desktop@2x.jpg);
-  //     }
-  //   }
-  // }
-  // @media screen and (min-width: 1440px) {
-  //   max-width: 1440px;
-  //   background-image: url(../images/hero-desktop.jpg);
+  @media screen and (min-width: 650px) {
+    max-width: 1439px;
+    background-image: url(../images/hero-fitness-desktop.jpg);
 
-  //   @media (min-device-pixel-ratio: 2),
-  //     (-webkit-min-device-pixel-ratio: 2),
-  //     (min-resolution: 192dpi),
-  //     (min-resolution: 2dppx) {
-  //     & {
-  //       background-image: url(../images/hero-desktop@2x.jpg);
-  //     }
-  //   }
-  // }
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url(../images/hero-fitness-desktop@2x.jpg);
+      }
+    }
+  }
 }
 
 .hero-title {
@@ -240,8 +206,9 @@
   color: $accent-light-color;
   line-height: 0.9;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     line-height: 1.1;
+    font-size: 70px;
   }
 }
 
@@ -253,6 +220,12 @@
 
 .hero-title-transparent--size {
   font-size: 38px;
+  @media screen and (min-width: 768px) {
+    font-size: 54px;
+  }
+  @media screen and (min-width: 1000px) {
+    font-size: 70px;
+  }
 }
 
 .hero-title-transparent--right {
@@ -272,11 +245,33 @@
 .hero-title-container {
   display: block;
   text-align: left;
+
+  @media screen and (min-width: 768px) {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
 }
 .hero-title-flex {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+@media screen and (min-width: 1000px) {
+  .fitness-icon-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .fitness-title-1000 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .fitness-title-1000 {
+    -webkit-text-stroke: 2px $dark-bg-color;
+  }
 }
 
 .hero-descr {
@@ -301,8 +296,8 @@
   border-radius: 0px 28px 28px 28px;
   background-color: #fff;
   box-shadow: 4px 4px 0px 0px #000;
-  margin-right: auto;
-  margin-left: auto;
+  // margin-right: auto;
+  // margin-left: auto;
 }
 
 .hero-fitness-descr {

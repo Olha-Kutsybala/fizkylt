@@ -7,25 +7,35 @@
 
 .header_container {
   background-color: $dark-bg-color;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 10px 13px 15px;
-  gap: 3px;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 10px 13px 15px;
+    gap: 3px;
+  }
 
   @media screen and (min-width: 768px) {
     padding: 3px 20px 0px 20px;
   }
 
-  @media screen and (min-width: 1200px) {
-    padding: 3px 80px 0px 80px;
+  @media screen and (min-width: 1310px) {
+    padding: 3px 40px 0px 40px;
   }
+  // @media screen and (min-width: 1440px) {
+  //   padding: 3px 80px 0px 80px;
+  // }
 }
 
 .header_container-white {
   background-color: $white-color;
 }
-
+.main-navigation {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: space-between;
+}
 .header_logo_container {
   display: flex;
   gap: 5px;
@@ -33,18 +43,24 @@
   justify-content: space-between;
 }
 
+@media screen and (min-width: 768px) {
+  .header_logo_container-767 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header_logo_container-768 {
+    display: none;
+  }
+}
 .logo-icon {
   width: 98px;
   height: 33px;
 
   @media screen and (min-width: 1200px) {
-    width: 128px;
-    height: 40px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    width: 168px;
-    height: 50px;
+    width: 146px;
+    height: 49px;
   }
 }
 
@@ -57,9 +73,9 @@
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
-    display: block;
+    // display: block;
     line-height: normal;
-    max-width: 270px;
+    // max-width: 274px;
     font-size: 14px;
   }
 
@@ -74,10 +90,10 @@
   font-weight: 500;
   line-height: normal;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     font-size: 16px;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1400px) {
     font-size: 18px;
   }
 }
@@ -92,7 +108,7 @@
 
   @media (min-width: 768px) {
     display: flex;
-    gap: 10px;
+    gap: 5px;
   }
   @media (min-width: 850px) {
     gap: 16px;
@@ -103,7 +119,7 @@
   @media (min-width: 1200px) {
     gap: 32px;
   }
-  @media (min-width: 1440px) {
-    gap: 50px;
-  }
+  // @media (min-width: 1440px) {
+  //   gap: 50px;
+  // }
 }

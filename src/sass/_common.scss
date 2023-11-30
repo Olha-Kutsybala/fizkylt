@@ -133,3 +133,10 @@
   padding: 0 0 48px;
   background-color: #fff;
 }
+
+@media (max-width: 500px) {
+  .center-mobile {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
