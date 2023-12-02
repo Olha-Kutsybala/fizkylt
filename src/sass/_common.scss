@@ -3,7 +3,7 @@
   font-family: 'Druk Cyr';
   font-weight: 700;
   font-size: 24px;
-  text-align: center;
+  // text-align: center;
   line-height: 1.5;
   text-transform: uppercase;
   color: $dark-bg-color;
@@ -29,11 +29,17 @@
   box-shadow: 4px 4px 0px $black-color;
   border-radius: 12px;
   max-width: 625px;
+  margin-right: auto;
+  margin-left: auto;
 
   @media screen and (min-width: 768px) {
     padding: 30px;
     margin-bottom: 26px;
     gap: 16px;
+  }
+  @media screen and (min-width: 768px) {
+    // margin-right: 0;
+    // margin-left: 0;
   }
 }
 
