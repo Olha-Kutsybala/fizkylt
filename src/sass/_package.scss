@@ -142,12 +142,20 @@
   background-color: #6fc7b8;
   width: 129px;
   font-size: 16px;
+  &:hover,
+  &:focus {
+    background-color: #029179;
+  }
 }
 
 .package-base-button {
   background-color: #f18ea3;
   width: 129px;
   font-size: 16px;
+  &:hover,
+  &:focus {
+    background-color: #ee6c88;
+  }
 }
 
 .package-item-premium {

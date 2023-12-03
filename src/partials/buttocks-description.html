@@ -1,10 +1,10 @@
 <section id="description" class="container description">
   <div class="description-box">
-    <h2 class="title descr-title">
+    <h2 class="title">
       Цей інтенсив для <br />
       вас, якщо ви...
     </h2>
-    <ul class="bottom-60">
+    <ul class="descr-list description-list--block">
       <li class="descr-item">
         <svg class="descr-icon" width="24" height="24">
           <use href="./images/icons.svg#icon-chevrons-right"></use></svg
@@ -37,11 +37,13 @@
       </li>
     </ul>
   </div>
-  <h2 class="title descr-title">Результати за 21 день</h2>
-  <div class="result">
+</section>
+<section class="container result">
+  <h2 class="title">Результати за 21 день</h2>
+  <div class="result-descr-box">
     <div class="result-descr">
       <h3 class="result-descr-title">Помітні для оточення</h3>
-      <ul class="list package-item-descr-list">
+      <ul class="list result-list">
         <li class="package-item-descr">
           <svg class="arg-icon" width="20" height="20">
             <use href="./images/icons.svg#icon-check_orange"></use>
@@ -62,9 +64,9 @@
         </li>
       </ul>
     </div>
-    <div class="result-descr bottom-60">
+    <div class="result-descr">
       <h3 class="result-descr-title">Помітні лише для вас</h3>
-      <ul class="list package-item-descr-list">
+      <ul class="list result-list">
         <li class="package-item-descr">
           <svg class="arg-icon" width="20" height="20">
             <use href="./images/icons.svg#icon-check_orange"></use>
@@ -77,6 +79,12 @@
           </svg>
           Укріплення мʼязів тазового дна
         </li>
+        <li class="package-item-descr">
+          <svg class="arg-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-check_orange"></use>
+          </svg>
+          Підсилене відчуття оргазмів
+        </li>
       </ul>
     </div>
   </div>
@@ -85,74 +93,55 @@
     <p class="result-text">Результати можуть мати побічні ефекти:</p>
     <ul class="list warning-list">
       <li class="warning-item">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="19"
-          viewBox="0 0 20 19"
-          fill="none"
-        >
-          <path
-            d="M9.99976 0L12.2449 6.90983H19.5103L13.6325 11.1803L15.8776 18.0902L9.99976 13.8197L4.1219 18.0902L6.36704 11.1803L0.489191 6.90983H7.75462L9.99976 0Z"
-            fill="#FF7400"
-          />
+        <svg class="warning-icon" width="20" height="20">
+          <use href="./images/icons.svg#icon-star"></use>
         </svg>
         Яскраві оргазми
       </li>
       <li class="warning-item">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="19"
-          viewBox="0 0 20 19"
-          fill="none"
-        >
-          <path
-            d="M9.99976 0L12.2449 6.90983H19.5103L13.6325 11.1803L15.8776 18.0902L9.99976 13.8197L4.1219 18.0902L6.36704 11.1803L0.489191 6.90983H7.75462L9.99976 0Z"
-            fill="#FF7400"
-          />
+        <svg class="warning-icon" width="20" height="20">
+          <use href="./images/icons.svg#icon-star"></use>
         </svg>
         Частіше залипання на власне відображення в дзеркалі (в одязі та без)
       </li>
     </ul>
   </div>
-  <div class="description-box1">
-    <div>
-      <h3 class="accent-title">Приєднуйтесь та отримайте</h3>
-      <ul class="list accent-list descr-accent-list-tablet">
-        <li class="accent-item">
-          <svg class="accent-icon" width="12" height="12">
-            <use href="./images/icons.svg#icon-cd"></use>
-          </svg>
-          3 тренування щотижня тривалістю 30-35 хвилин
-        </li>
-        <li class="accent-item">
-          <svg class="accent-icon" width="12" height="12">
-            <use href="./images/icons.svg#icon-cd"></use>
-          </svg>
-          3 комплекси вправ щотижня на гнучкість, розслаблення, баланс та інші
-          аспекти (кожен комплекс тривалістю 10-15 хвилин)
-        </li>
-        <li class="accent-item">
-          <svg class="accent-icon" width="12" height="12">
-            <use href="./images/icons.svg#icon-cd"></use></svg
-          >Рекомендації щодо зменшення проявів целюліту
-        </li>
-        <li class="accent-item">
-          <svg class="accent-icon" width="12" height="12">
-            <use href="./images/icons.svg#icon-cd"></use></svg
-          >Рекомендації щодо харчування від нашого нутриціолога
-        </li>
-        <li class="accent-item">
-          <svg class="accent-icon" width="12" height="12">
-            <use href="./images/icons.svg#icon-cd"></use></svg
-          >Конструктор збалансованих тарілок
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <a class="button button-transparent-bg hidden-button" href="#package"
-    >купити</a
-  >
 </section>
+
+<div class="description-box1">
+  <div>
+    <h3 class="accent-title">Приєднуйтесь та отримайте</h3>
+    <ul class="list accent-list descr-accent-list-tablet">
+      <li class="accent-item">
+        <svg class="accent-icon" width="12" height="12">
+          <use href="./images/icons.svg#icon-cd"></use>
+        </svg>
+        3 тренування щотижня тривалістю 30-35 хвилин
+      </li>
+      <li class="accent-item">
+        <svg class="accent-icon" width="12" height="12">
+          <use href="./images/icons.svg#icon-cd"></use>
+        </svg>
+        3 комплекси вправ щотижня на гнучкість, розслаблення, баланс та інші
+        аспекти (кожен комплекс тривалістю 10-15 хвилин)
+      </li>
+      <li class="accent-item">
+        <svg class="accent-icon" width="12" height="12">
+          <use href="./images/icons.svg#icon-cd"></use></svg
+        >Рекомендації щодо зменшення проявів целюліту
+      </li>
+      <li class="accent-item">
+        <svg class="accent-icon" width="12" height="12">
+          <use href="./images/icons.svg#icon-cd"></use></svg
+        >Рекомендації щодо харчування від нашого нутриціолога
+      </li>
+      <li class="accent-item">
+        <svg class="accent-icon" width="12" height="12">
+          <use href="./images/icons.svg#icon-cd"></use></svg
+        >Конструктор збалансованих тарілок
+      </li>
+    </ul>
+  </div>
+</div>
+
+<a class="button button-transparent-bg hidden-button" href="#package">купити</a>

@@ -53,6 +53,14 @@
   font-weight: 800;
   line-height: 150%;
   text-decoration-line: underline;
+  text-underline-offset: 4px;
+  transition: all 0.25s;
+  &:hover,
+  &:focus {
+    color: $accent-bg-color;
+    text-decoration: underline #f87a10 2px;
+    // text-underline-offset: 4px;
+  }
 
   @media screen and (min-width: 1200px) {
     font-size: 22px;

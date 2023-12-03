@@ -17,6 +17,11 @@
   font-weight: 400;
   line-height: normal;
   cursor: pointer;
+  transition: color 0.5s;
+  &:hover,
+  &:focus {
+    color: $accent-bg-color;
+  }
 }
 
 @media screen and (max-width: 767px) {
