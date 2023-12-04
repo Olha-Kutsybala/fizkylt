@@ -25,24 +25,11 @@
     </div>
     <picture>
       <source
-        srcset="./images/trainer-desktop.webp 1x"
-        media="(min-width: 1200px)"
-        type="image/webp"
-        width="774"
-        height="607"
-      />
-      <source
-        srcset="./images/trainer-desktop.jpg 1x"
-        width="774"
-        height="607"
-        media="(min-width: 1200px)"
-      />
-      <source
         srcset="
           ./images/trainer-mobile.webp    1x,
           ./images/trainer-mobile@2x.webp 2x
         "
-        media="(max-width: 767px)"
+        media="(max-width: 999px)"
         type="image/webp"
       />
       <source
@@ -50,7 +37,7 @@
           ./images/trainer-mobile.jpg    1x,
           ./images/trainer-mobile@2x.jpg 2x
         "
-        media="(max-width: 1199px)"
+        media="(max-width: 999px)"
         type="image/jpg"
       />
       <img
@@ -59,6 +46,31 @@
         class="trainer-foto"
         width="334"
         height="433"
+      />
+    </picture>
+    <picture>
+      <source
+        srcset="
+          ./images/trainer-desktop.webp    1x,
+          ./images/trainer-desktop@2x.webp 2x
+        "
+        media="(min-width: 1200px)"
+        type="image/webp"
+      />
+      <source
+        srcset="
+          ./images/trainer-desktop.jpg    1x,
+          ./images/trainer-desktop@2x.jpg 2x
+        "
+        media="(min-width: 1200px)"
+      />
+
+      <img
+        src="./images/trainer-desktop.jpg"
+        alt="Тренер"
+        class="trainer-foto--desktop"
+        width="750"
+        height="604"
       />
     </picture>
   </div>

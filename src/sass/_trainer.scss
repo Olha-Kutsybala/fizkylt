@@ -32,6 +32,26 @@
   margin-bottom: 32px;
   margin-right: auto;
   margin-left: auto;
+  min-width: 334px;
+  max-width: 334px;
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+}
+.trainer-foto--desktop {
+  min-width: 450px;
+  max-width: 450px;
+  @media screen and (max-width: 999px) {
+    display: none;
+  }
+  @media screen and (min-width: 1100px) {
+    min-width: 600px;
+    max-width: 600px;
+  }
+  @media screen and (min-width: 1400px) {
+    min-width: 750px;
+    max-width: 750px;
+  }
 }
 
 .trainer-ed-title {
@@ -65,10 +85,19 @@
   color: $black-color;
 
   @media screen and (min-width: 768px) {
-    min-width: 340px;
-    max-width: 340px;
+    min-width: 300px;
+    max-width: 300px;
     font-size: 16px;
   }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 375px;
+    max-width: 375px;
+  }
+}
+
+.trainer-ed-list {
+  margin-bottom: 30px;
 }
 
 .trainer-expirience-list {
@@ -153,15 +182,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .trainer-desktop-box {
-    display: flex;
-    gap: 35px;
-    align-items: center;
-  }
-
-  .trainer-desktop-box1 {
-    max-width: 120px;
-  }
+  // .trainer-desktop-box1 {
+  //   max-width: 120px;
+  // }
 
   .trainer-quote-hidden {
     display: block;
@@ -183,12 +206,8 @@
     column-count: 2;
   }
 
-  .trainer-desktop-box1 {
-    max-width: 420px;
-  }
-
   .trainer-desktop-box {
-    gap: 75px;
+    gap: 65px;
   }
 
   .quote-desktop {
@@ -228,5 +247,19 @@
     bottom: -10%;
     right: -5%;
     transform: rotate(180deg);
+  }
+}
+.trainer-desktop-box {
+  @media screen and (min-width: 950px) {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.trainer-desktop-box1 {
+  @media screen and (min-width: 950px) {
+    max-width: 450px;
   }
 }
