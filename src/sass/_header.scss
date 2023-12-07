@@ -22,9 +22,6 @@
   @media screen and (min-width: 1310px) {
     padding: 6px 40px 6px 40px;
   }
-  // @media screen and (min-width: 1440px) {
-  //   padding: 3px 80px 0px 80px;
-  // }
 }
 
 .header_container-white {
@@ -74,9 +71,7 @@
   text-align: center;
 
   @media screen and (min-width: 768px) {
-    // display: block;
     line-height: normal;
-    // max-width: 274px;
     font-size: 14px;
   }
 
@@ -109,7 +104,6 @@
 
 .header__menu {
   align-items: center;
-  // justify-content: space-between;
 
   @media (max-width: 767px) {
     display: none;
@@ -128,7 +122,4 @@
   @media (min-width: 1200px) {
     gap: 32px;
   }
-  // @media (min-width: 1440px) {
-  //   gap: 50px;
-  // }
 }

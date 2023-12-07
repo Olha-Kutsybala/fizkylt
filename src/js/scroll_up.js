@@ -7,9 +7,9 @@ const scrollContainer = () => {
 
 document.addEventListener('scroll', () => {
   if (scrollContainer().scrollTop > showOnPx) {
-    backToTopButton.classList.remove('hidden');
+    backToTopButton.classList.remove('hidden-scroll');
   } else {
-    backToTopButton.classList.add('hidden');
+    backToTopButton.classList.add('hidden-scroll');
   }
 });
 

@@ -14,12 +14,9 @@
 
 .footer-create-link {
   font-size: 12px;
-  font-weight: 400;
-  line-height: normal;
   cursor: pointer;
   transition: color 0.5s;
-  &:hover,
-  &:focus {
+  &:hover {
     color: $accent-bg-color;
   }
 }
@@ -36,6 +33,11 @@
   .footer-create-box {
     display: flex;
     justify-content: space-between;
+  }
+
+  .footer-create-box1 {
+    display: flex;
+    flex-direction: column;
   }
 }
 
