@@ -28,6 +28,12 @@
   }
 }
 
+.description-box--fitness {
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 80px;
+  }
+}
+
 .descr-list {
   display: flex;
   flex-wrap: wrap;
@@ -77,6 +83,21 @@
   }
   @media screen and (min-width: 1300px) {
     min-width: 400px;
+  }
+
+  &--big {
+    @media screen and (min-width: 768px) {
+      min-width: 200px;
+    }
+    @media screen and (min-width: 850px) {
+      min-width: 260px;
+    }
+    @media screen and (min-width: 1000px) {
+      min-width: 350px;
+    }
+    @media screen and (min-width: 1300px) {
+      min-width: 450px;
+    }
   }
 }
 
@@ -443,6 +464,25 @@
   max-width: 640px;
 }
 
+.follow-fitness-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    transform: translateX(15%);
+    padding-bottom: 120px;
+  }
+  @media screen and (min-width: 1300px) {
+    transform: translateX(20%);
+  }
+  @media screen and (min-width: 1400px) {
+    transform: translateX(15%);
+  }
+}
+
 .follow-container {
   background-color: $white-color;
   display: flex;
@@ -460,6 +500,9 @@
 }
 
 .follow-fitness {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $white-color;
   @media screen and (min-width: 1200px) {
     max-width: 1440px;
     background-image: url(../images/fitness-bg.jpg);
