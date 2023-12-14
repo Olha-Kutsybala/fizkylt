@@ -209,7 +209,7 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 0.9;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-align: end;
     margin-bottom: 40px;
   }
@@ -238,7 +238,6 @@
       display: none;
     }
     -webkit-text-stroke: 3px $dark-bg-color;
-    letter-spacing: 1px;
   }
 
   &--right {
@@ -247,6 +246,16 @@
   @media screen and (max-width: 899px) {
     &--left {
       text-align: end;
+    }
+  }
+
+  &-transparent--small {
+    @media screen and (min-width: 768px) {
+      font-size: 68px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 80px;
     }
   }
 }

@@ -39,6 +39,7 @@
   }
 }
 .trainer-foto--desktop {
+  border-radius: 12px;
   min-width: 450px;
   max-width: 450px;
   @media screen and (max-width: 999px) {
@@ -111,6 +112,7 @@
 }
 
 .trainer-expirience {
+  text-align: center;
   @media screen and (min-width: 768px) {
     display: none;
   }
