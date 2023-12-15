@@ -26,17 +26,17 @@ $(document).ready(function () {
   $('.carousel').slick({
     slidesToShow: 3,
     dots: true,
-    arrows: false,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1199,
         settings: {
-          arrows: false,
+          // arrows: false,
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 600,
         settings: {
           arrows: false,
           slidesToShow: 1,
