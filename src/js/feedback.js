@@ -31,7 +31,7 @@ $(document).ready(function () {
       {
         breakpoint: 1199,
         settings: {
-          // arrows: false,
+          arrows: false,
           slidesToShow: 2,
         },
       },
