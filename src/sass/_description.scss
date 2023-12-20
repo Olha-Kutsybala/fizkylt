@@ -276,15 +276,6 @@
   }
 }
 
-.result-list-padding {
-  @media screen and (min-width: 700px) and (max-width: 715px) {
-    padding-bottom: 24px;
-  }
-  @media screen and (min-width: 768px) and (max-width: 985px) {
-    padding-bottom: 16px;
-  }
-}
-
 .result-text {
   font-size: 14px;
   font-weight: 600;
@@ -303,6 +294,7 @@
   font-weight: 700;
   letter-spacing: 0.48px;
   text-transform: uppercase;
+  color: $dark-bg-color;
   margin-bottom: 12px;
   @media screen and (min-width: 1000px) {
     font-size: 32px;
@@ -352,7 +344,7 @@
 }
 
 .warning--desktop-text {
-  color: #000;
+  color: $dark-bg-color;
   font-size: 20px;
   font-weight: 800;
   line-height: 150%;
