@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   background-color: rgb(89, 92, 110);
-  padding: 54px 20px 24px;
+  padding: 30px 20px 24px;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -25,11 +25,18 @@
 
 .hero-main {
   @media screen and (min-width: 768px) {
-    padding: 60px 80px 80px;
+    padding: 40px 80px 30px;
+  }
+  @media screen and (min-width: 1000px) {
+    padding: 80px 80px 117px;
   }
 }
 
 .hero-fitness {
+  padding: 30px 20px 24px;
+  // @media screen and (min-width: 440px) {
+  //   padding: 112px 40px 60px;
+  // }
   @media screen and (min-width: 1000px) {
     padding: 112px 40px 60px;
   }
@@ -164,7 +171,8 @@
 
   @media screen and (min-width: 768px) {
     max-width: 1440px;
-    background-position: 30% 50%;
+    height: 748px;
+    background-position: 20% 50%;
     background-image: url(../images/hero-buttocks-desktop.jpg);
 
     @media (min-device-pixel-ratio: 2),
@@ -175,6 +183,12 @@
         background-image: url(../images/hero-buttocks-desktop@2x.jpg);
       }
     }
+  }
+  @media screen and (min-width: 1000px) {
+    background-position: 25% 50%;
+  }
+  @media screen and (min-width: 1300px) {
+    background-position: 40% 50%;
   }
 }
 .hero-bg-fitness {
@@ -193,11 +207,12 @@
     }
   }
 
-  @media screen and (min-width: 500px) {
-    background-position: 50% 30%;
-  }
+  // @media screen and (min-width: 500px) {
+  //   background-position: 50% 30%;
+  // }
 
   @media screen and (min-width: 1000px) {
+    background-position: 50% 30%;
     max-width: 1440px;
     background-image: url(../images/hero-fitness-desktop.jpg);
 
@@ -217,12 +232,16 @@
   font-family: 'Druk Cyr';
   font-style: italic;
   font-weight: 900;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 96%; /* 46.08px */
   color: transparent;
   -webkit-text-stroke: 1px $dark-bg-color;
-  margin-bottom: 20px;
+  // margin-bottom: 160px;
   text-align: center;
+
+  @media screen and (min-width: 440px) {
+    font-size: 48px;
+  }
 
   @media screen and (min-width: 768px) {
     font-size: 72px;
@@ -286,6 +305,13 @@
       font-size: 80px;
     }
   }
+
+  &--fitness {
+    margin-bottom: 70px;
+    @media screen and (min-width: 500px) {
+      margin-bottom: 200px;
+    }
+  }
 }
 
 .hero-title-icon--left {
@@ -302,6 +328,17 @@
 .hero-title-icon {
   @media screen and (min-width: 768px) {
     display: none;
+  }
+}
+
+.hero-title-icon--fitness {
+  @media screen and (max-width: 440px) {
+    width: 150px;
+    height: 90px;
+  }
+  @media screen and (min-width: 440px) {
+    width: 172px;
+    height: 112px;
   }
 }
 
@@ -336,10 +373,18 @@
 .hero-descr--body {
   color: #000;
   text-align: end;
-  font-size: 22px;
+  font-size: 10px;
   font-weight: 500;
   line-height: 150%; /* 42px */
   text-transform: uppercase;
+
+  @media screen and (min-width: 440px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+  }
 
   @media screen and (min-width: 1200px) {
     font-size: 28px;
@@ -363,7 +408,7 @@
     padding: 10px 12px 10px 16px;
     border-radius: 28px 0px 28px 28px;
     background-color: #fff;
-    width: 312px;
+    max-width: 312px;
     box-shadow: 4px 4px 0px 0px #000;
   }
 
@@ -395,6 +440,7 @@
     @media screen and (max-width: 767px) {
       background-color: $accent-bg-color;
       max-width: 252px;
+      margin-bottom: 117px;
 
       @media screen and (min-width: 550px) {
         font-size: 18px;
@@ -445,7 +491,8 @@
   @media screen and (min-width: 768px) {
     margin-left: auto;
     width: 280px;
-    text-align: start;
+    text-align: end;
+    margin-bottom: 220px;
   }
   @media screen and (min-width: 900px) {
     margin-right: auto;
@@ -453,6 +500,7 @@
     font-size: 22px;
     font-weight: 500;
     min-width: 400px;
+    text-align: start;
     max-width: 400px;
   }
 }
@@ -474,6 +522,14 @@
   }
 }
 .hero-title-stomache {
+  margin-bottom: 162px;
+  @media screen and (min-width: 500px) {
+    margin-bottom: 220px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
   @media screen and (min-width: 900px) {
     text-align: start;
   }
@@ -481,9 +537,11 @@
 
 .hero-title-buttocks {
   text-align: start;
+  margin-bottom: 160px;
   @media screen and (min-width: 768px) {
     text-align: end;
     line-height: 1;
+    // margin-bottom: 160px;
   }
 }
 
