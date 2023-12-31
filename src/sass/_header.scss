@@ -58,8 +58,13 @@
   }
 }
 .logo-icon {
-  width: 98px;
-  height: 33px;
+  width: 82px;
+  height: 28px;
+
+  @media screen and (min-width: 440px) {
+    width: 98px;
+    height: 33px;
+  }
   @media screen and (min-width: 768px) {
     width: 82px;
     height: 28px;
@@ -79,14 +84,18 @@
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 10px;
   color: $accent-bg-color;
   text-transform: uppercase;
-  text-align: center;
+  @media screen and (min-width: 440px) {
+    line-height: normal;
+    font-size: 12px;
+  }
 
   @media screen and (min-width: 768px) {
     line-height: normal;
     font-size: 14px;
+    text-align: center;
   }
 
   @media screen and (min-width: 1440px) {

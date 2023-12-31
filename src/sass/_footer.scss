@@ -13,11 +13,14 @@
 }
 
 .footer-create-link {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   transition: color 0.5s;
   &:hover {
     color: $accent-bg-color;
+  }
+  @media screen and (min-width: 375px) {
+    font-size: 12px;
   }
 }
 
