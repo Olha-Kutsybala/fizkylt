@@ -51,6 +51,10 @@
   padding: 30px 30px;
   border-left: 1px solid $accent-bg-color;
   border-right: 1px solid $accent-bg-color;
+  @media screen and (max-width: 375px) {
+    margin: 20px 0 20px;
+    padding: 10px;
+  }
 }
 
 .mobile-menu__link {
