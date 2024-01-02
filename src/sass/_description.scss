@@ -124,9 +124,6 @@
   }
   @media screen and (min-width: 768px) {
     gap: 20px;
-    // &:not(:last-child) {
-    //   margin-bottom: 18px;
-    // }
   }
   @media screen and (min-width: 900px) {
     width: 550px;
@@ -244,8 +241,6 @@
   @media screen and (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
-    // align-items: stretch;
-    // gap: 0px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -380,34 +375,6 @@
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
-  // display: block;
-  // margin-right: auto;
-  // margin-left: auto;
-  // width: 280px;
-  // // height: 205px;
-  // @media screen and (min-width: 440px) {
-  //   width: 320px;
-  //   // height: 205px;
-  // }
-  // @media screen and (min-width: 500px) {
-  //   width: 420px;
-  //   height: 230px;
-  // }
-  // @media screen and (min-width: 768px) {
-  //   width: 650px;
-  //   height: 400px;
-  // }
-  // @media screen and (min-width: 1000px) {
-  //   width: 850px;
-  //   height: 600px;
-  // }
-  // @media screen and (min-width: 1200px) {
-  //   width: 1000px;
-  // }
-  // @media screen and (min-width: 1440px) {
-  //   width: 1272px;
-  //   height: 742px;
-  // }
 }
 .fitness-try-video iframe {
   position: absolute;
@@ -534,62 +501,3 @@
     }
   }
 }
-
-// @media screen and (max-width: 1439px) {
-//   .fizkylt-poster {
-//     display: none;
-//   }
-// }
-
-// @media screen and (min-width: 1440px) {
-//   .fizkylt-poster {
-//     position: relative;
-//     // overflow: hidden;
-//   }
-//   .fizkylt-poster-container {
-//     // display: block;
-//     position: absolute;
-//     // overflow: hidden;
-//     background-color: $white-color;
-//     padding: 0;
-//     top: 200px;
-//     left: 0;
-//   }
-//   .fizkylt-poster-box {
-//     // position: absolute;
-//     // overflow: hidden;
-//     transform: rotate(-10deg);
-//     // transform: translateX(-22px) translateY(200px) rotate(-10deg);
-//   }
-
-//   .follow-z-ind {
-//     position: relative;
-//     z-index: 5;
-//   }
-//   .fizkylt-poster-box3 {
-//     // position: absolute;
-//     // overflow: hidden;
-//     transform: rotate(-10deg);
-//     // transform: translateX(-22px) translateY(440px) rotate(-10deg);
-//   }
-
-//   .fizkylt-poster-box2 {
-//     // position: absolute;
-//     // overflow: hidden;
-//     transform: rotate(-10deg);
-//     // transform: translateX(-35px) translateY(330px) rotate(-10deg);
-//   }
-//   .fizkylt-poster-text {
-//     // position: absolute;
-//     font-family: Roboto;
-//     font-size: 150px;
-//     font-style: italic;
-//     font-weight: 900;
-//     line-height: 0.9;
-//     letter-spacing: 6px;
-//     text-transform: uppercase;
-//     color: transparent;
-//     -webkit-text-stroke: 4px #efefef;
-//     white-space: nowrap;
-//   }
-// }
