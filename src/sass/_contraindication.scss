@@ -12,44 +12,32 @@
 }
 
 .contraindication-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
   @media screen and (min-width: 1200px) {
     gap: 30px;
   }
 }
 
-.contraindication-item {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 130px;
-  @media screen and (min-width: 375px) {
-    width: 158px;
-  }
-  @media screen and (min-width: 707px) {
-    width: 180px;
-  }
-  @media screen and (min-width: 836px) {
-    width: 200px;
-  }
-  @media screen and (min-width: 916px) {
-    width: 250px;
-  }
-  @media screen and (min-width: 1100px) {
-    width: 300px;
-  }
+// .contraindication-item {
+//   display: flex;
+//   flex-direction: column;
 
-  @media screen and (min-width: 1330px) {
-    width: 370px;
-  }
-}
+// }
 
 .contraindication-foto {
-  width: 100%;
+  @media (min-width: 280px) and (max-width: 320px) {
+    max-width: 120px;
+  }
+  @media (min-width: 321px) {
+    width: 100%;
+  }
   margin-bottom: 12px;
 
   @media screen and (min-width: 1200px) {
@@ -64,13 +52,16 @@
   font-weight: 800;
   line-height: 1.5;
 
-  @media screen and (min-width: 995px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
   }
   @media screen and (min-width: 1200px) {
     font-size: 26px;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 32px;
   }
 }
 
@@ -80,7 +71,7 @@
   font-weight: 500;
   line-height: 1.5;
 
-  @media screen and (min-width: 995px) {
+  @media screen and (min-width: 768px) {
     font-size: 18px;
     text-align: center;
   }

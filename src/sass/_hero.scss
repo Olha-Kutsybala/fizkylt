@@ -71,7 +71,8 @@
 
 .hero-bg-main {
   background-image: url(../images/hero_mobile.jpg);
-  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -86,7 +87,8 @@
 
   @media screen and (min-width: 1000px) {
     max-width: 1440px;
-    background-position: 75%;
+    background-position-x: 85%;
+    background-position-y: 60px;
     height: 860px;
     background-image: url(../images/hero-desktop.jpg);
 
@@ -99,14 +101,12 @@
       }
     }
   }
-  @media screen and (min-width: 1100px) {
-    background-position: 80%;
-  }
 }
 
 .hero-bg-body {
   background-image: url(../images/hero-mobile-body.jpg);
-  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: 30px;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -119,9 +119,14 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media (min-width: 500px) {
+    background-position-y: 15%;
+  }
+
+  @media screen and (min-width: 600px) {
     max-width: 1440px;
-    background-position: 50%;
+    background-position-y: 50%;
+    background-position-x: 70%;
     background-image: url(../images/hero-body-desktop.jpg);
 
     @media (min-device-pixel-ratio: 2),
@@ -137,7 +142,8 @@
 
 .hero-bg-stomache {
   background-image: url(../images/hero-stomache-mobile.jpg);
-  background-position: 50%;
+  background-position-y: 60px;
+  background-position-x: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -150,15 +156,7 @@
     }
   }
 
-  @media screen and (min-width: 480px) {
-    background-position: 50% 20%;
-  }
-
-  @media screen and (min-width: 550px) {
-    background-position: 50% 50px;
-  }
-
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 600px) {
     max-width: 1440px;
     background-position: 50%;
     background-image: url(../images/hero-stomache-desktop.jpg);
@@ -176,7 +174,8 @@
 
 .hero-bg-buttocks {
   background-image: url(../images/hero-mobile-buttocks.jpg);
-  background-position: 40% 50px;
+  background-position-x: 50%;
+  background-position-y: 60px;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 auto;
@@ -192,7 +191,7 @@
 
   @media screen and (min-width: 768px) {
     max-width: 1440px;
-    background-position: 20% 50%;
+    background-position-y: 0;
     background-image: url(../images/hero-buttocks-desktop.jpg);
 
     @media (min-device-pixel-ratio: 2),
@@ -204,17 +203,12 @@
       }
     }
   }
-  @media screen and (min-width: 1000px) {
-    background-position: 25% 50%;
-  }
-  @media screen and (min-width: 1300px) {
-    background-position: 40% 50%;
-  }
 }
 
 .hero-bg-fitness {
   background-image: url(../images/hero-fitness-mobile.jpg);
-  background-position: 30%;
+  background-position-x: 20%;
+  background-position-y: 60px;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -227,8 +221,13 @@
     }
   }
 
+  @media (min-width: 400px) {
+    background-position-y: 10%;
+  }
+
   @media screen and (min-width: 768px) {
-    background-position: 30%;
+    background-position-y: 50%;
+    background-position-x: 30%;
     max-width: 1440px;
     background-image: url(../images/hero-fitness-desktop.jpg);
 
@@ -240,10 +239,6 @@
         background-image: url(../images/hero-fitness-desktop@2x.jpg);
       }
     }
-  }
-
-  @media screen and (min-width: 1000px) {
-    background-position: 50%;
   }
 }
 
@@ -266,7 +261,7 @@
   @media screen and (min-width: 768px) {
     font-size: 72px;
     font-weight: 900;
-    line-height: 0.9;
+    line-height: 1;
     -webkit-text-stroke: 2px $dark-bg-color;
   }
 
@@ -329,9 +324,12 @@
   &--body {
     font-size: 42px;
     margin-bottom: 162px;
-    text-align: end;
+
     @media screen and (min-width: 500px) {
       font-size: 52px;
+    }
+    @media screen and (min-width: 600px) {
+      text-align: end;
     }
     @media screen and (min-width: 768px) {
       font-size: 70px;
@@ -346,9 +344,9 @@
     margin-bottom: 162px;
     @media screen and (min-width: 600px) {
       margin-bottom: 24px;
+      text-align: start;
     }
     @media screen and (min-width: 768px) {
-      text-align: start;
       margin-bottom: 57px;
     }
   }
@@ -418,6 +416,7 @@
   &--body {
     @media screen and (min-width: 768px) {
       margin-bottom: 229px;
+      text-align: end;
     }
   }
 
@@ -448,6 +447,7 @@
   &--stomache {
     @media screen and (min-width: 600px) {
       margin-right: 0;
+      margin-left: 0;
       background-color: transparent;
       text-align: start;
       box-shadow: none;
@@ -458,7 +458,6 @@
       max-width: 220px;
     }
     @media screen and (min-width: 768px) {
-      margin-left: 0;
       max-width: 320px;
     }
     @media screen and (min-width: 1200px) {
