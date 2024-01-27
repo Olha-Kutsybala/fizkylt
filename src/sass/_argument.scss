@@ -17,12 +17,19 @@
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 
+  @media screen and (min-width: 400px) {
+    padding-left: 30px;
+    gap: 30px;
+  }
+
   @media screen and (min-width: 900px) {
+    padding-left: 50px;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
   }
 
   @media screen and (min-width: 1200px) {
+    padding-left: 100px;
     gap: 60px;
   }
 }

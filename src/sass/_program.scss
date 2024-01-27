@@ -136,6 +136,18 @@
   display: none;
 }
 
+.program-button-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .program-box2 {
     display: flex;
@@ -176,12 +188,6 @@
     margin-right: auto;
     margin-left: auto;
     max-width: 750px;
-  }
-
-  .program-button-box {
-    display: flex;
-    gap: 80px;
-    justify-content: center;
   }
 }
 

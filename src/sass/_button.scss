@@ -2,8 +2,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 180px;
-  max-width: 180px;
+  width: 175px;
   padding: 16px 0;
   font-size: 16px;
   font-weight: 800;
@@ -12,7 +11,7 @@
   text-transform: uppercase;
   color: $dark-bg-color;
   border: none;
-  background-color: $accent-bg-color;
+  background-color: $white-color;
   box-shadow: 4px 4px 0px $black-color;
   border-radius: 100px;
   cursor: pointer;
@@ -25,56 +24,74 @@
 
   @media screen and (min-width: 1200px) {
     letter-spacing: 0.2px;
-    max-width: 270px;
+    // max-width: 260px;
     padding: 26px 0;
+    font-size: 20px;
   }
-}
 
-.button-transparent-bg {
-  background-color: transparent;
-  border: 2px solid $accent-bg-color;
-  box-shadow: none;
-}
+  &--accent {
+    background-color: $accent-bg-color;
 
-.program-button {
-  margin-bottom: 24px;
-  min-width: 270px;
-  max-width: 270px;
+    &--bottom {
+      margin-bottom: 60px;
 
-  @media screen and (min-width: 1000px) {
-    min-width: 360px;
-    max-width: 360px;
-    margin-bottom: 0;
-    margin-left: 0;
+      @media (min-width: 768px) {
+        margin-top: 48px;
+      }
+    }
+  }
+
+  &--program {
     margin-right: 0;
+    margin-left: 0;
   }
 }
 
-.program-button-border {
-  border: 2px solid $accent-bg-color;
-  line-height: 1.5;
-}
+// .button-transparent-bg {
+//   background-color: transparent;
+//   border: 2px solid $accent-bg-color;
+//   box-shadow: none;
+// }
 
-.program-button__transp {
-  background-color: transparent;
-  color: $white-color;
-  margin-bottom: 0;
-  border: 2px solid $accent-bg-color;
-  line-height: 1.5;
-  letter-spacing: 0.16px;
-}
+// .program-button {
+//   margin-bottom: 24px;
+//   min-width: 270px;
+//   max-width: 270px;
+
+//   @media screen and (min-width: 1000px) {
+//     min-width: 360px;
+//     max-width: 360px;
+//     margin-bottom: 0;
+//     margin-left: 0;
+//     margin-right: 0;
+//   }
+// }
+
+// .program-button-border {
+//   border: 2px solid $accent-bg-color;
+//   line-height: 1.5;
+// }
+
+// .program-button__transp {
+//   background-color: transparent;
+//   color: $white-color;
+//   margin-bottom: 0;
+//   border: 2px solid $accent-bg-color;
+//   line-height: 1.5;
+//   letter-spacing: 0.16px;
+// }
 
 .button_submit {
   width: auto;
 }
 
-.hero-button {
-  @media screen and (min-width: 1200px) {
-    min-width: 200px;
-    max-width: 200px;
-    padding: 30px 0;
-  }
-}
+// .hero-button {
+//   @media screen and (min-width: 1200px) {
+//     min-width: 200px;
+//     max-width: 200px;
+//     padding: 30px 0;
+//   }
+// }
 
 .hero-button-fitness {
   min-width: 272px;

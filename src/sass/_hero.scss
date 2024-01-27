@@ -25,7 +25,10 @@
     padding: 110px 36px 24px;
   }
   @media screen and (min-width: 768px) {
-    padding: 140px 40px 46px;
+    padding: 140px 40px 272px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding: 140px 120px 272px;
   }
 }
 
@@ -43,7 +46,7 @@
 }
 
 .hero-fitness {
-  padding: 110px 20px 24px;
+  padding: 90px 20px 24px;
 
   @media screen and (min-width: 550px) {
     padding: 140px 40px 24px;
@@ -56,13 +59,13 @@
 .hero-buttocks {
   padding: 90px 36px 24px;
   @media screen and (min-width: 375px) {
-    padding: 110px 36px 24px;
+    padding: 90px 36px 24px;
   }
   @media screen and (min-width: 768px) {
-    padding: 60px 40px 50px;
+    padding: 80px 40px 50px;
   }
   @media screen and (min-width: 900px) {
-    padding: 80px 50px 50px;
+    padding: 100px 50px 50px;
   }
   @media screen and (min-width: 1200px) {
     padding: 120px 90px 50px;
@@ -88,7 +91,7 @@
   @media screen and (min-width: 1000px) {
     max-width: 1440px;
     background-position-x: 85%;
-    background-position-y: 60px;
+    background-position-y: 30px;
     height: 860px;
     background-image: url(../images/hero-desktop.jpg);
 
@@ -221,9 +224,9 @@
     }
   }
 
-  @media (min-width: 400px) {
-    background-position-y: 10%;
-  }
+  // @media (min-width: 400px) {
+  //   background-position-y: 10%;
+  // }
 
   @media screen and (min-width: 768px) {
     background-position-y: 50%;
@@ -247,25 +250,28 @@
   font-family: 'Druk Cyr';
   font-style: italic;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 96%; /* 46.08px */
   color: transparent;
   -webkit-text-stroke: 1px $dark-bg-color;
   text-align: center;
   margin-bottom: 273px;
 
-  @media screen and (min-width: 440px) {
-    font-size: 48px;
-  }
+  // @media screen and (min-width: 440px) {
+  //   font-size: 40px;
+  // }
 
   @media screen and (min-width: 768px) {
-    font-size: 72px;
+    font-size: 54px;
     font-weight: 900;
     line-height: 1;
     -webkit-text-stroke: 2px $dark-bg-color;
   }
 
   @media screen and (min-width: 1200px) {
+    font-size: 86px;
+  }
+  @media screen and (min-width: 1440px) {
     font-size: 100px;
   }
 
@@ -329,7 +335,7 @@
       font-size: 52px;
     }
     @media screen and (min-width: 600px) {
-      text-align: end;
+      // text-align: end;
     }
     @media screen and (min-width: 768px) {
       font-size: 70px;
@@ -414,9 +420,14 @@
   }
 
   &--body {
+    margin-right: auto;
+    margin-left: auto;
     @media screen and (min-width: 768px) {
-      margin-bottom: 229px;
-      text-align: end;
+      margin-bottom: 32px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 32px;
+      font-size: 24px;
     }
   }
 
@@ -435,11 +446,11 @@
       max-width: 330px;
     }
     @media screen and (min-width: 1200px) {
-      max-width: 400px;
+      max-width: 450px;
       font-size: 20px;
     }
     @media screen and (min-width: 1440px) {
-      max-width: 496px;
+      max-width: 550px;
       font-size: 28px;
     }
   }
@@ -468,6 +479,10 @@
   &--buttocks {
     max-width: 252px;
     margin-bottom: 103px;
+
+    &--orange {
+      color: $accent-bg-color;
+    }
     @media screen and (max-width: 767px) {
       border-radius: 28px 0px 28px 28px;
       box-shadow: 4px 4px 0px 0px #000;
@@ -484,5 +499,17 @@
     @media screen and (min-width: 1200px) {
       max-width: 464px;
     }
+  }
+}
+
+.hero-container--body {
+  @media (min-width: 700px) {
+    margin-left: auto;
+  }
+}
+
+.hero-container--fitness {
+  @media (min-width: 768px) {
+    margin-right: auto;
   }
 }
