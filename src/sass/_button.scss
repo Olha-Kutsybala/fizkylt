@@ -19,14 +19,17 @@
 
   &:hover,
   &:focus {
-    background-color: #ff5100;
+    background-color: $accent-bg-color;
   }
 
   @media screen and (min-width: 1200px) {
     letter-spacing: 0.2px;
-    // max-width: 260px;
     padding: 26px 0;
     font-size: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 100px;
   }
 
   &--accent {
@@ -81,9 +84,9 @@
 //   letter-spacing: 0.16px;
 // }
 
-.button_submit {
-  width: auto;
-}
+// .button_submit {
+//   width: auto;
+// }
 
 // .hero-button {
 //   @media screen and (min-width: 1200px) {
@@ -93,8 +96,8 @@
 //   }
 // }
 
-.hero-button-fitness {
-  min-width: 272px;
-  max-width: 272px;
-  padding: 18px 0;
-}
+// .hero-button-fitness {
+//   min-width: 272px;
+//   max-width: 272px;
+//   padding: 18px 0;
+// }

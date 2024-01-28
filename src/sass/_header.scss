@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px 10px 13px 15px;
+    padding: 8px 10px 8px 15px;
     gap: 3px;
   }
 
@@ -34,12 +34,12 @@
   align-items: center;
   justify-content: space-between;
 }
-.header_logo_container {
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  justify-content: space-between;
-}
+// .header_logo_container {
+//   display: flex;
+//   gap: 5px;
+//   align-items: center;
+//   justify-content: space-between;
+// }
 
 @media screen and (min-width: 768px) {
   .header_logo_container-767 {
@@ -58,28 +58,28 @@
 //     display: none;
 //   }
 // }
-.logo-icon {
-  width: 82px;
-  height: 28px;
+// .logo-icon {
+//   width: 82px;
+//   height: 28px;
 
-  @media screen and (min-width: 440px) {
-    width: 98px;
-    height: 33px;
-  }
-  @media screen and (min-width: 768px) {
-    width: 82px;
-    height: 28px;
-  }
-  @media screen and (min-width: 1000px) {
-    width: 146px;
-    height: 49px;
-  }
+//   @media screen and (min-width: 440px) {
+//     width: 98px;
+//     height: 33px;
+//   }
+//   @media screen and (min-width: 768px) {
+//     width: 82px;
+//     height: 28px;
+//   }
+//   @media screen and (min-width: 1000px) {
+//     width: 146px;
+//     height: 49px;
+//   }
 
-  @media screen and (min-width: 1200px) {
-    width: 146px;
-    height: 49px;
-  }
-}
+//   @media screen and (min-width: 1200px) {
+//     width: 146px;
+//     height: 49px;
+//   }
+// }
 
 .header-title {
   font-family: 'Roboto', sans-serif;
@@ -95,8 +95,12 @@
 
   @media screen and (min-width: 768px) {
     line-height: normal;
-    // font-size: 14px;
+    font-size: 10px;
     text-align: center;
+  }
+
+  @media screen and (min-width: 850px) {
+    font-size: 12px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -106,10 +110,13 @@
 
 .header__link {
   color: $white-color;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   line-height: normal;
   transition: all 0.25s;
+  @media screen and (min-width: 850px) {
+    font-size: 12px;
+  }
 
   @media screen and (min-width: 1000px) {
     font-size: 16px;
@@ -137,7 +144,7 @@
     display: flex;
     gap: 10px;
   }
-  @media (min-width: 1050px) {
+  @media (min-width: 900px) {
     gap: 20px;
   }
   @media (min-width: 1100px) {
