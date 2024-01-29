@@ -63,6 +63,10 @@
     width: 298px;
   }
 
+  &--notactive {
+    pointer-events: none;
+  }
+
   &__image {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
