@@ -14,7 +14,7 @@
     padding-top: 0;
   }
   &--small {
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 768px) {
       display: flex;
       justify-content: space-between;
     }
@@ -49,6 +49,12 @@
   @media screen and (min-width: 1000px) {
     display: none;
   }
+
+  &--new {
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
 }
 .trainer-foto--desktop {
   border-radius: 12px;
@@ -65,6 +71,25 @@
   @media screen and (min-width: 1400px) {
     min-width: 750px;
     max-width: 750px;
+  }
+
+  &--new {
+    border-radius: 12px;
+    min-width: 350px;
+    max-width: 350px;
+    margin-bottom: 0;
+
+    @media screen and (min-width: 1100px) {
+      min-width: 600px;
+      max-width: 600px;
+    }
+    @media screen and (min-width: 1400px) {
+      min-width: 750px;
+      max-width: 750px;
+    }
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
 }
 
@@ -265,15 +290,18 @@
   }
 }
 .trainer-desktop-box {
-  @media screen and (min-width: 950px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     gap: 35px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
 }
 
 .trainer-desktop-box1 {
+  @media screen and (min-width: 768px) {
+    max-width: 400px;
+  }
   @media screen and (min-width: 950px) {
     max-width: 450px;
   }
