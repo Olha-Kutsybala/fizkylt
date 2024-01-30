@@ -451,21 +451,22 @@
   }
 
   &--fitness {
-    text-align: start;
     max-width: 312px;
     @media screen and (max-width: 767px) {
       border-radius: 28px 0px 28px 28px;
       box-shadow: 4px 4px 0px 0px #000;
     }
     @media screen and (min-width: 768px) {
+      text-align: start;
       margin-bottom: 29px;
       margin-left: 0;
+      max-width: 290px;
     }
     @media screen and (min-width: 1000px) {
-      max-width: 330px;
+      max-width: 320px;
     }
     @media screen and (min-width: 1200px) {
-      max-width: 500px;
+      max-width: 450px;
       font-size: 20px;
     }
     @media screen and (min-width: 1440px) {
