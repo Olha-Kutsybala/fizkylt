@@ -14,8 +14,8 @@
 .description-box {
   @media screen and (min-width: 768px) {
     display: flex;
-    // justify-content: space-between;
     gap: 20px;
+    justify-content: space-between;
   }
 
   @media screen and (min-width: 850px) {
@@ -39,26 +39,35 @@
       margin-bottom: 120px;
     }
   }
-}
 
-.description-box--fitness {
-  @media screen and (min-width: 1200px) {
-    padding-bottom: 80px;
+  &--fitness {
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 80px;
+    }
+  }
+
+  &--black {
+    background-color: $dark-bg-color;
+    padding: 20px 20px;
+
+    @media screen and (min-width: 768px) {
+      padding: 40px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 80px;
+    }
   }
 }
 
 .descr-list {
   display: grid;
   grid-template-columns: 1fr;
-  // flex-wrap: wrap;
   gap: 20px;
   max-width: 440px;
-  // justify-content: center;
-  // margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
     transform: translateY(10px);
-    // max-width: 550px;
   }
 
   @media screen and (min-width: 1000px) {
@@ -73,46 +82,55 @@
   @media screen and (min-width: 1440px) {
     transform: translateY(35px);
   }
-}
 
-.descr-list--bootom {
-  margin-bottom: 60px;
-  // @media screen and (min-width: 768px) {
-  //   margin-bottom: 40px;
-  // }
+  &--bootom {
+    margin-bottom: 60px;
 
-  // @media screen and (min-width: 1000px) {
-  //   margin-bottom: 5px;
-  // }
-  @media screen and (min-width: 1300px) {
-    margin-bottom: 80px;
+    @media screen and (min-width: 1300px) {
+      margin-bottom: 80px;
+    }
+  }
+
+  &--black {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+
+    @media screen and (min-width: 400px) {
+      padding-left: 30px;
+    }
+
+    @media screen and (min-width: 600px) {
+      align-items: flex-start;
+    }
+
+    @media screen and (min-width: 900px) {
+      padding-left: 50px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    @media screen and (min-width: 1200px) {
+      gap: 117px;
+      padding-left: 100px;
+    }
   }
 }
 
 .descr-title {
   display: block;
-  width: 240px;
+  min-width: 240px;
+  max-width: 240px;
   @media screen and (min-width: 768px) {
-    width: 450px;
+    max-width: 300px;
   }
-
-  // &--big {
-  //   @media screen and (min-width: 768px) {
-  //     min-width: 200px;
-  //   }
-  //   @media screen and (min-width: 850px) {
-  //     min-width: 260px;
-  //   }
-  //   @media screen and (min-width: 1000px) {
-  //     min-width: 350px;
-  //   }
-  //   @media screen and (min-width: 1300px) {
-  //     min-width: 450px;
-  //   }
-  // }
+  @media screen and (min-width: 1200px) {
+    max-width: 640px;
+  }
 }
 
 .descr-subtitle {
+  display: block;
   color: #000;
   font-size: 20px;
   font-weight: 800;
@@ -120,6 +138,9 @@
   text-transform: none;
   margin-bottom: 36px;
   font-family: Mont;
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
 }
 
 .descr-item {
@@ -139,67 +160,29 @@
     font-size: 18px;
     line-height: normal;
   }
-}
 
-.description-box--black {
-  background-color: $dark-bg-color;
-  padding: 20px 20px;
+  &--white {
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    gap: 10px;
+    flex-direction: column;
+    line-height: 170%;
 
-  @media screen and (min-width: 768px) {
-    padding: 40px;
-  }
+    @media screen and (min-width: 376px) {
+      font-weight: 500;
+      font-size: 14px;
+    }
 
-  @media screen and (min-width: 1200px) {
-    padding: 80px;
-  }
-}
-
-.descr-list--black {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 20px;
-
-  @media screen and (min-width: 400px) {
-    padding-left: 30px;
-  }
-
-  @media screen and (min-width: 600px) {
-    align-items: flex-start;
-  }
-
-  @media screen and (min-width: 900px) {
-    padding-left: 50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-
-  @media screen and (min-width: 1200px) {
-    gap: 117px;
-    padding-left: 100px;
+    @media screen and (min-width: 1000px) {
+      font-size: 18px;
+    }
   }
 }
 
-.descr-item--white {
-  color: white;
-  font-weight: 300;
-  font-size: 12px;
-  gap: 10px;
-  flex-direction: column;
-  line-height: 170%;
-
-  @media screen and (min-width: 376px) {
-    font-weight: 500;
-    font-size: 14px;
-  }
-
-  @media screen and (min-width: 1000px) {
-    font-size: 18px;
-  }
-}
-
-.descr-item--baseline {
-  align-items: baseline;
-}
+// .descr-item--baseline {
+//   align-items: baseline;
+// }
 
 .descr-icon {
   min-width: 24px;
@@ -244,20 +227,11 @@
   padding: 18px 24px;
   border-radius: 12px;
   border: 1px solid #ff7400;
-  // width: 280px;
   max-width: 440px;
 
-  // @media screen and (min-width: 400px) {
-  //   width: 350px;
-  // }
   @media screen and (min-width: 768px) {
-    // width: 370px;
     max-width: 640px;
   }
-  //   @media screen and (min-width: 900px) {
-  //     padding: 32px 42px;
-  //     width: 400px;
-  //   }
 }
 
 .result-descr--new {
@@ -377,56 +351,6 @@
   top: 0;
 }
 
-.fitness-foto {
-  background-image: url(../images/fitness-mobile.jpg);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  width: 100%;
-  height: 233px;
-
-  @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    & {
-      background-image: url(../images/fitness-mobile@2x.jpg);
-    }
-  }
-
-  @media screen and (min-width: 500px) {
-    height: 330px;
-  }
-  @media screen and (min-width: 600px) {
-    height: 370px;
-  }
-
-  @media screen and (min-width: 768px) {
-    height: 500px;
-    max-width: 1440px;
-    background-image: url(../images/fitness-desktop.jpg);
-
-    @media (min-device-pixel-ratio: 2),
-      (-webkit-min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      & {
-        background-image: url(../images/fitness-desktop@2x.jpg);
-      }
-    }
-  }
-  @media screen and (min-width: 1000px) {
-    height: 600px;
-  }
-  @media screen and (min-width: 1200px) {
-    height: 800px;
-  }
-  @media screen and (min-width: 1440px) {
-    height: 894px;
-  }
-}
-
 .video {
   padding: 0 20px 60px;
   background-color: $white-color;
@@ -440,57 +364,52 @@
   }
 }
 
-// .follow {
-//   max-width: 640px;
-// }
-
-// .follow-fitness-box {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   @media screen and (min-width: 768px) {
-//     padding-bottom: 60px;
-//   }
-//   @media screen and (min-width: 1200px) {
-//     transform: translateX(15%);
-//     padding-bottom: 120px;
-//   }
-//   @media screen and (min-width: 1300px) {
-//     transform: translateX(20%);
-//   }
-//   @media screen and (min-width: 1400px) {
-//     transform: translateX(15%);
-//   }
-// }
-
-// .follow-container {
-//   background-color: $white-color;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;
-
-//   @media screen and (min-width: 768px) {
-//     padding-bottom: 60px;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     padding-bottom: 120px;
-//   }
-// }
-
-// .follow-fitness {
+// .fitness-foto {
+//   background-image: url(../images/fitness-mobile.jpg);
+//   background-position: 50%;
 //   background-repeat: no-repeat;
 //   background-size: cover;
-//   background-color: $white-color;
-//   @media screen and (min-width: 1200px) {
+//   margin: 0 auto;
+//   width: 100%;
+//   height: 233px;
+
+//   @media (min-device-pixel-ratio: 2),
+//     (-webkit-min-device-pixel-ratio: 2),
+//     (min-resolution: 192dpi),
+//     (min-resolution: 2dppx) {
+//     & {
+//       background-image: url(../images/fitness-mobile@2x.jpg);
+//     }
+//   }
+
+//   @media screen and (min-width: 500px) {
+//     height: 330px;
+//   }
+//   @media screen and (min-width: 600px) {
+//     height: 370px;
+//   }
+
+//   @media screen and (min-width: 768px) {
+//     height: 500px;
 //     max-width: 1440px;
-//     background-image: url(../images/fitness-bg.jpg);
+//     background-image: url(../images/fitness-desktop.jpg);
 
 //     @media (min-device-pixel-ratio: 2),
 //       (-webkit-min-device-pixel-ratio: 2),
 //       (min-resolution: 192dpi),
 //       (min-resolution: 2dppx) {
+//       & {
+//         background-image: url(../images/fitness-desktop@2x.jpg);
+//       }
 //     }
+//   }
+//   @media screen and (min-width: 1000px) {
+//     height: 600px;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     height: 800px;
+//   }
+//   @media screen and (min-width: 1440px) {
+//     height: 894px;
 //   }
 // }

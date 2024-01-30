@@ -13,14 +13,6 @@
   }
 }
 
-.trainer-expirience {
-  @media screen and (min-width: 768px) {
-    display: none;
-    margin-bottom: 18px;
-    font-size: 32px;
-  }
-}
-
 .accent-list {
   padding: 20px;
   margin-bottom: 32px;
@@ -57,7 +49,6 @@
     border: none;
     box-shadow: none;
     padding: 0;
-    // max-width: 440px;
     margin-bottom: 0;
     font-size: 14px;
     &:not(:last-child) {
@@ -91,7 +82,6 @@
   color: $dark-bg-color;
 
   @media screen and (min-width: 768px) {
-    // margin-bottom: 26px;
     gap: 16px;
     font-size: 16px;
   }
@@ -102,25 +92,15 @@
   }
 
   &--trainer {
-    // margin-bottom: 12px;
-    // display: flex;
     align-items: flex-start;
     gap: 6px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
-    // color: $black-color;
 
     @media screen and (min-width: 768px) {
-      // min-width: 300px;
-      // max-width: 300px;
       font-size: 16px;
     }
-
-    // @media screen and (min-width: 1200px) {
-    //   min-width: 375px;
-    //   max-width: 375px;
-    // }
   }
 }
 
@@ -149,43 +129,47 @@
   margin-bottom: 24px;
 }
 
-#try-main-bg {
-  background-color: #fff;
-}
+.line {
+  background-image: url(../images/line-bg.jpg);
+  background-position-x: 50%;
+  // background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  max-width: 1440px;
 
-.quote {
-  position: relative;
-  padding: 60px 20px 60px;
-  background-color: $white-color;
+  // @media (min-device-pixel-ratio: 2),
+  //   (-webkit-min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   & {
+  //     background-image: url(../images/hero_mobile@2x.jpg);
+  //   }
+  // }
 
   @media screen and (min-width: 768px) {
-    padding: 60px 40px 60px;
+    height: 130px;
   }
-
-  @media screen and (min-width: 1200px) {
-    padding: 100px 80px 120px;
+  @media screen and (min-width: 1000px) {
+    height: 170px;
   }
-}
-
-.quote-icon {
-  position: absolute;
-  top: 0;
-}
-.accent-bg {
-  background-color: $accent-bg-color;
-}
-
-.padding-left-16 {
-  padding-left: 16px;
-}
-.padding-48 {
-  padding: 0 0 48px;
-  background-color: #fff;
-}
-
-@media (max-width: 500px) {
-  .center-mobile {
-    margin-right: auto;
-    margin-left: auto;
+  @media screen and (min-width: 1300px) {
+    height: 190px;
   }
 }
+
+// #try-main-bg {
+//   background-color: #fff;
+// }
+
+// .accent-bg {
+//   background-color: $accent-bg-color;
+// }
+
+// .padding-left-16 {
+//   padding-left: 16px;
+// }
+// .padding-48 {
+//   padding: 0 0 48px;
+//   background-color: #fff;
+// }

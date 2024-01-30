@@ -17,8 +17,13 @@
   flex-wrap: wrap;
   row-gap: 24px;
   column-gap: 16px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: start;
+  }
+  @media screen and (min-width: 1200px) {
+    // flex-wrap: nowrap;
     gap: 30px;
   }
 }
@@ -50,18 +55,22 @@
     box-shadow: 4px 4px 0px 0px #000;
     width: 158px;
   }
+
+  @media screen and (min-width: 800px) {
+    width: 170px;
+  }
   @media screen and (min-width: 900px) {
     width: 190px;
   }
-  @media screen and (min-width: 1000px) {
-    width: 210px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 250px;
-  }
-  @media screen and (min-width: 1440px) {
-    width: 298px;
-  }
+  // @media screen and (min-width: 1000px) {
+  //   width: 210px;
+  // }
+  // @media screen and (min-width: 1200px) {
+  //   width: 250px;
+  // }
+  // @media screen and (min-width: 1440px) {
+  //   width: 298px;
+  // }
 
   &--notactive {
     pointer-events: none;

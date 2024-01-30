@@ -15,14 +15,22 @@
 .contraindication-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+
+  column-gap: 30px;
+  row-gap: 40px;
+
+  @media screen and (min-width: 500px) {
+    column-gap: 40px;
+  }
 
   @media screen and (min-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;
   }
 
   @media screen and (min-width: 1200px) {
-    gap: 30px;
+    column-gap: 80px;
+    row-gap: 80px;
   }
 }
 
@@ -31,12 +39,6 @@
 }
 
 .contraindication-foto {
-  // @media (min-width: 280px) and (max-width: 320px) {
-  //   max-width: 120px;
-  // }
-  // @media (min-width: 321px) {
-  //   width: 100%;
-  // }
   margin-bottom: 12px;
 
   @media screen and (min-width: 1200px) {

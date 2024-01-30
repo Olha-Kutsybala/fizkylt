@@ -34,12 +34,6 @@
   align-items: center;
   justify-content: space-between;
 }
-// .header_logo_container {
-//   display: flex;
-//   gap: 5px;
-//   align-items: center;
-//   justify-content: space-between;
-// }
 
 @media screen and (min-width: 768px) {
   .header_logo_container-767 {
@@ -53,34 +47,6 @@
   }
 }
 
-// .header_title-hidden {
-//   @media screen and (min-width: 767px) and (max-width: 1255px) {
-//     display: none;
-//   }
-// }
-// .logo-icon {
-//   width: 82px;
-//   height: 28px;
-
-//   @media screen and (min-width: 440px) {
-//     width: 98px;
-//     height: 33px;
-//   }
-//   @media screen and (min-width: 768px) {
-//     width: 82px;
-//     height: 28px;
-//   }
-//   @media screen and (min-width: 1000px) {
-//     width: 146px;
-//     height: 49px;
-//   }
-
-//   @media screen and (min-width: 1200px) {
-//     width: 146px;
-//     height: 49px;
-//   }
-// }
-
 .header-title {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
@@ -90,11 +56,9 @@
   text-transform: uppercase;
   @media screen and (min-width: 440px) {
     line-height: normal;
-    // font-size: 12px;
   }
 
   @media screen and (min-width: 768px) {
-    line-height: normal;
     font-size: 10px;
     text-align: center;
   }
