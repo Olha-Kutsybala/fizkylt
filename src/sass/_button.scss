@@ -58,5 +58,9 @@
   &--program {
     margin-right: 0;
     margin-left: 0;
+
+    &--white {
+      background-color: $white-color;
+    }
   }
 }

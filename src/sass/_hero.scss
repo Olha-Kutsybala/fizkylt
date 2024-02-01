@@ -72,13 +72,13 @@
   padding: 120px 36px 80px 20px;
 
   @media screen and (min-width: 768px) {
-    padding: 80px 40px 50px;
+    padding: 100px 40px 50px;
   }
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1000px) {
     padding: 80px 50px 50px;
   }
   @media screen and (min-width: 1200px) {
-    padding: 80px 90px 50px;
+    padding: 120px 90px 50px;
   }
 }
 
@@ -450,11 +450,12 @@
       max-width: 320px;
     }
     @media screen and (min-width: 1200px) {
-      max-width: 450px;
+      max-width: 440px;
       font-size: 20px;
     }
+
     @media screen and (min-width: 1440px) {
-      max-width: 550px;
+      max-width: 500px;
       font-size: 24px;
     }
   }

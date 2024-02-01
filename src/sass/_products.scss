@@ -77,6 +77,7 @@
 
   &--notactive {
     pointer-events: none;
+    opacity: 0.35;
   }
 
   &__image {
@@ -111,11 +112,10 @@
 
 .overlay {
   position: relative;
-  opacity: 0.35;
+  // opacity: 0.6;
 }
 
 .soon {
   position: absolute;
-  top: 40%;
-  right: 0;
+  top: 0;
 }
