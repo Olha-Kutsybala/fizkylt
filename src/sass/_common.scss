@@ -141,6 +141,8 @@
   background-size: cover;
   height: 100px;
   max-width: 1440px;
+  padding-left: 0;
+  padding-right: 0;
 
   // @media (min-device-pixel-ratio: 2),
   //   (-webkit-min-device-pixel-ratio: 2),
@@ -160,6 +162,10 @@
   @media screen and (min-width: 1300px) {
     height: 190px;
   }
+}
+
+.line--white {
+  background-image: url(../images/line-white.jpg);
 }
 
 // #try-main-bg {

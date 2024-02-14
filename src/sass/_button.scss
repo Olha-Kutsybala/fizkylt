@@ -18,13 +18,12 @@
   transition: background-color 0.5s;
 
   @media (min-width: 768px) {
-    // background-color: $white-color;
     width: 200px;
   }
 
   &:hover,
   &:focus {
-    background-color: $accent-bg-color;
+    background-color: $white-color;
   }
 
   @media screen and (min-width: 1200px) {
@@ -38,12 +37,13 @@
     margin-bottom: 100px;
   }
 
-  &--accent {
-    background-color: $accent-bg-color;
+  &--transparent {
+    background-color: transparent;
+    transition: background-color 0.5s;
 
     &:hover,
     &:focus {
-      background-color: $white-color;
+      background-color: $accent-bg-color;
     }
 
     &--bottom {
@@ -61,6 +61,18 @@
 
     &--white {
       background-color: $white-color;
+      transition: background-color 0.5s;
+
+      &:hover,
+      &:focus {
+        background-color: $accent-bg-color;
+      }
+    }
+  }
+
+  &--bottom {
+    @media (max-width: 767px) {
+      margin-bottom: 60px;
     }
   }
 }
