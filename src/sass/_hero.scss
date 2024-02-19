@@ -441,7 +441,7 @@
   color: transparent;
   font-size: 28px;
   text-align: end;
-  margin-bottom: 154px;
+  margin-bottom: 180px;
   letter-spacing: 0.03em;
 
   @media screen and (min-width: 768px) {
@@ -458,7 +458,7 @@
   &--buttocks {
     color: $accent-bg-color;
     text-align: start;
-    margin-bottom: 160px;
+    margin-bottom: 120px;
     @media screen and (min-width: 768px) {
       text-align: end;
       margin-bottom: 160px;
@@ -505,6 +505,7 @@
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 32px;
+
     @media screen and (min-width: 1200px) {
       margin-bottom: 32px;
       font-size: 24px;
