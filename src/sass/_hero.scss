@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   background-color: rgb(89, 92, 110);
-  padding: 130px 26px 80px;
+  padding: 140px 26px 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,7 +19,7 @@
 }
 
 .hero-body {
-  padding: 100px 20px 60px;
+  padding: 100px 20px 80px;
   @media screen and (min-width: 400px) {
     padding: 110px 36px 60px;
   }
@@ -68,7 +68,7 @@
 }
 
 .hero-buttocks {
-  padding: 80px 36px 80px;
+  padding: 80px 36px 60px;
 
   @media screen and (min-width: 768px) {
     padding: 100px 40px 50px;
@@ -350,7 +350,7 @@
 
   &--fitness {
     text-align: start;
-    margin-bottom: 250px;
+    margin-bottom: 220px;
     @media screen and (min-width: 768px) {
       margin-bottom: 24px;
     }
@@ -458,6 +458,7 @@
   &--buttocks {
     color: $accent-bg-color;
     text-align: start;
+    margin-bottom: 120px;
     @media screen and (min-width: 768px) {
       text-align: end;
       margin-bottom: 160px;
