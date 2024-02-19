@@ -1,9 +1,8 @@
 .hero {
   position: relative;
   background-color: rgb(89, 92, 110);
-  padding: 130px 36px 80px;
+  padding: 130px 26px 80px;
   display: flex;
-  // min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
 
@@ -69,16 +68,16 @@
 }
 
 .hero-buttocks {
-  padding: 120px 36px 80px 20px;
+  padding: 80px 36px 80px;
 
   @media screen and (min-width: 768px) {
     padding: 100px 40px 50px;
   }
-  @media screen and (min-width: 1000px) {
-    padding: 80px 50px 50px;
-  }
   @media screen and (min-width: 1200px) {
-    padding: 120px 90px 50px;
+    padding: 120px 40px 100px 90px;
+  }
+  @media screen and (min-width: 1340px) {
+    padding: 120px 90px 100px 90px;
   }
 }
 
@@ -191,7 +190,6 @@
   background-position-y: 40px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -269,7 +267,7 @@
   // color: transparent;
   -webkit-text-stroke: 1px $dark-bg-color;
   text-align: center;
-  margin-bottom: 355px;
+  margin-bottom: 273px;
 
   & p {
     font-size: 38px;
@@ -323,8 +321,12 @@
   // }
 
   &--main {
-    & p {
-      font-size: 48px;
+    & p,
+    & span {
+      font-size: 44px;
+      @media screen and (min-width: 375px) {
+        font-size: 48px;
+      }
 
       @media screen and (min-width: 1000px) {
         font-size: 72px;
@@ -337,6 +339,7 @@
     & span {
       -webkit-text-stroke: 0;
     }
+
     @media screen and (min-width: 1000px) {
       text-align: end;
     }
@@ -369,15 +372,15 @@
         font-size: 52px;
       }
     }
-    margin-bottom: 310px;
+    margin-bottom: 0;
 
     @media screen and (min-width: 600px) {
       text-align: end;
     }
-    @media screen and (min-width: 768px) {
-      // font-size: 70px;
-      margin-bottom: 45px;
-    }
+    // @media screen and (min-width: 768px) {
+    //   // font-size: 70px;
+    //   // margin-bottom: 45px;
+    // }
   }
 
   &--stomache {
@@ -395,15 +398,15 @@
 
   &--buttocks {
     text-align: start;
-    margin-bottom: 190px;
+    margin-bottom: 0;
 
     @media screen and (min-width: 768px) {
-      margin-bottom: 180px;
+      // margin-bottom: 180px;
       text-align: end;
     }
-    @media screen and (min-width: 1440px) {
-      margin-bottom: 240px;
-    }
+    // @media screen and (min-width: 1440px) {
+    //   margin-bottom: 240px;
+    // }
   }
 }
 
@@ -413,22 +416,57 @@
     width: 150px;
   }
 }
-// .hero-title-icon {
-//   @media screen and (min-width: 768px) {
-//     display: none;
-//   }
-// }
 
-// .hero-title-icon--fitness {
-//   @media screen and (max-width: 350px) {
-//     width: 150px;
-//     height: 90px;
-//   }
-//   @media screen and (min-width: 351px) {
-//     width: 172px;
-//     height: 112px;
-//   }
-// }
+.hero-title-container {
+  max-width: 254px;
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-width: 600px) {
+    margin-right: 0;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 600px;
+  }
+
+  &--buttocks {
+    margin-left: 0;
+    @media screen and (min-width: 768px) {
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }
+}
+
+.hero-price {
+  color: transparent;
+  font-size: 28px;
+  text-align: end;
+  margin-bottom: 154px;
+  letter-spacing: 0.03em;
+
+  @media screen and (min-width: 768px) {
+    font-size: 38px;
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    -webkit-text-stroke: 2px $dark-bg-color;
+    font-size: 72px;
+    margin-bottom: 42px;
+  }
+
+  &--buttocks {
+    color: $accent-bg-color;
+    text-align: start;
+    @media screen and (min-width: 768px) {
+      text-align: end;
+      margin-bottom: 160px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 150px;
+    }
+  }
+}
 
 .hero-descr {
   display: block;
@@ -542,7 +580,7 @@
       max-width: 310px;
     }
     @media screen and (min-width: 1200px) {
-      margin-bottom: -60px;
+      margin-bottom: -30px;
       max-width: 464px;
     }
   }
