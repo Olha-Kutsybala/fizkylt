@@ -136,22 +136,12 @@
 .line {
   background-image: url(../images/line-bg.jpg);
   background-position-x: 50%;
-  // background-position-y: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
   max-width: 1440px;
   padding-left: 0;
   padding-right: 0;
-
-  // @media (min-device-pixel-ratio: 2),
-  //   (-webkit-min-device-pixel-ratio: 2),
-  //   (min-resolution: 192dpi),
-  //   (min-resolution: 2dppx) {
-  //   & {
-  //     background-image: url(../images/hero_mobile@2x.jpg);
-  //   }
-  // }
 
   @media screen and (min-width: 768px) {
     height: 130px;
@@ -167,22 +157,6 @@
 .line--white {
   background-image: url(../images/line-white.jpg);
 }
-
-// #try-main-bg {
-//   background-color: #fff;
-// }
-
-// .accent-bg {
-//   background-color: $accent-bg-color;
-// }
-
-// .padding-left-16 {
-//   padding-left: 16px;
-// }
-// .padding-48 {
-//   padding: 0 0 48px;
-//   background-color: #fff;
-// }
 
 .flag {
   position: relative;
@@ -217,9 +191,6 @@
   border-left: 20px solid $white-color;
 }
 
-// .price-item {
-//   position: relative;
-// }
 .economy {
   position: absolute;
   top: -22px;
