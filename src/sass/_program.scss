@@ -13,6 +13,11 @@
   }
 }
 
+.question {
+  background-color: white;
+  color: $dark-bg-color;
+}
+
 .program-title {
   margin-bottom: 4px;
   @media screen and (min-width: 600px) {
@@ -88,9 +93,10 @@
     }
   }
 }
-
-.program-item[open],
-.question-item[open] {
+.question-item {
+  border: 1px solid $dark-bg-color;
+}
+.program-item[open] {
   border: 1px solid $accent-bg-color;
 
   & .question-item-title {
