@@ -107,6 +107,11 @@
       font-size: 26px;
       min-height: 132px;
     }
+    transition: color 0.5s ease;
+
+    &:hover {
+      color: $white-color;
+    }
   }
 }
 

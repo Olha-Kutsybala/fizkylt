@@ -15,7 +15,7 @@
   border: none;
   cursor: pointer;
   opacity: 100%;
-  transition: opacity 0.5s;
+  transition: opacity 0.5s ease;
   transform: translateX(-10px) translateY(-50px);
 }
 

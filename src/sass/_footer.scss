@@ -15,7 +15,7 @@
 .footer-create-link {
   font-size: 10px;
   cursor: pointer;
-  transition: color 0.5s;
+  transition: color 0.5s ease;
   &:hover {
     color: $accent-bg-color;
   }

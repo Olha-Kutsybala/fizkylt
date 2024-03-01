@@ -54,7 +54,7 @@
   line-height: 150%;
   text-decoration-line: underline;
   text-underline-offset: 6px;
-  transition: all 0.25s;
+  transition: all 0.5s ease;
   &:hover,
   &:focus {
     color: $accent-bg-color;

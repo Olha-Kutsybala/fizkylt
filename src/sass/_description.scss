@@ -398,7 +398,7 @@
     border-radius: 12px;
     color: #000;
     max-width: 400px;
-    transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s ease;
 
     &:hover {
       box-shadow: rgb(248, 113, 0) 4px 4px 0px 2px;
