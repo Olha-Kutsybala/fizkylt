@@ -73,6 +73,7 @@
 
 .program-item,
 .question-item {
+  cursor: pointer;
   padding: 15px 20px;
   font-size: 16px;
   line-height: 20px;
@@ -95,10 +96,6 @@
 }
 .question-item {
   border: 1px solid $dark-bg-color;
-}
-.program-item[open] {
-  border: 1px solid $accent-bg-color;
-
   & .question-item-title {
     margin-bottom: 12px;
 
@@ -107,6 +104,9 @@
       font-size: 28px;
     }
   }
+}
+.program-item[open] {
+  border: 1px solid $accent-bg-color;
 }
 
 .program-item-title {
