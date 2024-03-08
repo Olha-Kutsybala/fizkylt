@@ -78,25 +78,18 @@
 
   &--new {
     border-radius: 12px;
-    min-width: 350px;
-    max-width: 350px;
+    width: 100%;
     margin-bottom: 0;
 
-    @media screen and (min-width: 900px) {
-      min-width: 450px;
-      max-width: 450px;
-    }
-    @media screen and (min-width: 1100px) {
-      min-width: 600px;
-      max-width: 600px;
-    }
-    @media screen and (min-width: 1400px) {
-      min-width: 750px;
-      max-width: 750px;
-    }
     @media screen and (max-width: 767px) {
       display: none;
     }
+  }
+}
+
+.trainer-buttocks-list {
+  @media (min-width: 768px) {
+    max-width: 452px;
   }
 }
 

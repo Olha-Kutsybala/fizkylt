@@ -21,7 +21,7 @@
   border-left: 2px solid $accent-bg-color;
   box-shadow: 4px 4px 0px 2px #f87100;
   border-radius: 12px;
-  max-width: 440px;
+  max-width: 736px;
   margin-right: auto;
   margin-left: auto;
   &:not(:last-child) {
@@ -34,14 +34,9 @@
     gap: 16px;
     margin-right: 0;
     margin-left: 0;
-    min-width: 440px;
-    max-width: 550px;
+    max-width: 736px;
     &:not(:last-child) {
       margin-bottom: 38px;
-    }
-
-    @media screen and (min-width: 1200px) {
-      max-width: 640px;
     }
   }
 
@@ -57,7 +52,7 @@
 
     @media screen and (min-width: 768px) {
       min-width: 0;
-      max-width: 340px;
+      max-width: 736px;
     }
 
     @media screen and (min-width: 900px) {
