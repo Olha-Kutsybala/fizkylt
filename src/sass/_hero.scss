@@ -164,7 +164,6 @@
 
   @media screen and (min-width: 768px) {
     max-width: 1440px;
-    // background-position: 50%;
     background-image: url(../images/hero-stomache-desktop.jpg);
 
     @media (min-device-pixel-ratio: 2),
@@ -364,12 +363,8 @@
     margin-bottom: 6px;
 
     @media screen and (min-width: 600px) {
-      // margin-bottom: 24px;
       text-align: start;
     }
-    // @media screen and (min-width: 768px) {
-    //   margin-bottom: 57px;
-    // }
   }
 
   &--buttocks {
@@ -446,7 +441,6 @@
     margin-bottom: 200px;
     @media screen and (max-width: 599px) {
       text-align: end;
-      // margin-bottom: 160px;
     }
     @media screen and (min-width: 768px) {
       margin-bottom: 20px;
@@ -524,14 +518,12 @@
   }
 
   &--stomache {
-    // margin-bottom: 186px;
     @media screen and (min-width: 768px) {
       margin-right: 0;
       margin-left: 0;
       background-color: transparent;
       text-align: start;
       box-shadow: none;
-      // margin-bottom: 186px;
       padding: 0;
       font-weight: 500;
       line-height: 150%;
