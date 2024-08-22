@@ -162,9 +162,9 @@
     }
   }
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 768px) {
     max-width: 1440px;
-    background-position: 50%;
+    // background-position: 50%;
     background-image: url(../images/hero-stomache-desktop.jpg);
 
     @media (min-device-pixel-ratio: 2),
@@ -361,15 +361,15 @@
 
   &--stomache {
     text-align: end;
-    margin-bottom: 270px;
+    margin-bottom: 6px;
 
     @media screen and (min-width: 600px) {
-      margin-bottom: 24px;
+      // margin-bottom: 24px;
       text-align: start;
     }
-    @media screen and (min-width: 768px) {
-      margin-bottom: 57px;
-    }
+    // @media screen and (min-width: 768px) {
+    //   margin-bottom: 57px;
+    // }
   }
 
   &--buttocks {
@@ -437,6 +437,19 @@
     }
     @media screen and (min-width: 1200px) {
       margin-bottom: 150px;
+    }
+  }
+
+  &--stomache {
+    color: $accent-bg-color;
+    text-align: start;
+    margin-bottom: 200px;
+    @media screen and (max-width: 599px) {
+      text-align: end;
+      // margin-bottom: 160px;
+    }
+    @media screen and (min-width: 768px) {
+      margin-bottom: 20px;
     }
   }
 }
@@ -511,13 +524,14 @@
   }
 
   &--stomache {
-    @media screen and (min-width: 600px) {
+    // margin-bottom: 186px;
+    @media screen and (min-width: 768px) {
       margin-right: 0;
       margin-left: 0;
       background-color: transparent;
       text-align: start;
       box-shadow: none;
-      margin-bottom: 186px;
+      // margin-bottom: 186px;
       padding: 0;
       font-weight: 500;
       line-height: 150%;
@@ -525,9 +539,11 @@
     }
     @media screen and (min-width: 768px) {
       max-width: 320px;
+      margin-bottom: 100px;
     }
     @media screen and (min-width: 1200px) {
-      max-width: 464px;
+      max-width: 400px;
+      margin-bottom: 186px;
     }
   }
 
